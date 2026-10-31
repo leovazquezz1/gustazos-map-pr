@@ -363,11 +363,13 @@ export default function App() {
           </label>
         </div>
       )}
-      <div className="mobile-deal-strip">
-        {visibleDeals.slice(0, 12).map((deal) => (
-          <DealCard key={deal.id} deal={deal} distance={null} selected={deal.id === selectedId} onSelect={() => selectDeal(deal)} />
-        ))}
-      </div>
+      {!selectedDeal && (
+        <div className="mobile-deal-strip">
+          {visibleDeals.slice(0, 12).map((deal) => (
+            <DealCard key={deal.id} deal={deal} distance={null} selected={false} onSelect={() => selectDeal(deal)} />
+          ))}
+        </div>
+      )}
     </main>
   )
 }
