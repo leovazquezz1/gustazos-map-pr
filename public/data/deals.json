@@ -1,0 +1,423 @@
+{
+  "source": "https://www.gustazos.com/c/restaurants1",
+  "updatedAt": "2026-10-31T19:54:47.786Z",
+  "deals": [
+    {
+      "id": "Restaurants_oceanrestlounge1",
+      "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
+      "offer": "$59 por Paella para 2 personas de carnes: Chorizo parrillero, Pollo y Longaniza + 2 Copas de vino tinto, blanco de la casa o sangría + Croquetas de Manchego y Jamón Serrano + Precio preferencial de $3 por 2 horas de estacionamiento",
+      "price": 59,
+      "discount": 61,
+      "image": "https://images.gustazos.com/storage/2026-09/6abbe4a404260_6.png",
+      "logo": "https://images.gustazos.com/storage/2026-09/6abbe45d29dfd_disen-o-sin-ti-tulo-35-.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge1",
+      "saleEndsAt": "2026-11-08T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_oceanrestlounge1-1",
+          "address": "(Caribe Hilton) 1 Calle San GerónimoSan Juan 00901PR",
+          "latitude": 18.4633907,
+          "longitude": -66.0881382
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_oceanrestlounge2",
+      "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
+      "offer": "$59 por Parrillada de carnes para 2 personas que incluye: Chuleta Kan Kan, Longaniza, Pechuga de Pollo + Ensalada de la Casa + 2 Copas de vino tinto, blanco o Sangría + Tarifa especial de $3 por 2 horas de estacionamiento",
+      "price": 59,
+      "discount": 61,
+      "image": "https://images.gustazos.com/storage/2026-09/6abbe3dca3865_10.png",
+      "logo": "https://images.gustazos.com/storage/2026-09/6abbe150d5d57_disen-o-sin-ti-tulo-35-.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge2",
+      "saleEndsAt": "2026-11-08T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_oceanrestlounge2-1",
+          "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
+          "latitude": 18.4633907,
+          "longitude": -66.0881382
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_pepperonipizzapastabar1",
+      "restaurant": "Pepperoni Pizza Pasta Bar - San Sebastián",
+      "offer": "$34 por 2 Platos principales a escoger entre: Pasta o Risotto de Ribeye; Mofongo mar y tierra (churrasco y camarones) en salsa cremosa o criolla; o Filete de salmón con arroz mamposteado o lasaña + 2 Copas de sangrías de la casa, Piña Colada o refrescos + 50% de Descuento en postres",
+      "price": 34,
+      "discount": 56,
+      "image": "https://images.gustazos.com/storage/2026-09/6aa863f1e70c3_dp-0008-2.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-09/6aa863da7383d_artboard-logo-voucher.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_pepperonipizzapastabar1",
+      "saleEndsAt": "2026-11-02T04:59:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_pepperonipizzapastabar1-1",
+          "address": "Carr. Enrique Laguerre, Carr. 111 Km 17.9San Sebastián 00685PR",
+          "latitude": 18.346813453663366,
+          "longitude": -67.0006947444419
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_bocaoysal8",
+      "restaurant": "Bocao' & Sal - Cataño",
+      "offer": "$35 por 2 Platos Principales a escoger entre: “Pechuga Boricua”, rellena de pionono y bañada en cremosa salsa cuatro quesos; “Pechuga Cordon Bleu”, empanada y rellena de jamón y queso derretido, bañada en cremosa salsa cuatro quesos; o “Pechuga Jíbara”, rellena de yuca al mojo, envuelta en bacon y servida en salsa de cilantro + 1 Acompañante a escoger entre: arroz mamposteao, arroz blanco y habichuelas, tostones de plátano, papas fritas hechas en casa, amarillos o ensalada de la casa + 1 Aperitivo de arancinis de risotto de mamposteao para compartir + 2 Sangrías de la casa o refrescos + 15% de Descuento en postres (crème brûlée, flan de queso o cheesecake)",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad674b6a88dd_6ab2d7571fb07-dealpics-0002-5083fb36-6951-4b0d-a164-1e59423b7ed1.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-07/6877fc5c33e26_bocao01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_bocaoysal8",
+      "saleEndsAt": "2026-11-05T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_bocaoysal8-1",
+          "address": "Ave. Los Conquistadores, 150 Bahía Marina Plaza, Local 10-ACataño 00962PR",
+          "latitude": 18.451268848844865,
+          "longitude": -66.14246116106854
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_Pesca9",
+      "restaurant": "Pesca Restaurant & Bar - Aguadilla",
+      "offer": "$30 por 2 Platos Principales a escoger entre: Mofongo relleno de churrasco o pechuga, Pechuga rellena de ropa vieja, o Filete de Mero coronado con camarones + 1 Aperitivo de mini empanadillas de carne",
+      "price": 30,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6acfba7c5c8ea_double-click-smart-object-15-.png",
+      "logo": "https://images.gustazos.com/storage/2026-04/69e92b493f53a_pesca01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_Pesca9",
+      "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_Pesca9-1",
+          "address": "Carr. 110 (km 30.4), Bo. MontañaAguadilla 00603PR",
+          "latitude": 18.5047,
+          "longitude": -67.10013
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_enfurecida37",
+      "restaurant": "La Vaca Enfurecida - San Juan",
+      "offer": "$59 por 1 Tomahawk de 2 ½ libras para 2 personas con 1 ensalada de la casa + 2 Acompañantes a escoger entre: Majado de viandas, arroz mamposteao, tostones de pana o plátano, papas fritas o batatas fritas + 2 Bebidas a escoger entre: mojito tradicional, sangría, margarita, botella de agua o refresco",
+      "price": 59,
+      "discount": 51,
+      "image": "https://images.gustazos.com/storage/2026-10/6ac7f2d8b5408_6a10926bd1617-68fba1b77a65a-68a8c54b3b31d-dealpic-lavacaenfurecida8.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_enfurecida37",
+      "saleEndsAt": "2026-11-13T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_enfurecida37-1",
+          "address": "Calle del TrenSan Juan rojo 00901PR",
+          "latitude": 18.46533739772697,
+          "longitude": -66.10614260737334
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_enfurecida38",
+      "restaurant": "La Vaca Enfurecida - Cabo Rojo",
+      "offer": "$29 por 1 Libra de alitas para 1 persona + 3 Horas ilimitadas de mojitos de sabores a escoger como: Clásico, fresa, fresa y guineo, mango, parcha, coco, mojito colada o la sangría de la casa",
+      "price": 29,
+      "discount": 68,
+      "image": "https://images.gustazos.com/storage/2026-10/6ac7f99d08541_6891307fb22bf-67bcbed31ec87-dealpic-lavacaenfurecida4.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_enfurecida38",
+      "saleEndsAt": "2026-11-13T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_enfurecida38-1",
+          "address": "101 PR-101cabo rojo 00622PR",
+          "latitude": 18.024829472339018,
+          "longitude": -67.17312162002865
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_enfurecida36",
+      "restaurant": "La Vaca Enfurecida - San Juan y Cabo Rojo",
+      "offer": "$49 por 2 Platos principales a escoger entre: Churrasco relleno de chorizo parrillero y queso, bañado en chimichurri rústico ahumado; Mar y Tierra: Churrasco relleno de camarones en crema de cilantro y vino; o Lomo de cerdo en salsa de pimientos rostizados dulce y salada + Ensaladas + 1 Acompañante por plato a escoger entre: Arroz mamposteao, majado de papas o viandas, papas salteadas, tostones de pana o plátano, o papas fritas + 2 Bebidas a escoger entre: Sangría, mojitos, margaritas, cervezas, refresco o agua",
+      "price": 49,
+      "discount": 46,
+      "image": "https://images.gustazos.com/storage/2026-08/6a7b491c556f0_69af35bb61349-lavaca13-dealpic.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_enfurecida36",
+      "saleEndsAt": "2026-11-07T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_enfurecida36-1",
+          "address": "Calle del TrenSan Juan rojo 00901PR",
+          "latitude": 18.46533739772697,
+          "longitude": -66.10614260737334
+        },
+        {
+          "id": "Restaurants_enfurecida36-2",
+          "address": "101 PR-101cabo rojo 00622PR",
+          "latitude": 18.024816772316875,
+          "longitude": -67.17311615643348
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_pancakebistro18",
+      "restaurant": "Pancake Bistro Café - Isabela",
+      "offer": "$23 por 2 Platos principales a escoger entre: “Nutella Pancakes” coronados con una barquilla con mantecado; 'Besito de Coco French Toasts'; 'Boricua Benedictinos' montados en bocadillos de bacalaítos y pernil desmenuzado, bañados en salsa holandesa; o 'La Carnívora Omelette' con jamón de pavo, jamón regular, tocineta, vegetales y queso acompañado de un pancake y tostadas + 2 Mimosas o jugos (china, parcha o melón)",
+      "price": 23,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad8e76c18ba9_layer-3-0000-principal-2-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99500/25ec94022cebc235b25a8373934625af.jpeg",
+      "url": "https://www.gustazos.com/deals/Restaurants_pancakebistro18",
+      "saleEndsAt": "2026-11-12T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_pancakebistro18-1",
+          "address": "Carr 2 (Km 111.1)Isabela 00662PR",
+          "latitude": 18.47238,
+          "longitude": -67.0177
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_aylupita1",
+      "restaurant": "Ay Lupita Tacos y Margaritas - Isabela",
+      "offer": "$39 por un Banquete Mexicano para compartir, que incluye: 2 Órdenes de tacos de birria + 1 Aperitivo de mini nachos de tinga de pollo + 2 Margaritas de especialidad de la casa (La Catrina, La Paloma, Mechita Corta o La Chingona)",
+      "price": 39,
+      "discount": 53,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad7d49a921c8_double-click-smart-object-9-.png",
+      "logo": "https://images.gustazos.com/storage/2026-10/6ad7d49077d11_aylupita.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_aylupita1",
+      "saleEndsAt": "2026-11-06T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_aylupita1-1",
+          "address": "Carr 2. (Km 111.1)Isabela 00662PR",
+          "latitude": 18.47222816512173,
+          "longitude": -67.01769323291404
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_NachoLibre10",
+      "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
+      "offer": "$35 por Súper plato para compartir que incluye: 4 Tacos de Carnitas o Tinga de Pollo + Nachos Loaded + 2 Margaritas a escoger entre tradicional, coco, parcha o melón",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ae3afa989016_6aac2f07114e6-6a6a34678b0bc-6a0e1fbaa1f55-69ca9e4ec1634-6983bdc534833-69457904d6853-68d4cfd398c7b-687fb1336f88e-682c9358927af-dealpic-nacho-libre.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-05/682c9354d3b3d_logo-template-300x300-42-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_NachoLibre10",
+      "saleEndsAt": "2026-11-15T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_NachoLibre10-1",
+          "address": "155 Calle O’Neill, San Juan 00918PR",
+          "latitude": 18.423108160191738,
+          "longitude": -66.06156574410892
+        },
+        {
+          "id": "Restaurants_NachoLibre10-2",
+          "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
+          "latitude": 18.400123547553317,
+          "longitude": -66.15478234153464
+        },
+        {
+          "id": "Restaurants_NachoLibre10-3",
+          "address": "Carr. 829, 2 B.O Km 1.3, Localtoa alta 00953PR",
+          "latitude": 18.36148269980663,
+          "longitude": -66.20813183262791
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_RanchoOriginal5",
+      "restaurant": "El Rancho Original - Guavate, Cayey",
+      "offer": "$125 por Banquete familiar de DÍA ACCIÓN DE GRACIAS para 10 personas, que incluye: Arroz con gandules + Pavo + Ensalada de coditos + 1 Padrino",
+      "price": 125,
+      "discount": 44,
+      "image": "https://images.gustazos.com/storage/2026-09/6abbefe99e7d2_690e6a816b0e9-dealpic-rancho02.jpg",
+      "logo": "https://images.gustazos.com/storage/2024-12/6761dfdb2be8a_rancho01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_RanchoOriginal5",
+      "saleEndsAt": null,
+      "locations": [
+        {
+          "id": "Restaurants_RanchoOriginal5-1",
+          "address": "km 27.5, Carr. 184,Cayey 00736PR",
+          "latitude": 18.129975690893534,
+          "longitude": -66.07069260104481
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_lacatrinaluquillo2",
+      "restaurant": "La Catrina - Luquillo",
+      "offer": "$35 por 2 Platos a escoger entre: Quesabirrias de carne de res (2), Burrito supremo de pollo o Quesadilla suprema de pollo + 2 Margaritas regulares o Micheladas",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad6730715410_photo-30-.png",
+      "logo": "https://images.gustazos.com/storage/2025-10/68efe22cdb65c_logo-template-300x300-33-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_lacatrinaluquillo2",
+      "saleEndsAt": "2026-11-07T04:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_lacatrinaluquillo2-1",
+          "address": "152 Calle Fernández GarcíaLuquillo 00773PR",
+          "latitude": 18.375814459081365,
+          "longitude": -65.715040623522
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_lafondagourmet2",
+      "restaurant": "La Fonda Gourmet - Luquillo",
+      "offer": "$45 por 2 Platos a escoger entre: Chuletón Kan Kan de 2 lb; Chillo Frito de 1.5 lb; o Mofongo relleno de pollo + 2 Copas de sangría de la casa",
+      "price": 45,
+      "discount": 55,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad0fb7a8c6f4_68f1bb91339bc-dealpic-lafonda.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-10/68f1bb8db15b5_logo-template-300x300-39-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_lafondagourmet2",
+      "saleEndsAt": "2026-11-07T04:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_lafondagourmet2-1",
+          "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
+          "latitude": 18.37650270762727,
+          "longitude": -65.71644891559421
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_CulturaRest1",
+      "restaurant": "Cultura Restaurant - Aguadilla",
+      "offer": "$33 por 2 Platos principales a escoger entre: “El Sabroso”, con risotto de gandules apastelado con longaniza, churrasco y pork belly; Mofongo “Survival Beach”, relleno de mariscos (pulpo, camarones, calamares, pescado, cangrejo, mejillones y almejas) en salsa cremosa de cilantro; o Mofongo Relleno de Brisket + 1 Aperitivo de Mini Empanadillas de Pizza",
+      "price": 33,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad266a990bfd_layer-3-0000-principal.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-10/6ad266a3ec99b_culturarest.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_CulturaRest1",
+      "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_CulturaRest1-1",
+          "address": "Carr. 110 Km. 31.5Aguadilla 00603PR",
+          "latitude": 18.50636,
+          "longitude": -67.109156
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_pantojarse4",
+      "restaurant": "Pantojarse - San Juan",
+      "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 2 Bebidas a escoger entre: Cerveza Ocean Lab, o batida de Nutella® o vainilla",
+      "price": 29,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad7d890636f3_6a6ba15c38456-6a42990c843c6-6a18c3ed58c3b-dp-0000-principal.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_pantojarse4",
+      "saleEndsAt": "2026-11-14T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_pantojarse4-1",
+          "address": "Cll BoriSan Juan 00927PR",
+          "latitude": 18.382714872035038,
+          "longitude": -66.06867355276111
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_pantojarse5",
+      "restaurant": "Pantojarse - San Juan",
+      "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 1 Aperitivo a escoger entre: Croquetas de jamón, jalapeño poppers o mozzarella sticks + 2 Refrescos o agua",
+      "price": 29,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad9281c3fe02_6a6ba15c45652-6a42990c7ff20-6a18c3f535a5a-dp-0003-photo-4-.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_pantojarse5",
+      "saleEndsAt": "2026-11-14T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_pantojarse5-1",
+          "address": "Cll BoriSan Juan 00927PR",
+          "latitude": 18.382714872035038,
+          "longitude": -66.06867355276111
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_elgauchoreal9",
+      "restaurant": "El Gaucho Real Restaurant - Caguas",
+      "offer": "$15 por 6 Empanadas Argentinas horneadas a escoger entre: Boricua (carne, plátano maduro y mozzarella); Espinaca y queso; Pollo y queso; Lujanera (pepperoni, jamón, tocineta y mozzarella); Carne; Carne y queso; Guayaba y queso; Queso entre otras + 2 Lattes de 8oz",
+      "price": 15,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6acfb7c713733_6a0cb1173e65d-69a85659cb0c2-6854c2cea63bc-dealpic-gaucho1-1-.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-06/6854b8a8d2f37_logo-template-300x300-34-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_elgauchoreal9",
+      "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_elgauchoreal9-1",
+          "address": "Urbanización Mariolga, PR-32 (Ave. Luis Muñoz Marín) esquina, Calle 25Caguas 00725PR",
+          "latitude": 18.217444882744637,
+          "longitude": -66.03386238417112
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_laceiba17",
+      "restaurant": "La Ceiba Bar & Restaurant - Coamo",
+      "offer": "$13.95 por Surtido Boricua para hasta 4 personas que incluye: Carne frita, Chicharrones de pollo, Bolitas de mofongo de la casa, Mozzarella Sticks, Bacalaítos y Sorullos de maíz + Servidos con Mayoketchup, salsa Marinara y salsa picante + 1 Bucket de 5 cervezas Medalla, 1 jarra de refresco o 5 botellas de agua",
+      "price": 13.95,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6acfa1004bf22_6a73b060a3302-69e0f78ed3c04-ceiba01-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2021-02/601c386ccd4d8_logo-ceibabar1-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_laceiba17",
+      "saleEndsAt": "2026-11-01T04:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_laceiba17-1",
+          "address": "Carretera 153 Km 12.8 Coamo 00769PR",
+          "latitude": 18.0535607,
+          "longitude": -66.3684259
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_PuestadelSol15",
+      "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
+      "offer": "$39 por 2 Platos principales a escoger entre: Chuleta Kan Kan, pechuga a la plancha, mero, salmón o pechuga a la parmesana + 1 Acompañante por plato a escoger entre: Tostones, papas trufadas, majado de viandas, arroz mamposteao, batata frita o yuca frita + 2 Bebidas a escoger entre: Sangría o mojitos de la casa + 1 Postre para compartir a escoger entre flan de vainilla o queso",
+      "price": 39,
+      "discount": 51,
+      "image": "https://images.gustazos.com/storage/2026-10/6ae50f19b973b_6a95d945a1813-double-click-smart-object-1-.png",
+      "logo": "https://images.gustazos.com/storage/2025-05/6823b40db0a82_logo-template-300x300-40-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_PuestadelSol15",
+      "saleEndsAt": "2026-11-15T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_PuestadelSol15-1",
+          "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
+          "latitude": 18.1169478,
+          "longitude": -67.1833913
+        }
+      ]
+    },
+    {
+      "id": "Restaurants_filomena15",
+      "restaurant": "Filomena Cocina Urbana Pizzería - San Juan",
+      "offer": "$28 por 1 Pizza artesanal grande para compartir a escoger entre: Pepperoni Spicy Honey, 'La Blanca' con salsa blanca, queso, ajo rostizado, tomate y albahaca fresca; o 'La Verde' con salsa de tomate, queso, espinaca y setas + 2 Sangrías de parcha o tradicionales o 2 Vasos de Cerveza Medalla",
+      "price": 28,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad0fe4238311_6a6b8d2ebf892-6a05f60208c8f-697cf512426da-6924cd3f838a8-690270a12fbdc-68c9c48a1330a-dp-0000-principal-1-1-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/86868/6e3d93040dce3ae364ff4f5c6172a450.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_filomena15",
+      "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "locations": [
+        {
+          "id": "Restaurants_filomena15-1",
+          "address": "242 Ave. F. D Roosevelt, Bo. Hato Rey Norte, Apt A y BSan Juan 00919PR",
+          "latitude": 18.421929560169563,
+          "longitude": -66.06338631131433
+        }
+      ]
+    }
+  ]
+}
