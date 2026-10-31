@@ -347,6 +347,22 @@ export default function App() {
         <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Busca restaurante o pueblo" />
         <button onClick={() => setFiltersOpen(!filtersOpen)}><ListFilter size={18} /></button>
       </div>
+      {filtersOpen && (
+        <div className="mobile-filters">
+          <label>
+            <span>Descuento mínimo <strong>{minDiscount}%</strong></span>
+            <input type="range" min="0" max="70" step="10" value={minDiscount} onChange={(event) => setMinDiscount(Number(event.target.value))} />
+          </label>
+          <label>
+            <span>Ordenar</span>
+            <select value={sortMode} onChange={(event) => setSortMode(event.target.value as SortMode)}>
+              <option value="discount">Mayor descuento</option>
+              <option value="price">Menor precio</option>
+              <option value="distance" disabled={!userLocation}>Más cerca</option>
+            </select>
+          </label>
+        </div>
+      )}
       <div className="mobile-deal-strip">
         {visibleDeals.slice(0, 12).map((deal) => (
           <DealCard key={deal.id} deal={deal} distance={null} selected={deal.id === selectedId} onSelect={() => selectDeal(deal)} />
