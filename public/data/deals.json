@@ -1,6 +1,6 @@
 {
   "source": "https://www.gustazos.com/c/restaurants1",
-  "updatedAt": "2026-10-31T20:02:58.808Z",
+  "updatedAt": "2026-11-01T06:22:03.435Z",
   "deals": [
     {
       "id": "Restaurants_oceanrestlounge1",
@@ -359,25 +359,6 @@
           "address": "Urbanización Mariolga, PR-32 (Ave. Luis Muñoz Marín) esquina, Calle 25Caguas 00725PR",
           "latitude": 18.217444882744637,
           "longitude": -66.03386238417112
-        }
-      ]
-    },
-    {
-      "id": "Restaurants_laceiba17",
-      "restaurant": "La Ceiba Bar & Restaurant - Coamo",
-      "offer": "$13.95 por Surtido Boricua para hasta 4 personas que incluye: Carne frita, Chicharrones de pollo, Bolitas de mofongo de la casa, Mozzarella Sticks, Bacalaítos y Sorullos de maíz + Servidos con Mayoketchup, salsa Marinara y salsa picante + 1 Bucket de 5 cervezas Medalla, 1 jarra de refresco o 5 botellas de agua",
-      "price": 13.95,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-10/6acfa1004bf22_6a73b060a3302-69e0f78ed3c04-ceiba01-dealpic.jpg",
-      "logo": "https://images.gustazos.com/storage/2021-02/601c386ccd4d8_logo-ceibabar1-300x300.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_laceiba17",
-      "saleEndsAt": "2026-11-01T04:00:00.000Z",
-      "locations": [
-        {
-          "id": "Restaurants_laceiba17-1",
-          "address": "Carretera 153 Km 12.8 Coamo 00769PR",
-          "latitude": 18.0535607,
-          "longitude": -66.3684259
         }
       ]
     },
