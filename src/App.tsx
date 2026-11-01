@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import {
@@ -8,6 +8,7 @@ import {
   ListFilter,
   LocateFixed,
   MapPinned,
+  RefreshCw,
   Search,
   SlidersHorizontal,
   X,
@@ -20,8 +21,11 @@ type SortMode = 'distance' | 'discount' | 'price'
 
 const PUERTO_RICO_CENTER: [number, number] = [18.2208, -66.5901]
 
-async function fetchDeals() {
-  const response = await fetch(`${import.meta.env.BASE_URL}data/deals.json`)
+async function fetchDeals(bypassCache = false) {
+  const cacheBuster = bypassCache ? `?refresh=${Date.now()}` : ''
+  const response = await fetch(`${import.meta.env.BASE_URL}data/deals.json${cacheBuster}`, {
+    cache: bypassCache ? 'no-store' : 'default',
+  })
   if (!response.ok) throw new Error('No se pudieron cargar las ofertas')
   return response.json() as Promise<DealsPayload>
 }
@@ -201,6 +205,20 @@ export default function App() {
   const [mapTarget, setMapTarget] = useState<[number, number] | null>(null)
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
   const [locationError, setLocationError] = useState('')
+  const [refreshing, setRefreshing] = useState(false)
+
+  const refreshDeals = useCallback(async () => {
+    setRefreshing(true)
+    setError('')
+    try {
+      setPayload(await fetchDeals(true))
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : 'No se pudieron cargar las ofertas')
+    } finally {
+      setRefreshing(false)
+    }
+  }, [])
+
   useEffect(() => {
     fetchDeals()
       .then(setPayload)
@@ -393,7 +411,12 @@ export default function App() {
       <div className="mobile-topbar">
         <div className="brand-mark"><MapPinned size={20} /></div>
         <div><strong>Gustazos cerca de ti</strong><span>{visibleDeals.length} ofertas · Actualizado {formatSyncTime(payload.updatedAt)}</span></div>
-        <button className="icon-button" onClick={requestLocation} aria-label="Usar mi ubicación"><LocateFixed size={18} /></button>
+        <div className="mobile-topbar__actions">
+          <button className="icon-button" onClick={() => void refreshDeals()} disabled={refreshing} aria-label="Actualizar ofertas">
+            <RefreshCw size={18} className={refreshing ? 'is-spinning' : ''} />
+          </button>
+          <button className="icon-button" onClick={requestLocation} aria-label="Usar mi ubicación"><LocateFixed size={18} /></button>
+        </div>
       </div>
       <div className="mobile-search">
         <Search size={18} />
