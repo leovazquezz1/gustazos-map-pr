@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: refresh-restaurant-deals
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
@@ -32,6 +36,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data/deals.json
           git commit -m "data: refresh restaurant deals"
+          git fetch origin main
+          git rebase origin/main
           git push
       - name: Notify Leandro on failure
         if: failure()
