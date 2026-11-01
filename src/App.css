@@ -82,6 +82,9 @@
 .deal-panel h2 { margin: 0 0 9px; font-size: 19px; letter-spacing: -.02em; }
 .deal-panel__offer { margin: 0; color: #5e6962; font-size: 12px; line-height: 1.55; }
 .location-list { display: grid; gap: 6px; margin: 16px 0; }
+.location-group { display: grid; gap: 6px; }
+.location-group + .location-group { margin-top: 5px; padding-top: 11px; border-top: 1px solid var(--line); }
+.selected-location-label { justify-self: start; padding: 4px 7px; border-radius: 7px; color: var(--green); background: #e7f4ed; font-size: 8px; font-weight: 900; letter-spacing: .04em; text-transform: uppercase; }
 .location-list a { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 8px; padding: 9px 10px; border-radius: 10px; color: #58655d; background: #f4f6f3; font-size: 10px; text-decoration: none; }
 .location-list a:hover { background: #edf1ec; }
 .location-link--google { color: #1d5e46 !important; background: #edf5f0 !important; }

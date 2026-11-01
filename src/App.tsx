@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import {
@@ -116,7 +116,24 @@ function DealCard({
   )
 }
 
-function DealPanel({ deal, onClose }: { deal: Deal; onClose: () => void }) {
+function googleMapsDeepLink(location: DealLocation) {
+  const coordinates = `${location.latitude},${location.longitude}`
+  if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
+    return `comgooglemaps://?q=${coordinates}&center=${coordinates}&zoom=17`
+  }
+  if (/Android/.test(navigator.userAgent)) {
+    return `geo:${coordinates}?q=${coordinates}`
+  }
+  return `https://www.google.com/maps/search/?api=1&query=${coordinates}`
+}
+
+function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selectedLocationId: string | null; onClose: () => void }) {
+  const orderedLocations = [...deal.locations].sort((a, b) => {
+    if (a.id === selectedLocationId) return -1
+    if (b.id === selectedLocationId) return 1
+    return 0
+  })
+
   return (
     <section className="deal-panel" aria-label="Detalle de la oferta">
       <button className="icon-button deal-panel__close" onClick={onClose} aria-label="Cerrar detalle">
@@ -131,16 +148,16 @@ function DealPanel({ deal, onClose }: { deal: Deal; onClose: () => void }) {
         <h2>{deal.restaurant}</h2>
         <p className="deal-panel__offer">{deal.offer}</p>
         <div className="location-list">
-          {deal.locations.map((location) => (
-            <Fragment key={location.id}>
+          {orderedLocations.map((location) => (
+            <div className={`location-group${location.id === selectedLocationId ? ' is-selected' : ''}`} key={location.id}>
+              {location.id === selectedLocationId && <span className="selected-location-label">Ubicación seleccionada</span>}
               <a
                 className="location-link location-link--google"
-                href={`https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}`}
-                target="_blank"
+                href={googleMapsDeepLink(location)}
                 rel="noreferrer"
               >
                 <MapPinned size={17} />
-                <span className="location-link__details"><strong>Google Maps</strong><span>{location.address}</span></span>
+                <span className="location-link__details"><strong>Google Maps app</strong><span>{location.address}</span></span>
                 <ArrowUpRight size={15} />
               </a>
               <a
@@ -153,7 +170,7 @@ function DealPanel({ deal, onClose }: { deal: Deal; onClose: () => void }) {
                 <span className="location-link__details"><strong>OpenStreetMap</strong><span>{location.address}</span></span>
                 <ArrowUpRight size={15} />
               </a>
-            </Fragment>
+            </div>
           ))}
         </div>
         <a className="primary-button" href={deal.url} target="_blank" rel="noreferrer">
@@ -172,6 +189,7 @@ export default function App() {
   const [sortMode, setSortMode] = useState<SortMode>('discount')
   const [filtersOpen, setFiltersOpen] = useState(false)
   const [selectedId, setSelectedId] = useState<string | null>(null)
+  const [selectedLocationId, setSelectedLocationId] = useState<string | null>(null)
   const [mapTarget, setMapTarget] = useState<[number, number] | null>(null)
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
   const [locationError, setLocationError] = useState('')
@@ -219,7 +237,13 @@ export default function App() {
 
   const selectDeal = (deal: Deal, location = deal.locations[0]) => {
     setSelectedId(deal.id)
+    setSelectedLocationId(location.id)
     setMapTarget([location.latitude, location.longitude])
+  }
+
+  const closeDeal = () => {
+    setSelectedId(null)
+    setSelectedLocationId(null)
   }
 
   const requestLocation = () => {
@@ -335,7 +359,7 @@ export default function App() {
             <Marker
               key={location.id}
               position={[location.latitude, location.longitude]}
-              icon={markerIcon(deal, deal.id === selectedId)}
+              icon={markerIcon(deal, location.id === selectedLocationId)}
               eventHandlers={{ click: () => selectDeal(deal, location) }}
             >
               <Popup>
@@ -355,7 +379,7 @@ export default function App() {
           <Crosshair size={20} />
         </button>
         <div className="map-summary"><MapPinned size={15} /> Puerto Rico · {visiblePins.length} lugares</div>
-        {selectedDeal && <DealPanel deal={selectedDeal} onClose={() => setSelectedId(null)} />}
+        {selectedDeal && <DealPanel deal={selectedDeal} selectedLocationId={selectedLocationId} onClose={closeDeal} />}
       </section>
 
       <div className="mobile-topbar">
