@@ -28,7 +28,17 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Validate data and build site
+        run: |
+          set -o pipefail
+          npm run build 2>&1 | tee build.log
+      - name: Notify Leandro on failure
+        if: failure()
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          FAILURE_LOG: build.log
+        run: .github/scripts/notify-telegram.sh
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
