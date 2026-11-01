@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { Fragment, useEffect, useMemo, useRef, useState } from 'react'
 import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import {
@@ -132,16 +132,28 @@ function DealPanel({ deal, onClose }: { deal: Deal; onClose: () => void }) {
         <p className="deal-panel__offer">{deal.offer}</p>
         <div className="location-list">
           {deal.locations.map((location) => (
-            <a
-              key={location.id}
-              href={`https://www.openstreetmap.org/?mlat=${location.latitude}&mlon=${location.longitude}#map=17/${location.latitude}/${location.longitude}`}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <MapPinned size={17} />
-              <span>{location.address}</span>
-              <ArrowUpRight size={15} />
-            </a>
+            <Fragment key={location.id}>
+              <a
+                className="location-link location-link--google"
+                href={`https://www.google.com/maps/search/?api=1&query=${location.latitude},${location.longitude}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MapPinned size={17} />
+                <span className="location-link__details"><strong>Google Maps</strong><span>{location.address}</span></span>
+                <ArrowUpRight size={15} />
+              </a>
+              <a
+                className="location-link"
+                href={`https://www.openstreetmap.org/?mlat=${location.latitude}&mlon=${location.longitude}#map=17/${location.latitude}/${location.longitude}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MapPinned size={17} />
+                <span className="location-link__details"><strong>OpenStreetMap</strong><span>{location.address}</span></span>
+                <ArrowUpRight size={15} />
+              </a>
+            </Fragment>
           ))}
         </div>
         <a className="primary-button" href={deal.url} target="_blank" rel="noreferrer">
