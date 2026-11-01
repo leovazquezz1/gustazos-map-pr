@@ -15,6 +15,7 @@ export type Deal = {
   logo: string | null
   url: string
   saleEndsAt: string | null
+  redemptionHours: string[]
   locations: DealLocation[]
 }
 

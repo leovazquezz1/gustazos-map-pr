@@ -10,7 +10,7 @@ const OUTPUT = path.resolve('public/data/deals.json')
 const USER_AGENT =
   'GustazosMapPR/1.0 (+https://github.com/leovazquezz1/gustazos-map-pr; public-deal index)'
 
-type DealSeed = Omit<Deal, 'locations'>
+type DealSeed = Omit<Deal, 'locations' | 'redemptionHours'>
 
 function clean(value: string) {
   return value.replace(/\s+/g, ' ').trim()
@@ -99,6 +99,40 @@ function parseLocations(html: string, dealId: string): DealLocation[] {
   return locations
 }
 
+function normalizeLabel(value: string) {
+  return clean(value)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLocaleLowerCase('es')
+}
+
+function parseRedemptionHours(html: string): string[] {
+  const $ = cheerio.load(html)
+  const hours: string[] = []
+
+  $('li').each((_, element) => {
+    const item = $(element)
+    const heading = item.children('strong').first()
+    if (!normalizeLabel(heading.text()).includes('horario de redencion')) return
+
+    const nestedItems = item.children('ul, ol').first().children('li')
+    if (nestedItems.length > 0) {
+      nestedItems.each((__, nested) => {
+        const value = clean($(nested).text())
+        if (value) hours.push(value)
+      })
+      return
+    }
+
+    const content = item.clone()
+    content.children('strong').first().remove()
+    const value = clean(content.text())
+    if (value) hours.push(value)
+  })
+
+  return [...new Set(hours)]
+}
+
 async function mapWithConcurrency<T, R>(
   items: T[],
   limit: number,
@@ -127,8 +161,11 @@ async function main() {
   const deals = await mapWithConcurrency(seeds, 4, async (seed, index): Promise<Deal> => {
     const detailHtml = await fetchHtml(seed.url)
     const locations = parseLocations(detailHtml, seed.id)
-    console.log(`[${index + 1}/${seeds.length}] ${seed.restaurant}: ${locations.length} location(s)`)
-    return { ...seed, locations }
+    const redemptionHours = parseRedemptionHours(detailHtml)
+    console.log(
+      `[${index + 1}/${seeds.length}] ${seed.restaurant}: ${locations.length} location(s), ${redemptionHours.length} redemption schedule line(s)`,
+    )
+    return { ...seed, redemptionHours, locations }
   })
 
   const usableDeals = deals.filter((deal) => deal.locations.length > 0)

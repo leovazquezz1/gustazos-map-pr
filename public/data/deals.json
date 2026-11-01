@@ -1,6 +1,6 @@
 {
   "source": "https://www.gustazos.com/c/restaurants1",
-  "updatedAt": "2026-11-01T23:39:03.911Z",
+  "updatedAt": "2026-11-01T23:44:41.136Z",
   "deals": [
     {
       "id": "Restaurants_oceanrestlounge1",
@@ -12,6 +12,11 @@
       "logo": "https://images.gustazos.com/storage/2026-09/6abbe45d29dfd_disen-o-sin-ti-tulo-35-.png",
       "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge1",
       "saleEndsAt": "2026-11-08T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingos de 12:00 p.m. a 8:00 p.m.",
+        "No es válido en feriados.",
+        "No es válido el 5 y 6 de noviembre de 2026."
+      ],
       "locations": [
         {
           "id": "Restaurants_oceanrestlounge1-1",
@@ -31,6 +36,11 @@
       "logo": "https://images.gustazos.com/storage/2026-09/6abbe150d5d57_disen-o-sin-ti-tulo-35-.png",
       "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge2",
       "saleEndsAt": "2026-11-08T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingos de 12:00 p.m. a 8:00 p.m.",
+        "No es válido en feriados.",
+        "No es válido el 5 y 6 de noviembre de 2026."
+      ],
       "locations": [
         {
           "id": "Restaurants_oceanrestlounge2-1",
@@ -50,6 +60,10 @@
       "logo": "https://images.gustazos.com/storage/2026-09/6aa863da7383d_artboard-logo-voucher.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_pepperonipizzapastabar1",
       "saleEndsAt": "2026-11-02T04:59:00.000Z",
+      "redemptionHours": [
+        "jueves a domingo de 11:00 a.m. a 10:00 p.m.",
+        "No es válido en los días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_pepperonipizzapastabar1-1",
@@ -69,6 +83,13 @@
       "logo": "https://images.gustazos.com/storage/2025-07/6877fc5c33e26_bocao01-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_bocaoysal8",
       "saleEndsAt": "2026-11-05T05:00:00.000Z",
+      "redemptionHours": [
+        "martes y miércoles de 11:00 a.m. a 4:30 p.m.",
+        "jueves de 11:00 a.m. a 8:30 p.m.",
+        "viernes de 11:00 a.m. a 9:30 p.m.",
+        "sábados de 11:00 a.m. a 9:30 p.m.",
+        "No es válido los domingos ni días feriados/festivos."
+      ],
       "locations": [
         {
           "id": "Restaurants_bocaoysal8-1",
@@ -88,6 +109,11 @@
       "logo": "https://images.gustazos.com/storage/2026-04/69e92b493f53a_pesca01-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_Pesca9",
       "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
+        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
+        "No es válido en días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_Pesca9-1",
@@ -107,6 +133,9 @@
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_enfurecida37",
       "saleEndsAt": "2026-11-13T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 1:00 p.m. a 7:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_enfurecida37-1",
@@ -126,6 +155,9 @@
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_enfurecida38",
       "saleEndsAt": "2026-11-13T05:00:00.000Z",
+      "redemptionHours": [
+        "Cabo Rojo: jueves y viernes de 4:00 p.m. a 12:00 a.m. sábados y domingos de 12:00 p.m. a 6:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_enfurecida38-1",
@@ -145,6 +177,10 @@
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_enfurecida36",
       "saleEndsAt": "2026-11-07T05:00:00.000Z",
+      "redemptionHours": [
+        "San Juan: lunes a domingo de 1:00 p.m. a 7:00 p.m. Teléfono: (939) 204-0696",
+        "Cabo Rojo: jueves y viernes de 4:00 p.m. a 12:00 a.m. sábados y domingos de 12:00 p.m. a 6:00 p.m. Teléfono: (939) 242-0523"
+      ],
       "locations": [
         {
           "id": "Restaurants_enfurecida36-1",
@@ -170,6 +206,11 @@
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99500/25ec94022cebc235b25a8373934625af.jpeg",
       "url": "https://www.gustazos.com/deals/Restaurants_pancakebistro18",
       "saleEndsAt": "2026-11-12T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 7:00 a.m. a 3:00 p.m. No requiere reservación.",
+        "sábados y domingos de 7:00 a.m. a 3:00 p.m. Requiere reservación previa.",
+        "No es válido en días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_pancakebistro18-1",
@@ -189,6 +230,11 @@
       "logo": "https://images.gustazos.com/storage/2026-10/6ad7d49077d11_aylupita.png",
       "url": "https://www.gustazos.com/deals/Restaurants_aylupita1",
       "saleEndsAt": "2026-11-06T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
+        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
+        "No es válido en días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_aylupita1-1",
@@ -208,6 +254,11 @@
       "logo": "https://images.gustazos.com/storage/2025-05/682c9354d3b3d_logo-template-300x300-42-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_NachoLibre10",
       "saleEndsAt": "2026-11-15T05:00:00.000Z",
+      "redemptionHours": [
+        "martes a jueves de 11:00 a.m. a 10:00 p.m.",
+        "viernes de 11:00 a.m. a 12:00 a.m.",
+        "sábados de 12:00 p.m. a 11:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_NachoLibre10-1",
@@ -239,6 +290,10 @@
       "logo": "https://images.gustazos.com/storage/2024-12/6761dfdb2be8a_rancho01-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_RanchoOriginal5",
       "saleEndsAt": null,
+      "redemptionHours": [
+        "jueves, 26 de noviembre de 2026 de 7:00 a.m. a 2:00 p.m.",
+        "No tienes que llamar; estará listo cuando pases a recogerlo."
+      ],
       "locations": [
         {
           "id": "Restaurants_RanchoOriginal5-1",
@@ -258,6 +313,9 @@
       "logo": "https://images.gustazos.com/storage/2025-10/68efe22cdb65c_logo-template-300x300-33-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_lacatrinaluquillo2",
       "saleEndsAt": "2026-11-07T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 10:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_lacatrinaluquillo2-1",
@@ -277,6 +335,9 @@
       "logo": "https://images.gustazos.com/storage/2025-10/68f1bb8db15b5_logo-template-300x300-39-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_lafondagourmet2",
       "saleEndsAt": "2026-11-07T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_lafondagourmet2-1",
@@ -296,6 +357,11 @@
       "logo": "https://images.gustazos.com/storage/2026-10/6ad266a3ec99b_culturarest.png",
       "url": "https://www.gustazos.com/deals/Restaurants_CulturaRest1",
       "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
+        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
+        "No es válido en días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_CulturaRest1-1",
@@ -315,6 +381,12 @@
       "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
       "url": "https://www.gustazos.com/deals/Restaurants_pantojarse4",
       "saleEndsAt": "2026-11-14T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a miércoles de 11:00 a.m. a 8:00 p.m.",
+        "jueves de 11:00 a.m. a 9:00 p.m.",
+        "sábados de 12:00 p.m. a 10:00 p.m.",
+        "domingos de 1:00 p.m. a 8:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_pantojarse4-1",
@@ -334,6 +406,12 @@
       "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
       "url": "https://www.gustazos.com/deals/Restaurants_pantojarse5",
       "saleEndsAt": "2026-11-14T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a miércoles de 11:00 a.m. a 8:00 p.m.",
+        "jueves de 11:00 a.m. a 9:00 p.m.",
+        "sábados de 12:00 p.m. a 10:00 p.m.",
+        "domingos de 1:00 p.m. a 8:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_pantojarse5-1",
@@ -353,6 +431,9 @@
       "logo": "https://images.gustazos.com/storage/2025-06/6854b8a8d2f37_logo-template-300x300-34-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_elgauchoreal9",
       "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "redemptionHours": [
+        "miércoles a sábado de 8:00 a.m. a 5:00 p.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_elgauchoreal9-1",
@@ -372,6 +453,9 @@
       "logo": "https://images.gustazos.com/storage/2025-05/6823b40db0a82_logo-template-300x300-40-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_PuestadelSol15",
       "saleEndsAt": "2026-11-15T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 12:00 p.m. a 12:00 a.m."
+      ],
       "locations": [
         {
           "id": "Restaurants_PuestadelSol15-1",
@@ -391,6 +475,12 @@
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/86868/6e3d93040dce3ae364ff4f5c6172a450.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_filomena15",
       "saleEndsAt": "2026-11-04T05:00:00.000Z",
+      "redemptionHours": [
+        "martes de 11:00 a.m. a 5:00 p.m.",
+        "miércoles y jueves de 11:00 a.m. a 8:30 p.m.",
+        "sábados de 1:30 p.m. a 8:30 p.m.",
+        "No es válido en días feriados."
+      ],
       "locations": [
         {
           "id": "Restaurants_filomena15-1",

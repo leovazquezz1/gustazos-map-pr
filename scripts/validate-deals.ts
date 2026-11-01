@@ -30,6 +30,10 @@ export function validateDeals(deals: Deal[]): DealValidationSummary {
       throw new Error(`Deal ${deal.id} (${deal.restaurant}) has no redemption locations`)
     }
 
+    if (!Array.isArray(deal.redemptionHours)) {
+      throw new Error(`Deal ${deal.id} (${deal.restaurant}) has invalid redemption hours`)
+    }
+
     if (deal.locations.length > 1) {
       multiLocationDeals.push({
         id: deal.id,

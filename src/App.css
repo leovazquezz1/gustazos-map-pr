@@ -81,6 +81,9 @@
 .saving-badge { color: #b23a22; background: #fff0ec; }
 .deal-panel h2 { margin: 0 0 9px; font-size: 19px; letter-spacing: -.02em; }
 .deal-panel__offer { margin: 0; color: #5e6962; font-size: 12px; line-height: 1.55; }
+.redemption-hours { margin-top: 12px; padding: 10px 12px; border-radius: 11px; color: #315e4c; background: #eef8f3; }
+.redemption-hours__title { display: flex; align-items: center; gap: 7px; font-size: 11px; font-weight: 900; }
+.redemption-hours ul { display: grid; gap: 4px; margin: 7px 0 0; padding-left: 18px; color: #52645b; font-size: 10px; line-height: 1.4; }
 .location-list { display: grid; gap: 6px; margin: 16px 0; }
 .location-group { display: grid; gap: 6px; }
 .location-group + .location-group { margin-top: 5px; padding-top: 11px; border-top: 1px solid var(--line); }

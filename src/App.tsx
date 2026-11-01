@@ -147,6 +147,14 @@ function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selected
         </div>
         <h2>{deal.restaurant}</h2>
         <p className="deal-panel__offer">{deal.offer}</p>
+        {deal.redemptionHours.length > 0 && (
+          <div className="redemption-hours">
+            <div className="redemption-hours__title"><Clock3 size={16} /> Horario de redención</div>
+            <ul>
+              {deal.redemptionHours.map((hours) => <li key={hours}>{hours}</li>)}
+            </ul>
+          </div>
+        )}
         <div className="location-list">
           {orderedLocations.map((location) => (
             <div className={`location-group${location.id === selectedLocationId ? ' is-selected' : ''}`} key={location.id}>
