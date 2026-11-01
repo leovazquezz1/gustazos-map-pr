@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "refresh-data": "tsx scripts/refresh-deals.ts",
-    "build": "tsc -b && vite build",
+    "validate-data": "tsx scripts/validate-data.ts",
+    "build": "npm run validate-data && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },

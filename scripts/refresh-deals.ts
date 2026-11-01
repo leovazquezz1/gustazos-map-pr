@@ -2,6 +2,7 @@ import * as cheerio from 'cheerio'
 import { mkdir, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { Deal, DealLocation, DealsPayload } from '../src/types'
+import { validateDeals } from './validate-deals'
 
 const BASE_URL = 'https://www.gustazos.com'
 const CATEGORY_URL = `${BASE_URL}/c/restaurants1`
@@ -133,6 +134,11 @@ async function main() {
   const usableDeals = deals.filter((deal) => deal.locations.length > 0)
   if (usableDeals.length === 0) throw new Error('Deals were found, but none included usable map coordinates')
 
+  const validation = validateDeals(usableDeals)
+  for (const deal of validation.multiLocationDeals) {
+    console.log(`Multi-location offer: ${deal.restaurant} has ${deal.locationCount} pins`)
+  }
+
   const payload: DealsPayload = {
     source: CATEGORY_URL,
     updatedAt: new Date().toISOString(),
@@ -141,7 +147,7 @@ async function main() {
 
   await mkdir(path.dirname(OUTPUT), { recursive: true })
   await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, 'utf8')
-  console.log(`Wrote ${usableDeals.length} deals and ${usableDeals.reduce((n, d) => n + d.locations.length, 0)} pins to ${OUTPUT}`)
+  console.log(`Wrote ${validation.dealCount} deals and ${validation.pinCount} pins to ${OUTPUT}`)
 }
 
 main().catch((error) => {
