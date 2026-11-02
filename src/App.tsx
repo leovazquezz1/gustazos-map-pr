@@ -138,11 +138,8 @@ function googleMapsDeepLink(location: DealLocation) {
 }
 
 function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selectedLocationId: string | null; onClose: () => void }) {
-  const orderedLocations = [...deal.locations].sort((a, b) => {
-    if (a.id === selectedLocationId) return -1
-    if (b.id === selectedLocationId) return 1
-    return 0
-  })
+  const selectedLocation =
+    deal.locations.find((location) => location.id === selectedLocationId) ?? deal.locations[0]
 
   return (
     <section className="deal-panel" aria-label="Detalle de la oferta">
@@ -167,30 +164,30 @@ function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selected
           </div>
         )}
         <div className="location-list">
-          {orderedLocations.map((location) => (
-            <div className={`location-group${location.id === selectedLocationId ? ' is-selected' : ''}`} key={location.id}>
-              {location.id === selectedLocationId && <span className="selected-location-label">Ubicación seleccionada</span>}
+          {selectedLocation && (
+            <div className="location-group is-selected">
+              <span className="selected-location-label">Ubicación seleccionada</span>
               <a
                 className="location-link location-link--google"
-                href={googleMapsDeepLink(location)}
+                href={googleMapsDeepLink(selectedLocation)}
                 rel="noreferrer"
               >
                 <MapPinned size={17} />
-                <span className="location-link__details"><strong>Google Maps app</strong><span>{location.address}</span></span>
+                <span className="location-link__details"><strong>Google Maps app</strong><span>{selectedLocation.address}</span></span>
                 <ArrowUpRight size={15} />
               </a>
               <a
                 className="location-link"
-                href={`https://www.openstreetmap.org/?mlat=${location.latitude}&mlon=${location.longitude}#map=17/${location.latitude}/${location.longitude}`}
+                href={`https://www.openstreetmap.org/?mlat=${selectedLocation.latitude}&mlon=${selectedLocation.longitude}#map=17/${selectedLocation.latitude}/${selectedLocation.longitude}`}
                 target="_blank"
                 rel="noreferrer"
               >
                 <MapPinned size={17} />
-                <span className="location-link__details"><strong>OpenStreetMap</strong><span>{location.address}</span></span>
+                <span className="location-link__details"><strong>OpenStreetMap</strong><span>{selectedLocation.address}</span></span>
                 <ArrowUpRight size={15} />
               </a>
             </div>
-          ))}
+          )}
         </div>
         <a className="primary-button" href={deal.url} target="_blank" rel="noreferrer">
           Ver y comprar en {sourceName(deal)} <ArrowUpRight size={18} />
