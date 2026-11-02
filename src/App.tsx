@@ -8,6 +8,7 @@ import {
   ListFilter,
   LocateFixed,
   MapPinned,
+  Play,
   RefreshCw,
   Search,
   SlidersHorizontal,
@@ -412,6 +413,15 @@ export default function App() {
         <div className="brand-mark"><MapPinned size={20} /></div>
         <div><strong>Gustazos cerca de ti</strong><span>{visibleDeals.length} ofertas · Actualizado {formatSyncTime(payload.updatedAt)}</span></div>
         <div className="mobile-topbar__actions">
+          <a
+            className="icon-button run-workflow-button"
+            href="https://github.com/leovazquezz1/gustazos-map-pr/actions/workflows/refresh-deals.yml"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Ejecutar actualización desde Gustazos"
+          >
+            <Play size={17} fill="currentColor" />
+          </a>
           <button className="icon-button" onClick={() => void refreshDeals()} disabled={refreshing} aria-label="Actualizar ofertas">
             <RefreshCw size={18} className={refreshing ? 'is-spinning' : ''} />
           </button>
