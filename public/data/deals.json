@@ -1,9 +1,21 @@
 {
-  "source": "https://www.gustazos.com/c/restaurants1",
-  "updatedAt": "2026-11-02T06:23:03.884Z",
+  "sources": [
+    {
+      "id": "gustazos",
+      "name": "Gustazos",
+      "url": "https://www.gustazos.com/c/restaurants1"
+    },
+    {
+      "id": "oferta-del-dia",
+      "name": "Oferta del Día",
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
+    }
+  ],
+  "updatedAt": "2026-11-02T17:37:48.301Z",
   "deals": [
     {
-      "id": "Restaurants_oceanrestlounge1",
+      "id": "gustazos:Restaurants_oceanrestlounge1",
+      "source": "gustazos",
       "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
       "offer": "$59 por Paella para 2 personas de carnes: Chorizo parrillero, Pollo y Longaniza + 2 Copas de vino tinto, blanco de la casa o sangría + Croquetas de Manchego y Jamón Serrano + Precio preferencial de $3 por 2 horas de estacionamiento",
       "price": 59,
@@ -19,7 +31,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_oceanrestlounge1-1",
+          "id": "gustazos:Restaurants_oceanrestlounge1:1",
           "address": "(Caribe Hilton) 1 Calle San GerónimoSan Juan 00901PR",
           "latitude": 18.4633907,
           "longitude": -66.0881382
@@ -27,7 +39,8 @@
       ]
     },
     {
-      "id": "Restaurants_oceanrestlounge2",
+      "id": "gustazos:Restaurants_oceanrestlounge2",
+      "source": "gustazos",
       "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
       "offer": "$59 por Parrillada de carnes para 2 personas que incluye: Chuleta Kan Kan, Longaniza, Pechuga de Pollo + Ensalada de la Casa + 2 Copas de vino tinto, blanco o Sangría + Tarifa especial de $3 por 2 horas de estacionamiento",
       "price": 59,
@@ -43,7 +56,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_oceanrestlounge2-1",
+          "id": "gustazos:Restaurants_oceanrestlounge2:1",
           "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
           "latitude": 18.4633907,
           "longitude": -66.0881382
@@ -51,7 +64,8 @@
       ]
     },
     {
-      "id": "Restaurants_bocaoysal8",
+      "id": "gustazos:Restaurants_bocaoysal8",
+      "source": "gustazos",
       "restaurant": "Bocao' & Sal - Cataño",
       "offer": "$35 por 2 Platos Principales a escoger entre: “Pechuga Boricua”, rellena de pionono y bañada en cremosa salsa cuatro quesos; “Pechuga Cordon Bleu”, empanada y rellena de jamón y queso derretido, bañada en cremosa salsa cuatro quesos; o “Pechuga Jíbara”, rellena de yuca al mojo, envuelta en bacon y servida en salsa de cilantro + 1 Acompañante a escoger entre: arroz mamposteao, arroz blanco y habichuelas, tostones de plátano, papas fritas hechas en casa, amarillos o ensalada de la casa + 1 Aperitivo de arancinis de risotto de mamposteao para compartir + 2 Sangrías de la casa o refrescos + 15% de Descuento en postres (crème brûlée, flan de queso o cheesecake)",
       "price": 35,
@@ -69,7 +83,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_bocaoysal8-1",
+          "id": "gustazos:Restaurants_bocaoysal8:1",
           "address": "Ave. Los Conquistadores, 150 Bahía Marina Plaza, Local 10-ACataño 00962PR",
           "latitude": 18.451268848844865,
           "longitude": -66.14246116106854
@@ -77,7 +91,8 @@
       ]
     },
     {
-      "id": "Restaurants_Pesca9",
+      "id": "gustazos:Restaurants_Pesca9",
+      "source": "gustazos",
       "restaurant": "Pesca Restaurant & Bar - Aguadilla",
       "offer": "$30 por 2 Platos Principales a escoger entre: Mofongo relleno de churrasco o pechuga, Pechuga rellena de ropa vieja, o Filete de Mero coronado con camarones + 1 Aperitivo de mini empanadillas de carne",
       "price": 30,
@@ -93,7 +108,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_Pesca9-1",
+          "id": "gustazos:Restaurants_Pesca9:1",
           "address": "Carr. 110 (km 30.4), Bo. MontañaAguadilla 00603PR",
           "latitude": 18.5047,
           "longitude": -67.10013
@@ -101,7 +116,8 @@
       ]
     },
     {
-      "id": "Restaurants_enfurecida37",
+      "id": "gustazos:Restaurants_enfurecida37",
+      "source": "gustazos",
       "restaurant": "La Vaca Enfurecida - San Juan",
       "offer": "$59 por 1 Tomahawk de 2 ½ libras para 2 personas con 1 ensalada de la casa + 2 Acompañantes a escoger entre: Majado de viandas, arroz mamposteao, tostones de pana o plátano, papas fritas o batatas fritas + 2 Bebidas a escoger entre: mojito tradicional, sangría, margarita, botella de agua o refresco",
       "price": 59,
@@ -115,7 +131,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_enfurecida37-1",
+          "id": "gustazos:Restaurants_enfurecida37:1",
           "address": "Calle del TrenSan Juan rojo 00901PR",
           "latitude": 18.46533739772697,
           "longitude": -66.10614260737334
@@ -123,7 +139,8 @@
       ]
     },
     {
-      "id": "Restaurants_enfurecida38",
+      "id": "gustazos:Restaurants_enfurecida38",
+      "source": "gustazos",
       "restaurant": "La Vaca Enfurecida - Cabo Rojo",
       "offer": "$29 por 1 Libra de alitas para 1 persona + 3 Horas ilimitadas de mojitos de sabores a escoger como: Clásico, fresa, fresa y guineo, mango, parcha, coco, mojito colada o la sangría de la casa",
       "price": 29,
@@ -137,7 +154,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_enfurecida38-1",
+          "id": "gustazos:Restaurants_enfurecida38:1",
           "address": "101 PR-101cabo rojo 00622PR",
           "latitude": 18.024829472339018,
           "longitude": -67.17312162002865
@@ -145,7 +162,8 @@
       ]
     },
     {
-      "id": "Restaurants_enfurecida36",
+      "id": "gustazos:Restaurants_enfurecida36",
+      "source": "gustazos",
       "restaurant": "La Vaca Enfurecida - San Juan y Cabo Rojo",
       "offer": "$49 por 2 Platos principales a escoger entre: Churrasco relleno de chorizo parrillero y queso, bañado en chimichurri rústico ahumado; Mar y Tierra: Churrasco relleno de camarones en crema de cilantro y vino; o Lomo de cerdo en salsa de pimientos rostizados dulce y salada + Ensaladas + 1 Acompañante por plato a escoger entre: Arroz mamposteao, majado de papas o viandas, papas salteadas, tostones de pana o plátano, o papas fritas + 2 Bebidas a escoger entre: Sangría, mojitos, margaritas, cervezas, refresco o agua",
       "price": 49,
@@ -160,13 +178,13 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_enfurecida36-1",
+          "id": "gustazos:Restaurants_enfurecida36:1",
           "address": "Calle del TrenSan Juan rojo 00901PR",
           "latitude": 18.46533739772697,
           "longitude": -66.10614260737334
         },
         {
-          "id": "Restaurants_enfurecida36-2",
+          "id": "gustazos:Restaurants_enfurecida36:2",
           "address": "101 PR-101cabo rojo 00622PR",
           "latitude": 18.024816772316875,
           "longitude": -67.17311615643348
@@ -174,7 +192,8 @@
       ]
     },
     {
-      "id": "Restaurants_pancakebistro18",
+      "id": "gustazos:Restaurants_pancakebistro18",
+      "source": "gustazos",
       "restaurant": "Pancake Bistro Café - Isabela",
       "offer": "$23 por 2 Platos principales a escoger entre: “Nutella Pancakes” coronados con una barquilla con mantecado; 'Besito de Coco French Toasts'; 'Boricua Benedictinos' montados en bocadillos de bacalaítos y pernil desmenuzado, bañados en salsa holandesa; o 'La Carnívora Omelette' con jamón de pavo, jamón regular, tocineta, vegetales y queso acompañado de un pancake y tostadas + 2 Mimosas o jugos (china, parcha o melón)",
       "price": 23,
@@ -190,7 +209,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_pancakebistro18-1",
+          "id": "gustazos:Restaurants_pancakebistro18:1",
           "address": "Carr 2 (Km 111.1)Isabela 00662PR",
           "latitude": 18.47238,
           "longitude": -67.0177
@@ -198,7 +217,8 @@
       ]
     },
     {
-      "id": "Restaurants_aylupita1",
+      "id": "gustazos:Restaurants_aylupita1",
+      "source": "gustazos",
       "restaurant": "Ay Lupita Tacos y Margaritas - Isabela",
       "offer": "$39 por un Banquete Mexicano para compartir, que incluye: 2 Órdenes de tacos de birria + 1 Aperitivo de mini nachos de tinga de pollo + 2 Margaritas de especialidad de la casa (La Catrina, La Paloma, Mechita Corta o La Chingona)",
       "price": 39,
@@ -214,7 +234,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_aylupita1-1",
+          "id": "gustazos:Restaurants_aylupita1:1",
           "address": "Carr 2. (Km 111.1)Isabela 00662PR",
           "latitude": 18.47222816512173,
           "longitude": -67.01769323291404
@@ -222,7 +242,8 @@
       ]
     },
     {
-      "id": "Restaurants_NachoLibre10",
+      "id": "gustazos:Restaurants_NachoLibre10",
+      "source": "gustazos",
       "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
       "offer": "$35 por Súper plato para compartir que incluye: 4 Tacos de Carnitas o Tinga de Pollo + Nachos Loaded + 2 Margaritas a escoger entre tradicional, coco, parcha o melón",
       "price": 35,
@@ -238,19 +259,19 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_NachoLibre10-1",
+          "id": "gustazos:Restaurants_NachoLibre10:1",
           "address": "155 Calle O’Neill, San Juan 00918PR",
           "latitude": 18.423108160191738,
           "longitude": -66.06156574410892
         },
         {
-          "id": "Restaurants_NachoLibre10-2",
+          "id": "gustazos:Restaurants_NachoLibre10:2",
           "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
           "latitude": 18.400123547553317,
           "longitude": -66.15478234153464
         },
         {
-          "id": "Restaurants_NachoLibre10-3",
+          "id": "gustazos:Restaurants_NachoLibre10:3",
           "address": "Carr. 829, 2 B.O Km 1.3, Localtoa alta 00953PR",
           "latitude": 18.36148269980663,
           "longitude": -66.20813183262791
@@ -258,7 +279,8 @@
       ]
     },
     {
-      "id": "Restaurants_RanchoOriginal5",
+      "id": "gustazos:Restaurants_RanchoOriginal5",
+      "source": "gustazos",
       "restaurant": "El Rancho Original - Guavate, Cayey",
       "offer": "$125 por Banquete familiar de DÍA ACCIÓN DE GRACIAS para 10 personas, que incluye: Arroz con gandules + Pavo + Ensalada de coditos + 1 Padrino",
       "price": 125,
@@ -273,7 +295,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_RanchoOriginal5-1",
+          "id": "gustazos:Restaurants_RanchoOriginal5:1",
           "address": "km 27.5, Carr. 184,Cayey 00736PR",
           "latitude": 18.129975690893534,
           "longitude": -66.07069260104481
@@ -281,7 +303,8 @@
       ]
     },
     {
-      "id": "Restaurants_lacatrinaluquillo2",
+      "id": "gustazos:Restaurants_lacatrinaluquillo2",
+      "source": "gustazos",
       "restaurant": "La Catrina - Luquillo",
       "offer": "$35 por 2 Platos a escoger entre: Quesabirrias de carne de res (2), Burrito supremo de pollo o Quesadilla suprema de pollo + 2 Margaritas regulares o Micheladas",
       "price": 35,
@@ -295,7 +318,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_lacatrinaluquillo2-1",
+          "id": "gustazos:Restaurants_lacatrinaluquillo2:1",
           "address": "152 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.375814459081365,
           "longitude": -65.715040623522
@@ -303,7 +326,8 @@
       ]
     },
     {
-      "id": "Restaurants_lafondagourmet2",
+      "id": "gustazos:Restaurants_lafondagourmet2",
+      "source": "gustazos",
       "restaurant": "La Fonda Gourmet - Luquillo",
       "offer": "$45 por 2 Platos a escoger entre: Chuletón Kan Kan de 2 lb; Chillo Frito de 1.5 lb; o Mofongo relleno de pollo + 2 Copas de sangría de la casa",
       "price": 45,
@@ -317,7 +341,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_lafondagourmet2-1",
+          "id": "gustazos:Restaurants_lafondagourmet2:1",
           "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.37650270762727,
           "longitude": -65.71644891559421
@@ -325,7 +349,8 @@
       ]
     },
     {
-      "id": "Restaurants_CulturaRest1",
+      "id": "gustazos:Restaurants_CulturaRest1",
+      "source": "gustazos",
       "restaurant": "Cultura Restaurant - Aguadilla",
       "offer": "$33 por 2 Platos principales a escoger entre: “El Sabroso”, con risotto de gandules apastelado con longaniza, churrasco y pork belly; Mofongo “Survival Beach”, relleno de mariscos (pulpo, camarones, calamares, pescado, cangrejo, mejillones y almejas) en salsa cremosa de cilantro; o Mofongo Relleno de Brisket + 1 Aperitivo de Mini Empanadillas de Pizza",
       "price": 33,
@@ -341,7 +366,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_CulturaRest1-1",
+          "id": "gustazos:Restaurants_CulturaRest1:1",
           "address": "Carr. 110 Km. 31.5Aguadilla 00603PR",
           "latitude": 18.50636,
           "longitude": -67.109156
@@ -349,7 +374,8 @@
       ]
     },
     {
-      "id": "Restaurants_pantojarse4",
+      "id": "gustazos:Restaurants_pantojarse4",
+      "source": "gustazos",
       "restaurant": "Pantojarse - San Juan",
       "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 2 Bebidas a escoger entre: Cerveza Ocean Lab, o batida de Nutella® o vainilla",
       "price": 29,
@@ -366,7 +392,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_pantojarse4-1",
+          "id": "gustazos:Restaurants_pantojarse4:1",
           "address": "Cll BoriSan Juan 00927PR",
           "latitude": 18.382714872035038,
           "longitude": -66.06867355276111
@@ -374,7 +400,8 @@
       ]
     },
     {
-      "id": "Restaurants_pantojarse5",
+      "id": "gustazos:Restaurants_pantojarse5",
+      "source": "gustazos",
       "restaurant": "Pantojarse - San Juan",
       "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 1 Aperitivo a escoger entre: Croquetas de jamón, jalapeño poppers o mozzarella sticks + 2 Refrescos o agua",
       "price": 29,
@@ -391,7 +418,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_pantojarse5-1",
+          "id": "gustazos:Restaurants_pantojarse5:1",
           "address": "Cll BoriSan Juan 00927PR",
           "latitude": 18.382714872035038,
           "longitude": -66.06867355276111
@@ -399,7 +426,34 @@
       ]
     },
     {
-      "id": "Restaurants_elgauchoreal9",
+      "id": "gustazos:Restaurants_quierocafe2",
+      "source": "gustazos",
+      "restaurant": "Quiero Café - Vega Alta Park",
+      "offer": "$15 por una Picadera Boricua para hasta 3 personas, que incluye: Carne frita, tostones, sorullitos de maíz y bolitas de mofongo + 2 Refrescos",
+      "price": 15,
+      "discount": 57,
+      "image": "https://images.gustazos.com/storage/2026-10/6acf969a632da_dp-quierocafe.png",
+      "logo": "https://images.gustazos.com/storage/2026-07/6a46b196f30a6_quierocafe01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_quierocafe2",
+      "saleEndsAt": "2026-11-10T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves de 11:00 a.m. a 7:00 p.m.",
+        "viernes de 11:00 a.m. a 9:00 p.m.",
+        "sábados de 1:00 p.m. a 9:00 p.m.",
+        "domingos de 1:00 p.m. a 6:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_quierocafe2:1",
+          "address": "Vega Alta ParkVega Alta 00692PR",
+          "latitude": 18.412103417447543,
+          "longitude": -66.32509738714245
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_elgauchoreal9",
+      "source": "gustazos",
       "restaurant": "El Gaucho Real Restaurant - Caguas",
       "offer": "$15 por 6 Empanadas Argentinas horneadas a escoger entre: Boricua (carne, plátano maduro y mozzarella); Espinaca y queso; Pollo y queso; Lujanera (pepperoni, jamón, tocineta y mozzarella); Carne; Carne y queso; Guayaba y queso; Queso entre otras + 2 Lattes de 8oz",
       "price": 15,
@@ -413,7 +467,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_elgauchoreal9-1",
+          "id": "gustazos:Restaurants_elgauchoreal9:1",
           "address": "Urbanización Mariolga, PR-32 (Ave. Luis Muñoz Marín) esquina, Calle 25Caguas 00725PR",
           "latitude": 18.217444882744637,
           "longitude": -66.03386238417112
@@ -421,7 +475,8 @@
       ]
     },
     {
-      "id": "Restaurants_PuestadelSol15",
+      "id": "gustazos:Restaurants_PuestadelSol15",
+      "source": "gustazos",
       "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
       "offer": "$39 por 2 Platos principales a escoger entre: Chuleta Kan Kan, pechuga a la plancha, mero, salmón o pechuga a la parmesana + 1 Acompañante por plato a escoger entre: Tostones, papas trufadas, majado de viandas, arroz mamposteao, batata frita o yuca frita + 2 Bebidas a escoger entre: Sangría o mojitos de la casa + 1 Postre para compartir a escoger entre flan de vainilla o queso",
       "price": 39,
@@ -435,7 +490,7 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_PuestadelSol15-1",
+          "id": "gustazos:Restaurants_PuestadelSol15:1",
           "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
           "latitude": 18.1169478,
           "longitude": -67.1833913
@@ -443,7 +498,8 @@
       ]
     },
     {
-      "id": "Restaurants_filomena15",
+      "id": "gustazos:Restaurants_filomena15",
+      "source": "gustazos",
       "restaurant": "Filomena Cocina Urbana Pizzería - San Juan",
       "offer": "$28 por 1 Pizza artesanal grande para compartir a escoger entre: Pepperoni Spicy Honey, 'La Blanca' con salsa blanca, queso, ajo rostizado, tomate y albahaca fresca; o 'La Verde' con salsa de tomate, queso, espinaca y setas + 2 Sangrías de parcha o tradicionales o 2 Vasos de Cerveza Medalla",
       "price": 28,
@@ -460,10 +516,171 @@
       ],
       "locations": [
         {
-          "id": "Restaurants_filomena15-1",
+          "id": "gustazos:Restaurants_filomena15:1",
           "address": "242 Ave. F. D Roosevelt, Bo. Hato Rey Norte, Apt A y BSan Juan 00919PR",
           "latitude": 18.421929560169563,
           "longitude": -66.06338631131433
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:4d0ba27f-aa92-4a0a-8ffb-08df2df5973a",
+      "source": "oferta-del-dia",
+      "restaurant": "La Vaca Enfurecida",
+      "offer": "La Vaca Enfurecida, San Juan: Ribeye Steak de 1lb o Pechuga sobre una Cama de Aguacate + 1 Acompañante por plato + 2 Mojitos por $48",
+      "price": 48,
+      "discount": 48,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/4d0ba27f-aa92-4a0a-8ffb-08df2df5973a/3fa2ef99.png",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/4d0ba27f-aa92-4a0a-8ffb-08df2df5973a",
+      "saleEndsAt": "2026-11-05T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves y domingos: 11:00 AM a 11:00 PM, viernes y sábados: 11:00 AM hasta las 2:00 AM (para los que estiran el fin de semana)."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:4d0ba27f-aa92-4a0a-8ffb-08df2df5973a:1",
+          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
+          "latitude": 18.4650497,
+          "longitude": -66.1107337
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:6df8b02b-d84c-42c9-8ffd-08df2df5973a",
+      "source": "oferta-del-dia",
+      "restaurant": "Restaurante El Plátano Criollo, Carolina",
+      "offer": "Rest. El Plátano Criollo: El antojo criollo que estabas esperando🔥(2) Mofongos rellenos a escoger + (2) Sopas de plátano por $27",
+      "price": 27,
+      "discount": 55,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/6df8b02b-d84c-42c9-8ffd-08df2df5973a/a58d71e5.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/6df8b02b-d84c-42c9-8ffd-08df2df5973a",
+      "saleEndsAt": "2026-11-07T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves de 11:00am a 10:00pm."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:6df8b02b-d84c-42c9-8ffd-08df2df5973a:1",
+          "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
+          "latitude": 18.39558,
+          "longitude": -65.98312
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:4b446936-6c28-4866-9b08-08df30609995",
+      "source": "oferta-del-dia",
+      "restaurant": "Julieta's Bar & Restaurant",
+      "offer": "Julieta’s Bar & Restaurant: ¡El plan perfecto para compartir, disfrutar y brindar! Certificado de $30 para consumo abierto en el menú",
+      "price": 15,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/4b446936-6c28-4866-9b08-08df30609995/f8c251a2.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/4b446936-6c28-4866-9b08-08df30609995",
+      "saleEndsAt": "2026-11-15T03:59:00.000Z",
+      "redemptionHours": [
+        "miércoles de 4:00 p.m. a 10:00 p.m / jueves a sábado de 4:00 p.m. a 12:00 a.m. / Domingos de 12:00 m.d. a 8:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:4b446936-6c28-4866-9b08-08df30609995:1",
+          "address": "Calle Cerra 621, San Juan, PR 00907",
+          "latitude": 18.4518053,
+          "longitude": -66.0797351
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:ac001526-c198-4010-0945-08df336c370c",
+      "source": "oferta-del-dia",
+      "restaurant": "Edelweiss Bar & Grill, Luquillo",
+      "offer": "Edelweiss Bar & Grill, Luquillo: ¡El plan perfecto para compartir! Disfruta de (2) Platos Principales a escoger + Acompañante por plato + (2) Bebidas",
+      "price": 39.95,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/ac001526-c198-4010-0945-08df336c370c/cea8d5f2.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/ac001526-c198-4010-0945-08df336c370c",
+      "saleEndsAt": "2026-11-12T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:ac001526-c198-4010-0945-08df336c370c:1",
+          "address": "Marginal la Monserrate, Carr #3 km 34.5 (Kiosko #38), Luquillo, PR 00773",
+          "latitude": 18.38066,
+          "longitude": -65.73546999999999
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:9d506e58-44c1-4e0c-76bc-08df34f9aea4",
+      "source": "oferta-del-dia",
+      "restaurant": "Lechoncito's Restaurant",
+      "offer": "¡Auténtico sabor puertorriqueño! Disfruta de 1 Aperitivo + 2 Mofongos Rellenos + 2 Bebidas + Postre",
+      "price": 29.65,
+      "discount": 39,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/9d506e58-44c1-4e0c-76bc-08df34f9aea4/a85a5f8a.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/9d506e58-44c1-4e0c-76bc-08df34f9aea4",
+      "saleEndsAt": "2026-11-17T03:59:00.000Z",
+      "redemptionHours": [
+        "Lunes a domingo de 8:30 a.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:9d506e58-44c1-4e0c-76bc-08df34f9aea4:1",
+          "address": "1108 Ave 65 de Infantería, BLDG 1108, San Juan, PR 00924",
+          "latitude": 18.3968502,
+          "longitude": -66.0050572
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:52d69a9a-c6c7-452b-ae4f-08df35c35bc3",
+      "source": "oferta-del-dia",
+      "restaurant": "La Fonda Gourmet",
+      "offer": "🔥Deléitate con un Certificado de $40 para disfrutar del menú abierto de comida y bebida en La Fonda Gourmet por solo $20",
+      "price": 20,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/52d69a9a-c6c7-452b-ae4f-08df35c35bc3/449e3120.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/52d69a9a-c6c7-452b-ae4f-08df35c35bc3",
+      "saleEndsAt": "2026-11-16T03:59:00.000Z",
+      "redemptionHours": [
+        "Lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:52d69a9a-c6c7-452b-ae4f-08df35c35bc3:1",
+          "address": "Calle Fernández Garcia 111, Frente a la Plaza de Luquillo, Luquillo, PR 00773",
+          "latitude": 18.3763118,
+          "longitude": -65.7157038
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:5c7db116-b6be-4645-76bb-08df34f9aea4",
+      "source": "oferta-del-dia",
+      "restaurant": "La Vaca Enfurecida",
+      "offer": "La Vaca Enfurecida, San Juan: Paella para 4 personas a escoger entre: Jambalaya / Luisiana o Paellla Jibara + 4 Bebidas a escoger por $49",
+      "price": 49,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/5c7db116-b6be-4645-76bb-08df34f9aea4/4e22efc1.png",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/5c7db116-b6be-4645-76bb-08df34f9aea4",
+      "saleEndsAt": "2026-11-17T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a domingos de 1:00 p.m. a 7:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:5c7db116-b6be-4645-76bb-08df34f9aea4:1",
+          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
+          "latitude": 18.4650497,
+          "longitude": -66.1107337
         }
       ]
     }

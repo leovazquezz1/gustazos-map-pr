@@ -5,8 +5,17 @@ export type DealLocation = {
   longitude: number
 }
 
+export type DealSource = 'gustazos' | 'oferta-del-dia'
+
+export type DealSourceInfo = {
+  id: DealSource
+  name: string
+  url: string
+}
+
 export type Deal = {
   id: string
+  source: DealSource
   restaurant: string
   offer: string
   price: number | null
@@ -20,7 +29,7 @@ export type Deal = {
 }
 
 export type DealsPayload = {
-  source: string
+  sources: DealSourceInfo[]
   updatedAt: string
   deals: Deal[]
 }

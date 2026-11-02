@@ -26,6 +26,10 @@ export function validateDeals(deals: Deal[]): DealValidationSummary {
     if (dealIds.has(deal.id)) throw new Error(`Duplicate deal id: ${deal.id}`)
     dealIds.add(deal.id)
 
+    if (deal.source !== 'gustazos' && deal.source !== 'oferta-del-dia') {
+      throw new Error(`Deal ${deal.id} has an invalid source`)
+    }
+
     if (deal.locations.length === 0) {
       throw new Error(`Deal ${deal.id} (${deal.restaurant}) has no redemption locations`)
     }
@@ -79,9 +83,21 @@ export function validateDeals(deals: Deal[]): DealValidationSummary {
 }
 
 export function validatePayload(payload: DealsPayload): DealValidationSummary {
-  if (!payload.source.trim()) throw new Error('The deal feed is missing its source')
+  if (!Array.isArray(payload.sources) || payload.sources.length < 2) {
+    throw new Error('The deal feed must include every configured source')
+  }
+  const sourceIds = new Set(payload.sources.map((source) => source.id))
+  if (!sourceIds.has('gustazos') || !sourceIds.has('oferta-del-dia')) {
+    throw new Error('The deal feed is missing a configured source')
+  }
   if (!Number.isFinite(Date.parse(payload.updatedAt))) {
     throw new Error('The deal feed has an invalid updatedAt timestamp')
+  }
+
+  for (const sourceId of sourceIds) {
+    if (!payload.deals.some((deal) => deal.source === sourceId)) {
+      throw new Error(`The deal feed contains no deals from ${sourceId}`)
+    }
   }
 
   return validateDeals(payload.deals)

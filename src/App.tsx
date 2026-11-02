@@ -47,11 +47,15 @@ function markerIcon(deal: Deal, selected: boolean) {
   const label = deal.price == null ? 'Oferta' : `$${deal.price}`
   return L.divIcon({
     className: 'deal-marker-shell',
-    html: `<span class="deal-marker${selected ? ' is-selected' : ''}">${label}</span>`,
+    html: `<span class="deal-marker deal-marker--${deal.source}${selected ? ' is-selected' : ''}">${label}</span>`,
     iconSize: [64, 36],
     iconAnchor: [32, 34],
     popupAnchor: [0, -35],
   })
+}
+
+function sourceName(deal: Deal) {
+  return deal.source === 'gustazos' ? 'Gustazos' : 'Oferta del Día'
 }
 
 function RecenterMap({ target, zoom = 14 }: { target: [number, number] | null; zoom?: number }) {
@@ -110,6 +114,7 @@ function DealCard({
       </div>
       <div className="deal-card__body">
         <div className="deal-card__eyebrow">
+          <span className={`source-badge source-badge--${deal.source}`}>{sourceName(deal)}</span>
           {deal.price != null && <strong>${deal.price}</strong>}
           {distance != null && <span>{distance.toFixed(distance < 10 ? 1 : 0)} km</span>}
           <span>{deal.locations.length} {deal.locations.length === 1 ? 'localidad' : 'localidades'}</span>
@@ -147,6 +152,7 @@ function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selected
       <img className="deal-panel__hero" src={deal.image} alt="" />
       <div className="deal-panel__content">
         <div className="deal-panel__badges">
+          <span className={`source-badge source-badge--${deal.source}`}>{sourceName(deal)}</span>
           {deal.price != null && <span className="price-badge">${deal.price}</span>}
           {deal.discount != null && <span className="saving-badge">Ahorra {deal.discount}%</span>}
         </div>
@@ -187,7 +193,7 @@ function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selected
           ))}
         </div>
         <a className="primary-button" href={deal.url} target="_blank" rel="noreferrer">
-          Ver y comprar en Gustazos <ArrowUpRight size={18} />
+          Ver y comprar en {sourceName(deal)} <ArrowUpRight size={18} />
         </a>
       </div>
     </section>
@@ -292,7 +298,7 @@ export default function App() {
   }
 
   if (!payload) {
-    return <main className="status-screen"><div className="loader" /><p>Cargando Gustazos…</p></main>
+    return <main className="status-screen"><div className="loader" /><p>Cargando ofertas…</p></main>
   }
 
   return (
@@ -301,8 +307,8 @@ export default function App() {
         <header className="brand-row">
           <div className="brand-mark"><MapPinned size={22} /></div>
           <div>
-            <h1>Gustazos cerca de ti</h1>
-            <p>Ofertas de restaurantes en el mapa</p>
+            <h1>Ofertas cerca de ti</h1>
+            <p>Gustazos + Oferta del Día</p>
           </div>
           <span className="live-pill"><span /> EN VIVO</span>
         </header>
@@ -370,7 +376,13 @@ export default function App() {
         <footer className="sidebar-footer">
           <Clock3 size={14} /> Actualizado {formatSyncDate(payload.updatedAt)}
           <span>·</span>
-          <a href={payload.source} target="_blank" rel="noreferrer">Fuente: Gustazos</a>
+          <span>Fuentes:</span>
+          {payload.sources.map((source, index) => (
+            <span key={source.id}>
+              {index > 0 && ' · '}
+              <a href={source.url} target="_blank" rel="noreferrer">{source.name}</a>
+            </span>
+          ))}
         </footer>
       </aside>
 
@@ -411,14 +423,14 @@ export default function App() {
 
       <div className="mobile-topbar">
         <div className="brand-mark"><MapPinned size={20} /></div>
-        <div><strong>Gustazos cerca de ti</strong><span>{visibleDeals.length} ofertas · Actualizado {formatSyncTime(payload.updatedAt)}</span></div>
+        <div><strong>Ofertas cerca de ti</strong><span>{visibleDeals.length} ofertas · Actualizado {formatSyncTime(payload.updatedAt)}</span></div>
         <div className="mobile-topbar__actions">
           <a
             className="icon-button run-workflow-button"
             href="https://github.com/leovazquezz1/gustazos-map-pr/actions/workflows/refresh-deals.yml"
             target="_blank"
             rel="noreferrer"
-            aria-label="Ejecutar actualización desde Gustazos"
+            aria-label="Ejecutar actualización de restaurantes"
           >
             <Play size={17} fill="currentColor" />
           </a>
