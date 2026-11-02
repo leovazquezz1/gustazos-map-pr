@@ -1,6 +1,6 @@
 {
   "source": "https://www.gustazos.com/c/restaurants1",
-  "updatedAt": "2026-11-02T00:12:50.341Z",
+  "updatedAt": "2026-11-02T06:23:03.884Z",
   "deals": [
     {
       "id": "Restaurants_oceanrestlounge1",
@@ -47,29 +47,6 @@
           "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
           "latitude": 18.4633907,
           "longitude": -66.0881382
-        }
-      ]
-    },
-    {
-      "id": "Restaurants_pepperonipizzapastabar1",
-      "restaurant": "Pepperoni Pizza Pasta Bar - San Sebastián",
-      "offer": "$34 por 2 Platos principales a escoger entre: Pasta o Risotto de Ribeye; Mofongo mar y tierra (churrasco y camarones) en salsa cremosa o criolla; o Filete de salmón con arroz mamposteado o lasaña + 2 Copas de sangrías de la casa, Piña Colada o refrescos + 50% de Descuento en postres",
-      "price": 34,
-      "discount": 56,
-      "image": "https://images.gustazos.com/storage/2026-09/6aa863f1e70c3_dp-0008-2.jpg",
-      "logo": "https://images.gustazos.com/storage/2026-09/6aa863da7383d_artboard-logo-voucher.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_pepperonipizzapastabar1",
-      "saleEndsAt": "2026-11-02T04:59:00.000Z",
-      "redemptionHours": [
-        "jueves a domingo de 11:00 a.m. a 10:00 p.m.",
-        "No es válido en los días feriados."
-      ],
-      "locations": [
-        {
-          "id": "Restaurants_pepperonipizzapastabar1-1",
-          "address": "Carr. Enrique Laguerre, Carr. 111 Km 17.9San Sebastián 00685PR",
-          "latitude": 18.346813453663366,
-          "longitude": -67.0006947444419
         }
       ]
     },
