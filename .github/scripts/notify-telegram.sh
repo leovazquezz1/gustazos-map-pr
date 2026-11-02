@@ -13,7 +13,7 @@ if [[ -n "${FAILURE_LOG:-}" && -f "${FAILURE_LOG}" ]]; then
 fi
 
 run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-message=$(printf '🚨 Gustazos map automation failed\n\nWorkflow: %s\nJob: %s\nBranch: %s\nRun: %s\n\nError output:\n%s' \
+message=$(printf '🚨 Restaurant deals map automation failed\n\nWorkflow: %s\nJob: %s\nBranch: %s\nRun: %s\n\nError output:\n%s' \
   "${GITHUB_WORKFLOW}" \
   "${GITHUB_JOB}" \
   "${GITHUB_REF_NAME}" \

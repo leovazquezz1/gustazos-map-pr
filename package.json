@@ -1,5 +1,6 @@
 {
   "name": "gustazos-map-pr",
+  "description": "Interactive map of restaurant deals from Gustazos and Oferta del Día in Puerto Rico",
   "private": true,
   "version": "0.0.0",
   "type": "module",
