@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-02T21:46:35.667Z",
+  "updatedAt": "2026-11-03T06:57:34.641Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_oceanrestlounge1",
@@ -494,6 +494,29 @@
           "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
           "latitude": 18.1169478,
           "longitude": -67.1833913
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_platos43",
+      "source": "gustazos",
+      "restaurant": "Platos Restaurant & Bar - Isla Verde",
+      "offer": "$25 por Gustazo de $45 para consumo del menú abierto para 2 personas + Precio especial de $25 por botella de la famosa sangría de la casa",
+      "price": 25,
+      "discount": 44,
+      "image": "https://images.gustazos.com/storage/2026-11/6ae8fce1447d3_6a7f081eb4514-68e6b7cd88661-68af4a08070ab-dealpic-platos7-1-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/80656/b56106f69087bbb5b2e77948baceca0c.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_platos43",
+      "saleEndsAt": "2026-11-19T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_platos43:1",
+          "address": "Calle Rosa # 2 Isla Verde 0079PR",
+          "latitude": 18.442204,
+          "longitude": -66.016207
         }
       ]
     },
