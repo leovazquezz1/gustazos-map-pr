@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-03T06:57:34.641Z",
+  "updatedAt": "2026-11-03T19:35:51.301Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_oceanrestlounge1",
@@ -60,6 +60,30 @@
           "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
           "latitude": 18.4633907,
           "longitude": -66.0881382
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_pepperonipizzapastabar1",
+      "source": "gustazos",
+      "restaurant": "Pepperoni Pizza Pasta Bar - San Sebastián",
+      "offer": "$34 por 2 Platos principales a escoger entre: Pasta o Risotto de Ribeye; Mofongo mar y tierra (churrasco y camarones) en salsa cremosa o criolla; o Filete de salmón con arroz mamposteado o lasaña + 2 Copas de sangrías de la casa, Piña Colada o refrescos + 50% de Descuento en postres",
+      "price": 34,
+      "discount": 56,
+      "image": "https://images.gustazos.com/storage/2026-09/6aa863f1e70c3_dp-0008-2.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-09/6aa863da7383d_artboard-logo-voucher.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_pepperonipizzapastabar1",
+      "saleEndsAt": null,
+      "redemptionHours": [
+        "jueves a domingo de 11:00 a.m. a 10:00 p.m.",
+        "No es válido en los días feriados."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_pepperonipizzapastabar1:1",
+          "address": "Carr. Enrique Laguerre, Carr. 111 Km 17.9San Sebastián 00685PR",
+          "latitude": 18.346813453663366,
+          "longitude": -67.0006947444419
         }
       ]
     },
@@ -288,7 +312,7 @@
       "image": "https://images.gustazos.com/storage/2026-09/6abbefe99e7d2_690e6a816b0e9-dealpic-rancho02.jpg",
       "logo": "https://images.gustazos.com/storage/2024-12/6761dfdb2be8a_rancho01-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_RanchoOriginal5",
-      "saleEndsAt": null,
+      "saleEndsAt": "2026-11-22T04:59:00.000Z",
       "redemptionHours": [
         "jueves, 26 de noviembre de 2026 de 7:00 a.m. a 2:00 p.m.",
         "No tienes que llamar; estará listo cuando pases a recogerlo."
@@ -704,6 +728,29 @@
           "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
           "latitude": 18.4657995,
           "longitude": -66.1074304
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b",
+      "source": "oferta-del-dia",
+      "restaurant": "La Catrina",
+      "offer": "Paga solo $20 y Disfruta un Certificado de $40 en Comida y Bebida a escoger libremente en Restaurante La Catrina, Luquillo",
+      "price": 20,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/f4679529-4e6d-4cf9-7a9d-08df36bda53b/19fbe6ec.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/f4679529-4e6d-4cf9-7a9d-08df36bda53b",
+      "saleEndsAt": "2026-11-18T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a domingos de 11:00 a.m. a 11:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b:1",
+          "address": "152 Fernandez Garcia, Luquillo, PR 00773",
+          "latitude": 18.3757351,
+          "longitude": -65.715152
         }
       ]
     }
