@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-04T19:52:12.617Z",
+  "updatedAt": "2026-11-05T06:59:44.294Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_oceanrestlounge1",
@@ -97,7 +97,7 @@
       "image": "https://images.gustazos.com/storage/2026-10/6ad674b6a88dd_6ab2d7571fb07-dealpics-0002-5083fb36-6951-4b0d-a164-1e59423b7ed1.jpg",
       "logo": "https://images.gustazos.com/storage/2025-07/6877fc5c33e26_bocao01-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_bocaoysal8",
-      "saleEndsAt": "2026-11-05T05:00:00.000Z",
+      "saleEndsAt": "2026-11-15T05:00:00.000Z",
       "redemptionHours": [
         "martes y miércoles de 11:00 a.m. a 4:30 p.m.",
         "jueves de 11:00 a.m. a 8:30 p.m.",
@@ -675,6 +675,29 @@
           "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
           "latitude": 18.4657995,
           "longitude": -66.1074304
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
+      "source": "oferta-del-dia",
+      "restaurant": "Richie’s Restaurant",
+      "offer": "Richie’s Restaurant: ¡Sabores que despiertan emociones! Certificado de $40 para Consumo Abierto de Comida y Bebida",
+      "price": 20,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/cdd6427c-47d7-4e4c-f98d-08df38fcad5c/f825bff8.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
+      "saleEndsAt": "2026-11-20T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
+          "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     }
