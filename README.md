@@ -16,6 +16,7 @@ en Puerto Rico.
 - Filtros por descuento, precio y distancia.
 - Geolocalización opcional en el navegador.
 - Precio, descuento, imagen, descripción, dirección y horario de redención.
+- Fecha exacta de expiración y días restantes calculados en hora de Puerto Rico.
 - Enlaces profundos a Google Maps y enlaces alternos a OpenStreetMap.
 - Enlaces directos a la fuente original para consultar los términos y comprar.
 - Diseño responsivo para móvil y escritorio.

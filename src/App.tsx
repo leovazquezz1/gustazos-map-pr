@@ -3,6 +3,7 @@ import { MapContainer, Marker, Popup, TileLayer, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import {
   ArrowUpRight,
+  CalendarClock,
   Clock3,
   Crosshair,
   ListFilter,
@@ -21,6 +22,8 @@ type DealPin = { deal: Deal; location: DealLocation }
 type SortMode = 'distance' | 'discount' | 'price'
 
 const PUERTO_RICO_CENTER: [number, number] = [18.2208, -66.5901]
+const PUERTO_RICO_TIME_ZONE = 'America/Puerto_Rico'
+const MILLISECONDS_PER_DAY = 86_400_000
 
 async function fetchDeals(bypassCache = false) {
   const cacheBuster = bypassCache ? `?refresh=${Date.now()}` : ''
@@ -83,7 +86,7 @@ function formatSyncDate(value: string) {
   return new Intl.DateTimeFormat('es-PR', {
     dateStyle: 'medium',
     timeStyle: 'short',
-    timeZone: 'America/Puerto_Rico',
+    timeZone: PUERTO_RICO_TIME_ZONE,
   }).format(new Date(value))
 }
 
@@ -91,8 +94,51 @@ function formatSyncTime(value: string) {
   return new Intl.DateTimeFormat('es-PR', {
     hour: 'numeric',
     minute: '2-digit',
-    timeZone: 'America/Puerto_Rico',
+    timeZone: PUERTO_RICO_TIME_ZONE,
   }).format(new Date(value))
+}
+
+function puertoRicoCalendarDay(value: Date) {
+  const parts = new Intl.DateTimeFormat('en-CA', {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric',
+    timeZone: PUERTO_RICO_TIME_ZONE,
+  }).formatToParts(value)
+  const part = (type: Intl.DateTimeFormatPartTypes) =>
+    Number(parts.find((item) => item.type === type)?.value)
+  return Date.UTC(part('year'), part('month') - 1, part('day')) / MILLISECONDS_PER_DAY
+}
+
+function expirationInfo(value: string | null) {
+  if (!value) return null
+  const expiration = new Date(value)
+  if (Number.isNaN(expiration.getTime())) return null
+  const daysLeft = puertoRicoCalendarDay(expiration) - puertoRicoCalendarDay(new Date())
+  const date = new Intl.DateTimeFormat('es-PR', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric',
+    timeZone: PUERTO_RICO_TIME_ZONE,
+  }).format(expiration)
+  const days = daysLeft < 0
+    ? 'Expirada'
+    : daysLeft === 0
+      ? 'Vence hoy'
+      : `${daysLeft} ${daysLeft === 1 ? 'día restante' : 'días restantes'}`
+  return { date, days, expired: daysLeft < 0 }
+}
+
+function DealExpiration({ deal, compact = false }: { deal: Deal; compact?: boolean }) {
+  const expiration = expirationInfo(deal.saleEndsAt)
+  if (!expiration) return null
+  return (
+    <div className={`deal-expiration${compact ? ' deal-expiration--compact' : ''}${expiration.expired ? ' is-expired' : ''}`}>
+      <CalendarClock size={compact ? 13 : 16} />
+      <span>Vence <strong>{expiration.date}</strong></span>
+      <span className="deal-expiration__days">{expiration.days}</span>
+    </div>
+  )
 }
 
 function DealCard({
@@ -121,6 +167,7 @@ function DealCard({
         </div>
         <h3>{deal.restaurant}</h3>
         <p>{deal.offer}</p>
+        <DealExpiration deal={deal} compact />
       </div>
     </button>
   )
@@ -155,6 +202,7 @@ function DealPanel({ deal, selectedLocationId, onClose }: { deal: Deal; selected
         </div>
         <h2>{deal.restaurant}</h2>
         <p className="deal-panel__offer">{deal.offer}</p>
+        <DealExpiration deal={deal} />
         {deal.redemptionHours.length > 0 && (
           <div className="redemption-hours">
             <div className="redemption-hours__title"><Clock3 size={16} /> Horario de redención</div>

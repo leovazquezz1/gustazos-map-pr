@@ -38,6 +38,10 @@ export function validateDeals(deals: Deal[]): DealValidationSummary {
       throw new Error(`Deal ${deal.id} (${deal.restaurant}) has invalid redemption hours`)
     }
 
+    if (deal.saleEndsAt !== null && !Number.isFinite(Date.parse(deal.saleEndsAt))) {
+      throw new Error(`Deal ${deal.id} (${deal.restaurant}) has an invalid expiration date`)
+    }
+
     if (deal.locations.length > 1) {
       multiLocationDeals.push({
         id: deal.id,
