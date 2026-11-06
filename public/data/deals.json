@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-06T06:58:40.132Z",
+  "updatedAt": "2026-11-06T19:30:27.933Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_oceanrestlounge1",
@@ -60,6 +60,27 @@
           "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
           "latitude": 18.4633907,
           "longitude": -66.0881382
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_AmericoGastrobar1",
+      "source": "gustazos",
+      "restaurant": "Américo Gastrobar - La Placita de Santurce",
+      "offer": "$20 por Delicioso plato criollo que incluye: Lechón + Arroz con gandules + Morcilla + Longaniza + Yuca hervida + Pastel + 1 Botella de agua",
+      "price": 20,
+      "discount": 43,
+      "image": "https://images.gustazos.com/storage/2026-10/6ada5550b9259_layer-3-0002-img-0426.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-10/6ada554c817b0_americo.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_AmericoGastrobar1",
+      "saleEndsAt": "2026-11-22T04:00:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_AmericoGastrobar1:1",
+          "address": "La Placita de Santurce, 250 Calle DuffautSan Juan 00907PR",
+          "latitude": 18.45073,
+          "longitude": -66.07114
         }
       ]
     },
@@ -216,6 +237,31 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_aylupita1",
+      "source": "gustazos",
+      "restaurant": "Ay Lupita Tacos y Margaritas - Isabela",
+      "offer": "$39 por un Banquete Mexicano para compartir, que incluye: 2 Órdenes de tacos de birria + 1 Aperitivo de mini nachos de tinga de pollo + 2 Margaritas de especialidad de la casa (La Catrina, La Paloma, Mechita Corta o La Chingona)",
+      "price": 39,
+      "discount": 53,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad7d49a921c8_double-click-smart-object-9-.png",
+      "logo": "https://images.gustazos.com/storage/2026-10/6ad7d49077d11_aylupita.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_aylupita1",
+      "saleEndsAt": "2026-11-12T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
+        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
+        "No es válido en días feriados."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_aylupita1:1",
+          "address": "Carr 2. (Km 111.1)Isabela 00662PR",
+          "latitude": 18.47222816512173,
+          "longitude": -67.01769323291404
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_NachoLibre10",
       "source": "gustazos",
       "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
@@ -319,6 +365,31 @@
           "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.37650270762727,
           "longitude": -65.71644891559421
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_CulturaRest1",
+      "source": "gustazos",
+      "restaurant": "Cultura Restaurant - Aguadilla",
+      "offer": "$33 por 2 Platos principales a escoger entre: “El Sabroso”, con risotto de gandules apastelado con longaniza, churrasco y pork belly; Mofongo “Survival Beach”, relleno de mariscos (pulpo, camarones, calamares, pescado, cangrejo, mejillones y almejas) en salsa cremosa de cilantro; o Mofongo Relleno de Brisket + 1 Aperitivo de Mini Empanadillas de Pizza",
+      "price": 33,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad266a990bfd_layer-3-0000-principal.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-10/6ad266a3ec99b_culturarest.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_CulturaRest1",
+      "saleEndsAt": "2026-11-12T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
+        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
+        "No es válido en días feriados."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_CulturaRest1:1",
+          "address": "Carr. 110 Km. 31.5Aguadilla 00603PR",
+          "latitude": 18.50636,
+          "longitude": -67.109156
         }
       ]
     },
@@ -671,8 +742,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3851173,
-          "longitude": -65.7725889
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     },
