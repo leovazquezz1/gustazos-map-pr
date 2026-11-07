@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-06T19:30:27.933Z",
+  "updatedAt": "2026-11-07T06:10:57.556Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_oceanrestlounge1",
@@ -182,36 +182,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_enfurecida36",
-      "source": "gustazos",
-      "restaurant": "La Vaca Enfurecida - San Juan y Cabo Rojo",
-      "offer": "$49 por 2 Platos principales a escoger entre: Churrasco relleno de chorizo parrillero y queso, bañado en chimichurri rústico ahumado; Mar y Tierra: Churrasco relleno de camarones en crema de cilantro y vino; o Lomo de cerdo en salsa de pimientos rostizados dulce y salada + Ensaladas + 1 Acompañante por plato a escoger entre: Arroz mamposteao, majado de papas o viandas, papas salteadas, tostones de pana o plátano, o papas fritas + 2 Bebidas a escoger entre: Sangría, mojitos, margaritas, cervezas, refresco o agua",
-      "price": 49,
-      "discount": 46,
-      "image": "https://images.gustazos.com/storage/2026-08/6a7b491c556f0_69af35bb61349-lavaca13-dealpic.jpg",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_enfurecida36",
-      "saleEndsAt": "2026-11-07T05:00:00.000Z",
-      "redemptionHours": [
-        "San Juan: lunes a domingo de 1:00 p.m. a 7:00 p.m. Teléfono: (939) 204-0696",
-        "Cabo Rojo: jueves y viernes de 4:00 p.m. a 12:00 a.m. sábados y domingos de 12:00 p.m. a 6:00 p.m. Teléfono: (939) 242-0523"
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_enfurecida36:1",
-          "address": "Calle del TrenSan Juan rojo 00901PR",
-          "latitude": 18.46533739772697,
-          "longitude": -66.10614260737334
-        },
-        {
-          "id": "gustazos:Restaurants_enfurecida36:2",
-          "address": "101 PR-101cabo rojo 00622PR",
-          "latitude": 18.024816772316875,
-          "longitude": -67.17311615643348
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_pancakebistro18",
       "source": "gustazos",
       "restaurant": "Pancake Bistro Café - Isabela",
@@ -323,52 +293,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_lacatrinaluquillo2",
-      "source": "gustazos",
-      "restaurant": "La Catrina - Luquillo",
-      "offer": "$35 por 2 Platos a escoger entre: Quesabirrias de carne de res (2), Burrito supremo de pollo o Quesadilla suprema de pollo + 2 Margaritas regulares o Micheladas",
-      "price": 35,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad6730715410_photo-30-.png",
-      "logo": "https://images.gustazos.com/storage/2025-10/68efe22cdb65c_logo-template-300x300-33-.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_lacatrinaluquillo2",
-      "saleEndsAt": "2026-11-07T04:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingo de 11:00 a.m. a 10:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_lacatrinaluquillo2:1",
-          "address": "152 Calle Fernández GarcíaLuquillo 00773PR",
-          "latitude": 18.375814459081365,
-          "longitude": -65.715040623522
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_lafondagourmet2",
-      "source": "gustazos",
-      "restaurant": "La Fonda Gourmet - Luquillo",
-      "offer": "$45 por 2 Platos a escoger entre: Chuletón Kan Kan de 2 lb; Chillo Frito de 1.5 lb; o Mofongo relleno de pollo + 2 Copas de sangría de la casa",
-      "price": 45,
-      "discount": 55,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad0fb7a8c6f4_68f1bb91339bc-dealpic-lafonda.jpg",
-      "logo": "https://images.gustazos.com/storage/2025-10/68f1bb8db15b5_logo-template-300x300-39-.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_lafondagourmet2",
-      "saleEndsAt": "2026-11-07T04:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_lafondagourmet2:1",
-          "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
-          "latitude": 18.37650270762727,
-          "longitude": -65.71644891559421
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_CulturaRest1",
       "source": "gustazos",
       "restaurant": "Cultura Restaurant - Aguadilla",
@@ -472,6 +396,30 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_nonnamia13",
+      "source": "gustazos",
+      "restaurant": "Nonnamía Pizzería - San Juan",
+      "offer": "$15.99 por 'Buffet All You Can Eat' por persona, que incluye: Pasta, variedad de pizzas y breadsticks",
+      "price": 15.99,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee065f62b07_6a6cd3c9ba279-69fe1cfe94fd9-69b05971b336a-6973c006913d1-692dbbba0064d-68f7e42440760-dealpic-nonnamia05.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-07/687a8c872f68b_nonnamia01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_nonnamia13",
+      "saleEndsAt": "2026-11-23T04:00:00.000Z",
+      "redemptionHours": [
+        "martes a viernes de 11:00 a.m. a 2:00 p.m.",
+        "sábados de 4:00 p.m. a 6:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_nonnamia13:1",
+          "address": "1228 Calle 54 SESan Juan 00921PR",
+          "latitude": 18.394688127183652,
+          "longitude": -66.0791833981781
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_PuestadelSol15",
       "source": "gustazos",
       "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
@@ -537,29 +485,6 @@
           "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
           "latitude": 18.4657995,
           "longitude": -66.1074304
-        }
-      ]
-    },
-    {
-      "id": "oferta-del-dia:6df8b02b-d84c-42c9-8ffd-08df2df5973a",
-      "source": "oferta-del-dia",
-      "restaurant": "Restaurante El Plátano Criollo, Carolina",
-      "offer": "Rest. El Plátano Criollo: El antojo criollo que estabas esperando🔥(2) Mofongos rellenos a escoger + (2) Sopas de plátano por $27",
-      "price": 27,
-      "discount": 55,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/6df8b02b-d84c-42c9-8ffd-08df2df5973a/a58d71e5.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/6df8b02b-d84c-42c9-8ffd-08df2df5973a",
-      "saleEndsAt": "2026-11-07T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a jueves de 11:00am a 10:00pm."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:6df8b02b-d84c-42c9-8ffd-08df2df5973a:1",
-          "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
-          "latitude": 18.39558,
-          "longitude": -65.98312
         }
       ]
     },
@@ -767,6 +692,29 @@
           "address": "Barrio Guavate Carr. 184 KM 27.5, Cayey, PR 00736",
           "latitude": 18.128761,
           "longitude": -66.0726177
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:82f20871-8fc2-4c61-0193-08df3a9d751a",
+      "source": "oferta-del-dia",
+      "restaurant": "Asia de Lima, San Juan",
+      "offer": "¡Cuando Perú, Italia y Asia se encuentran, el resultado es delicioso! Disfruta Certificado de $30 para consumir en Asia de Lima por solo $15",
+      "price": 15,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/82f20871-8fc2-4c61-0193-08df3a9d751a/48e84de5.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/82f20871-8fc2-4c61-0193-08df3a9d751a",
+      "saleEndsAt": "2026-11-29T03:59:00.000Z",
+      "redemptionHours": [
+        "Lunes a jueves de 4:00 p.m. a 10:00 p.m / Viernes de 4:00 p.m. a 11:00 p.m. / Sábados de 12:00 m.d. a 11:00 p.m. y Domingos 12:00 m.d. a 9:00p.m. (Brunch no Aplica)."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:82f20871-8fc2-4c61-0193-08df3a9d751a:1",
+          "address": "1700 Avenida Juan Ponce de León, San Juan, 00909, San Juan, PR 00909",
+          "latitude": 18.4424992,
+          "longitude": -66.0639453
         }
       ]
     }
