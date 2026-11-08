@@ -11,58 +11,8 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-07T21:58:39.914Z",
+  "updatedAt": "2026-11-08T06:16:56.744Z",
   "deals": [
-    {
-      "id": "gustazos:Restaurants_oceanrestlounge1",
-      "source": "gustazos",
-      "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
-      "offer": "$59 por Paella para 2 personas de carnes: Chorizo parrillero, Pollo y Longaniza + 2 Copas de vino tinto, blanco de la casa o sangría + Croquetas de Manchego y Jamón Serrano + Precio preferencial de $3 por 2 horas de estacionamiento",
-      "price": 59,
-      "discount": 61,
-      "image": "https://images.gustazos.com/storage/2026-09/6abbe4a404260_6.png",
-      "logo": "https://images.gustazos.com/storage/2026-09/6abbe45d29dfd_disen-o-sin-ti-tulo-35-.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge1",
-      "saleEndsAt": "2026-11-08T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingos de 12:00 p.m. a 8:00 p.m.",
-        "No es válido en feriados.",
-        "No es válido el 5 y 6 de noviembre de 2026."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_oceanrestlounge1:1",
-          "address": "(Caribe Hilton) 1 Calle San GerónimoSan Juan 00901PR",
-          "latitude": 18.4633907,
-          "longitude": -66.0881382
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_oceanrestlounge2",
-      "source": "gustazos",
-      "restaurant": "Ocean Restaurant and Lounge - Caribe Hilton, San Juan",
-      "offer": "$59 por Parrillada de carnes para 2 personas que incluye: Chuleta Kan Kan, Longaniza, Pechuga de Pollo + Ensalada de la Casa + 2 Copas de vino tinto, blanco o Sangría + Tarifa especial de $3 por 2 horas de estacionamiento",
-      "price": 59,
-      "discount": 61,
-      "image": "https://images.gustazos.com/storage/2026-09/6abbe3dca3865_10.png",
-      "logo": "https://images.gustazos.com/storage/2026-09/6abbe150d5d57_disen-o-sin-ti-tulo-35-.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_oceanrestlounge2",
-      "saleEndsAt": "2026-11-08T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingos de 12:00 p.m. a 8:00 p.m.",
-        "No es válido en feriados.",
-        "No es válido el 5 y 6 de noviembre de 2026."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_oceanrestlounge2:1",
-          "address": "(Caribe Hilton, San Juan) 1 Calle San GerónimoSan Juan 00901PR",
-          "latitude": 18.4633907,
-          "longitude": -66.0881382
-        }
-      ]
-    },
     {
       "id": "gustazos:Restaurants_AmericoGastrobar1",
       "source": "gustazos",
@@ -667,8 +617,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3839299,
-          "longitude": -65.7702189
+          "latitude": 18.3851173,
+          "longitude": -65.7725889
         }
       ]
     },
@@ -715,6 +665,29 @@
           "address": "1700 Avenida Juan Ponce de León, San Juan, 00909, San Juan, PR 00909",
           "latitude": 18.4424992,
           "longitude": -66.0639453
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:36e539c7-c704-4946-0432-08df3aae52dc",
+      "source": "oferta-del-dia",
+      "restaurant": "La Vaca Enfurecida",
+      "offer": "La Vaca Enfurecida, San Juan: 2 Platos principales a escoger + 1 Acompañante por plato + 2 bebidas a escoger por $59",
+      "price": 59,
+      "discount": 51,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/36e539c7-c704-4946-0432-08df3aae52dc/1eb67077.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/36e539c7-c704-4946-0432-08df3aae52dc",
+      "saleEndsAt": "2026-12-01T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves y domingos: 11:00 AM a 11:00 PM, viernes y sábados: 11:00 AM hasta las 2:00 AM (para los que estiran el fin de semana)."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:36e539c7-c704-4946-0432-08df3aae52dc:1",
+          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
+          "latitude": 18.4657995,
+          "longitude": -66.1074304
         }
       ]
     }
