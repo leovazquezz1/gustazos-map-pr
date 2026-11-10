@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-09T22:29:31.778Z",
+  "updatedAt": "2026-11-10T07:28:49.971Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_AmericoGastrobar1",
@@ -132,6 +132,50 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_LaLata11",
+      "source": "gustazos",
+      "restaurant": "La Lata - 4 Localidades",
+      "offer": "$20 por 1 Pizza Honey Pepperoni mediana (8 pedazos) + 1 Orden de Garlic Knots + 2 Refrescos",
+      "price": 20,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee2b5b349cb_6aa46b3c944d8-6a3aa1b17ed2f-69e7e1b25b149-lata03-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-03/67cb5409591a1_logo-template-300x300-21-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_LaLata11",
+      "saleEndsAt": "2026-11-26T04:00:00.000Z",
+      "redemptionHours": [
+        "Bayamón: lunes a miércoles de 11:00 a.m. a 9:00 p.m. jueves de 11:00 a.m. a 10:00 p.m. viernes y sábados de 11:00 a.m. a 11:00 p.m. domingos de 12:00 p.m. a 10:00 p.m. Teléfono: (787) 786-8503",
+        "Río Piedras: lunes y martes de 11:00 a.m. a 10:00 p.m. miércoles a viernes de 11:00 a.m. a 11:30 p.m. sábados de 12:00 p.m. a 11:30 p.m. domingos de 1:00 p.m. a 9:00 p.m. Teléfono: (787) 922-7051",
+        "Trujillo Alto: lunes a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 11:00 p.m. viernes de 11:00 a.m. a 12:00 a.m. sábados de 12:00 p.m. a 11:00 p.m. domingos de 1:00 p.m. a 10:00 p.m. Teléfono: (787) 673-5739",
+        "Barceloneta: domingo a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 11:00 p.m. viernes y sábados de 11:00 a.m. a 1:00 a.m. Teléfono: (939) 421-1089"
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_LaLata11:1",
+          "address": "51 Av. Universidad,Río Piedras 00925PR",
+          "latitude": 18.40307042977047,
+          "longitude": -66.05355169325435
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata11:2",
+          "address": "Plaza Matienzo Shopping Center, Carr. 8860 KM 1.5,Trujillo Alto 00976PR",
+          "latitude": 18.364928303238482,
+          "longitude": -65.9970024644197
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata11:3",
+          "address": "30-3 Av. Main,Bayamón 00959PR",
+          "latitude": 18.388165321492906,
+          "longitude": -66.14171966855095
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata11:4",
+          "address": "Carr. 681, Ave. Palmas Altasbarceloneta 00617PR",
+          "latitude": 18.454983946320592,
+          "longitude": -66.54085912238119
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_pancakebistro18",
       "source": "gustazos",
       "restaurant": "Pancake Bistro Café - Isabela",
@@ -243,6 +287,29 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_lacatrinaluquillo2",
+      "source": "gustazos",
+      "restaurant": "La Catrina - Luquillo",
+      "offer": "$35 por 2 Platos a escoger entre: Quesabirrias de carne de res (2), Burrito supremo de pollo o Quesadilla suprema de pollo + 2 Margaritas regulares o Micheladas",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad6730715410_photo-30-.png",
+      "logo": "https://images.gustazos.com/storage/2025-10/68efe22cdb65c_logo-template-300x300-33-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_lacatrinaluquillo2",
+      "saleEndsAt": "2026-11-18T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_lacatrinaluquillo2:1",
+          "address": "152 Calle Fernández GarcíaLuquillo 00773PR",
+          "latitude": 18.375814459081365,
+          "longitude": -65.715040623522
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_CulturaRest1",
       "source": "gustazos",
       "restaurant": "Cultura Restaurant - Aguadilla",
@@ -320,32 +387,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_quierocafe2",
-      "source": "gustazos",
-      "restaurant": "Quiero Café - Vega Alta Park",
-      "offer": "$15 por una Picadera Boricua para hasta 3 personas, que incluye: Carne frita, tostones, sorullitos de maíz y bolitas de mofongo + 2 Refrescos",
-      "price": 15,
-      "discount": 57,
-      "image": "https://images.gustazos.com/storage/2026-10/6acf969a632da_dp-quierocafe.png",
-      "logo": "https://images.gustazos.com/storage/2026-07/6a46b196f30a6_quierocafe01-300x300.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_quierocafe2",
-      "saleEndsAt": "2026-11-10T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a jueves de 11:00 a.m. a 7:00 p.m.",
-        "viernes de 11:00 a.m. a 9:00 p.m.",
-        "sábados de 1:00 p.m. a 9:00 p.m.",
-        "domingos de 1:00 p.m. a 6:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_quierocafe2:1",
-          "address": "Vega Alta ParkVega Alta 00692PR",
-          "latitude": 18.412103417447543,
-          "longitude": -66.32509738714245
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_nonnamia13",
       "source": "gustazos",
       "restaurant": "Nonnamía Pizzería - San Juan",
@@ -366,6 +407,50 @@
           "address": "1228 Calle 54 SESan Juan 00921PR",
           "latitude": 18.394688127183652,
           "longitude": -66.0791833981781
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_LaLata12",
+      "source": "gustazos",
+      "restaurant": "La Lata - 4 Localidades",
+      "offer": "$24 por 2 Baby Pizzas pequeñas a escoger entre: Honey Pepperoni, Spicy Honey, La Jibara (carne molida, amarillos y salsa Alfredo), Primavera (pimiento, cebolla y tomate) o Carnivora (pollo, salchicha, chorizo y jamón); o $29 por 4 Baby Pizzas + Garlic Knots para compartir + 2 Mojitos de 12oz o 1 Padrino de Coca Cola para ambas opciones",
+      "price": 24,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee2def51728_6aa872a67029c-6931cd95ba0a9-68cd98f5d4747-6862c6254e63c-680a6dc81a837-67cb548d3b140-dealpic-lalata.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-03/67cb5409591a1_logo-template-300x300-21-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_LaLata12",
+      "saleEndsAt": "2026-11-26T04:00:00.000Z",
+      "redemptionHours": [
+        "Bayamón: lunes a miércoles de 11:00 a.m. a 9:00 p.m. jueves de 11:00 a.m. a 10:00 p.m. viernes y sábados de 11:00 a.m. a 11:00 p.m. domingos de 12:00 p.m. a 10:00 p.m. Teléfono: (787) 786-8503",
+        "Río Piedras: lunes y martes de 11:00 a.m. a 10:00 p.m. miércoles a viernes de 11:00 a.m. a 11:30 p.m. sábados de 12:00 p.m. a 11:30 p.m. domingos de 1:00 p.m. a 9:00 p.m. Teléfono: (787) 922-7051",
+        "Trujillo Alto: lunes a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 11:00 p.m. viernes de 11:00 a.m. a 12:00 a.m. sábados de 12:00 p.m. a 11:00 p.m. domingos de 1:00 p.m. a 10:00 p.m. Teléfono: (787) 673-5739",
+        "Barceloneta: domingo a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 11:00 p.m. viernes y sábados de 11:00 a.m. a 1:00 a.m. Teléfono: (939) 421-1089"
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_LaLata12:1",
+          "address": "51 Av. Universidad,Río Piedras 00925PR",
+          "latitude": 18.40307042977047,
+          "longitude": -66.05355169325435
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata12:2",
+          "address": "Plaza Matienzo Shopping Center, Carr. 8860 KM 1.5,Trujillo Alto 00976PR",
+          "latitude": 18.364928303238482,
+          "longitude": -65.9970024644197
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata12:3",
+          "address": "30-3 Av. Main,Bayamón 00959PR",
+          "latitude": 18.388165321492906,
+          "longitude": -66.14171966855095
+        },
+        {
+          "id": "gustazos:Restaurants_LaLata12:4",
+          "address": "Carr. 681, Ave. Palmas Altasbarceloneta 00617PR",
+          "latitude": 18.454983946320592,
+          "longitude": -66.54085912238119
         }
       ]
     },
@@ -412,6 +497,54 @@
           "address": "Calle Rosa # 2 Isla Verde 0079PR",
           "latitude": 18.442204,
           "longitude": -66.016207
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_maritimorest8",
+      "source": "gustazos",
+      "restaurant": "Marítimo Restaurant - Cabo Rojo",
+      "offer": "$32 por 2 Mofongos a escoger entre: Camarones, carne frita, pollo, mero, tiburón o res + Caldo de pescado y pan + 2 Bebidas a escoger entre: Cerveza Medalla, Michelob Ultra, Mojito, Margarita en la roca o Sangría de la casa",
+      "price": 32,
+      "discount": 51,
+      "image": "https://images.gustazos.com/storage/2026-11/6aecfe734b06c_6a7f04daa7dbb-69bc3ee78e856-691605ba7ab44-dp-0001-maritimo-10-1-.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-11/691604053d51d_logo-template-300x300-5-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_maritimorest8",
+      "saleEndsAt": "2026-11-26T04:00:00.000Z",
+      "redemptionHours": [
+        "jueves a domingo de 11:30 a.m. a 7:30 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_maritimorest8:1",
+          "address": "PR-103cabo rojo 00623PR",
+          "latitude": 18.080390153809496,
+          "longitude": -67.15027627869212
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_carnaval14",
+      "source": "gustazos",
+      "restaurant": "Carnaval Restaurant and Bar - Santa Isabel",
+      "offer": "$13.95 por Surtido Boricua para hasta 4 personas que incluye: Carne frita + Chicharrones de pollo + Bolitas de mofongo de la casa + Alitas empanadas + Bacalaítos + Sorullos de maíz, servidos con Mayoketchup, salsa marinara y salsa picante + 1 Bucket de 5 cervezas Medalla Regular, Medalla Ultra Light, 1 Jarra de refresco o 5 botellas de agua",
+      "price": 13.95,
+      "discount": null,
+      "image": "https://images.gustazos.com/storage/2026-11/6af1fc4fa87f0_6acf9001410ad-6a7b3de19458f-carnaval01-dealpic.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78708/d66f65de21eca44b31b3426363fe2f4d.gif",
+      "url": "https://www.gustazos.com/deals/Restaurants_carnaval14",
+      "saleEndsAt": "2026-11-26T05:00:00.000Z",
+      "redemptionHours": [
+        "jueves y viernes de 2:00 p.m. a 9:00 p.m.",
+        "sábados y domingos de 12:00 p.m. a 9:00 p.m.",
+        "Este Gustazo™ no es válido en días feriados ni festivos."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_carnaval14:1",
+          "address": "Carretera 153 km 10.7Santa Isabel 00957PR",
+          "latitude": 18.034665,
+          "longitude": -66.36228
         }
       ]
     },
