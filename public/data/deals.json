@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-10T07:28:49.971Z",
+  "updatedAt": "2026-11-10T21:31:18.086Z",
   "deals": [
     {
       "id": "gustazos:Restaurants_AmericoGastrobar1",
@@ -549,29 +549,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:4d0ba27f-aa92-4a0a-8ffb-08df2df5973a",
-      "source": "oferta-del-dia",
-      "restaurant": "La Vaca Enfurecida",
-      "offer": "La Vaca Enfurecida, San Juan: Ribeye Steak de 1lb o Pechuga sobre una Cama de Aguacate + 1 Acompañante por plato + 2 Mojitos por $48",
-      "price": 48,
-      "discount": 48,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/4d0ba27f-aa92-4a0a-8ffb-08df2df5973a/3fa2ef99.png",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/4d0ba27f-aa92-4a0a-8ffb-08df2df5973a",
-      "saleEndsAt": "2026-11-15T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a jueves y domingos: 11:00 AM a 11:00 PM, viernes y sábados: 11:00 AM hasta las 2:00 AM (para los que estiran el fin de semana)."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:4d0ba27f-aa92-4a0a-8ffb-08df2df5973a:1",
-          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
-          "latitude": 18.4657995,
-          "longitude": -66.1074304
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:4b446936-6c28-4866-9b08-08df30609995",
       "source": "oferta-del-dia",
       "restaurant": "Julieta's Bar & Restaurant",
@@ -664,29 +641,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:5c7db116-b6be-4645-76bb-08df34f9aea4",
-      "source": "oferta-del-dia",
-      "restaurant": "La Vaca Enfurecida",
-      "offer": "La Vaca Enfurecida, San Juan: Paella para 4 personas a escoger entre: Jambalaya / Luisiana o Paellla Jibara + 4 Bebidas a escoger por $49",
-      "price": 49,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/5c7db116-b6be-4645-76bb-08df34f9aea4/4e22efc1.png",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/5c7db116-b6be-4645-76bb-08df34f9aea4",
-      "saleEndsAt": "2026-11-17T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a domingos de 1:00 p.m. a 7:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:5c7db116-b6be-4645-76bb-08df34f9aea4:1",
-          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
-          "latitude": 18.4657995,
-          "longitude": -66.1074304
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b",
       "source": "oferta-del-dia",
       "restaurant": "La Catrina",
@@ -710,29 +664,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:b8879d65-2f54-4b82-f98c-08df38fcad5c",
-      "source": "oferta-del-dia",
-      "restaurant": "La Vaca Enfurecida",
-      "offer": "La Vaca Enfurecida, San Juan: 1 Corte de Carne Tomahawk de 2½ para compartir entre 2 + 2 Acompañantes + 2 Bebidas por $59",
-      "price": 59,
-      "discount": 51,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/b8879d65-2f54-4b82-f98c-08df38fcad5c/e8dc08ea.png",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/b8879d65-2f54-4b82-f98c-08df38fcad5c",
-      "saleEndsAt": "2026-11-19T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a jueves y domingos: 11:00 AM a 11:00 PM, viernes y sábados: 11:00 AM hasta las 2:00 AM (para los que estiran el fin de semana)."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:b8879d65-2f54-4b82-f98c-08df38fcad5c:1",
-          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
-          "latitude": 18.4657995,
-          "longitude": -66.1074304
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
       "source": "oferta-del-dia",
       "restaurant": "Richie’s Restaurant",
@@ -750,8 +681,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3851173,
-          "longitude": -65.7725889
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     },
@@ -798,29 +729,6 @@
           "address": "1700 Avenida Juan Ponce de León, San Juan, 00909, San Juan, PR 00909",
           "latitude": 18.4424992,
           "longitude": -66.0639453
-        }
-      ]
-    },
-    {
-      "id": "oferta-del-dia:36e539c7-c704-4946-0432-08df3aae52dc",
-      "source": "oferta-del-dia",
-      "restaurant": "La Vaca Enfurecida",
-      "offer": "La Vaca Enfurecida, San Juan: 2 Platos principales a escoger + 1 Acompañante por plato + 2 bebidas a escoger por $59",
-      "price": 59,
-      "discount": 51,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/36e539c7-c704-4946-0432-08df3aae52dc/1eb67077.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/36e539c7-c704-4946-0432-08df3aae52dc",
-      "saleEndsAt": "2026-12-01T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a jueves y domingos: 11:00 AM a 11:00 PM, viernes y sábados: 11:00 AM hasta las 2:00 AM (para los que estiran el fin de semana)."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:36e539c7-c704-4946-0432-08df3aae52dc:1",
-          "address": "Paseo Covadonga #54, local 104 BLDG 104, San Juan, PR 00901",
-          "latitude": 18.4657995,
-          "longitude": -66.1074304
         }
       ]
     }
