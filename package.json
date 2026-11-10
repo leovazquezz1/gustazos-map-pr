@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "test": "tsx --test scripts/*.test.ts",
     "refresh-data": "tsx scripts/refresh-deals.ts",
     "validate-data": "tsx scripts/validate-data.ts",
     "build": "npm run validate-data && tsc -b && vite build",

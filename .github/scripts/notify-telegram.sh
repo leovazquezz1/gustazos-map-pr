@@ -13,11 +13,20 @@ if [[ -n "${FAILURE_LOG:-}" && -f "${FAILURE_LOG}" ]]; then
 fi
 
 run_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
-message=$(printf '🚨 Restaurant deals map automation failed\n\nWorkflow: %s\nJob: %s\nBranch: %s\nRun: %s\n\nError output:\n%s' \
+if [[ "${NOTIFICATION_KIND:-failure}" == "warning" ]]; then
+  heading='⚠️ Restaurant deals map update completed with warnings'
+  output_label='Warnings (the update continued):'
+else
+  heading='🚨 Restaurant deals map automation failed'
+  output_label='Error output:'
+fi
+message=$(printf '%s\n\nWorkflow: %s\nJob: %s\nBranch: %s\nRun: %s\n\n%s\n%s' \
+  "${heading}" \
   "${GITHUB_WORKFLOW}" \
   "${GITHUB_JOB}" \
   "${GITHUB_REF_NAME}" \
   "${run_url}" \
+  "${output_label}" \
   "${details}")
 
 curl --fail --silent --show-error \
@@ -27,4 +36,4 @@ curl --fail --silent --show-error \
   --data-urlencode "text=${message}" \
   >/dev/null
 
-echo "Telegram failure notification sent"
+echo "Telegram ${NOTIFICATION_KIND:-failure} notification sent"

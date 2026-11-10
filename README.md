@@ -51,8 +51,11 @@ Actions. Cada ejecución:
    desplegar GitHub Pages cuando los datos cambian.
 
 La validación falla si cualquiera de las dos fuentes deja de producir ofertas de
-restaurantes utilizables. Los fallos del refresh o del build envían una alerta de
-Telegram con el enlace del run y las últimas líneas del error.
+restaurantes utilizables. Si una localidad no publica coordenadas resolubles, se
+omite solamente esa localidad (o la oferta si no queda ninguna localidad válida),
+el resto de la actualización continúa y se envía una advertencia por Telegram.
+Los fallos reales del refresh o del build envían una alerta separada con el enlace
+del run y las últimas líneas del error.
 
 ## Desarrollo
 

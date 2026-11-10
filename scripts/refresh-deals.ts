@@ -1,7 +1,8 @@
 import * as cheerio from 'cheerio'
-import { mkdir, writeFile } from 'node:fs/promises'
+import { mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { Deal, DealLocation, DealSourceInfo, DealsPayload } from '../src/types'
+import { resolveLocations } from './resolve-locations'
 import { validateDeals } from './validate-deals'
 
 const GUSTAZOS_BASE_URL = 'https://www.gustazos.com'
@@ -10,6 +11,7 @@ const OFERTA_BASE_URL = 'https://www.ofertadeldia.com'
 const OFERTA_CATEGORY_URL =
   `${OFERTA_BASE_URL}/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c`
 const OUTPUT = path.resolve('public/data/deals.json')
+const WARNING_OUTPUT = path.resolve('refresh-warnings.log')
 const USER_AGENT =
   'RestaurantDealsMapPR/2.0 (+https://github.com/leovazquezz1/gustazos-map-pr; public-deal index)'
 
@@ -17,6 +19,13 @@ const SOURCES: DealSourceInfo[] = [
   { id: 'gustazos', name: 'Gustazos', url: GUSTAZOS_CATEGORY_URL },
   { id: 'oferta-del-dia', name: 'Oferta del Día', url: OFERTA_CATEGORY_URL },
 ]
+
+const warnings: string[] = []
+
+function recordWarning(message: string) {
+  warnings.push(message)
+  console.warn(`[warning] ${message}`)
+}
 
 type DealSeed = Omit<Deal, 'locations' | 'redemptionHours'>
 
@@ -225,11 +234,13 @@ async function parseOfertaLocations(html: string, dealId: string, detailUrl: str
     const embedUrl = $('#company iframe').eq(index).attr('src')?.trim()
     if (address && embedUrl) locationPairs.push({ address, embedUrl })
   })
-  return mapWithConcurrency(locationPairs, 2, async ({ address, embedUrl }, index) => {
-    const coordinates = await coordinatesFromGoogleEmbed(embedUrl, detailUrl)
-    if (!coordinates) throw new Error(`Could not resolve map coordinates for ${address}`)
-    return { id: `${dealId}:${index + 1}`, address, ...coordinates }
-  })
+  return resolveLocations(
+    locationPairs,
+    dealId,
+    detailUrl,
+    coordinatesFromGoogleEmbed,
+    recordWarning,
+  )
 }
 
 async function mapWithConcurrency<T, R>(
@@ -274,6 +285,10 @@ async function fetchOfertaDelDiaDeals() {
     }
     if (!restaurant) throw new Error(`Oferta del Día deal ${seed.id} is missing its restaurant name`)
     const locations = await parseOfertaLocations(html, seed.id, seed.url)
+    if (locations.length === 0) {
+      recordWarning(`Skipped deal with no resolvable locations: ${restaurant} (${seed.url})`)
+      return null
+    }
     const redemptionHours = parseOfertaRedemptionHours(html)
     console.log(`[Oferta del Día ${index + 1}/${seeds.length}] ${restaurant}: ${locations.length} pin(s)`)
     return { ...seed, restaurant, redemptionHours, locations } satisfies Deal
@@ -282,6 +297,7 @@ async function fetchOfertaDelDiaDeals() {
 }
 
 async function main() {
+  await rm(WARNING_OUTPUT, { force: true })
   const [gustazosDeals, ofertaDelDiaDeals] = await Promise.all([
     fetchGustazosDeals(),
     fetchOfertaDelDiaDeals(),
@@ -297,6 +313,10 @@ async function main() {
   const payload: DealsPayload = { sources: SOURCES, updatedAt: new Date().toISOString(), deals }
   await mkdir(path.dirname(OUTPUT), { recursive: true })
   await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`, 'utf8')
+  if (warnings.length > 0) {
+    await writeFile(WARNING_OUTPUT, `${warnings.join('\n')}\n`, 'utf8')
+    console.warn(`Refresh completed with ${warnings.length} warning(s); details written to ${WARNING_OUTPUT}`)
+  }
   console.log(
     `Wrote ${validation.dealCount} deals and ${validation.pinCount} pins ` +
     `(${gustazosDeals.length} Gustazos, ${ofertaDelDiaDeals.length} Oferta del Día) to ${OUTPUT}`,
