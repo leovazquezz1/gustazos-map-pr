@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-11T06:42:37.029Z",
+  "updatedAt": "2026-11-11T19:09:42.550Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -646,6 +646,29 @@
       "locations": [
         {
           "id": "gustazos:Restaurants_PuestadelSol15:1",
+          "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
+          "latitude": 18.1169478,
+          "longitude": -67.1833913
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_PuestadelSol16",
+      "source": "gustazos",
+      "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
+      "offer": "$39 por 2 Platos principales a escoger entre: Filete de chillo, pechuga a la plancha, mero, salmón o pechuga a la parmesana + 1 Acompañante por plato a escoger entre: Tostones, papas trufadas, majado de viandas, arroz mamposteao, batata frita o yuca frita + 2 Bebidas a escoger entre: Sangría o mojitos de la casa + 1 Postre para compartir, a escoger entre flan de vainilla o flan de queso",
+      "price": 39,
+      "discount": 51,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee243de7e5c_69ebe60366132-6978d567afe48-sol05-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-05/6823b40db0a82_logo-template-300x300-40-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_PuestadelSol16",
+      "saleEndsAt": "2026-11-27T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 12:00 p.m. a 12:00 a.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_PuestadelSol16:1",
           "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
           "latitude": 18.1169478,
           "longitude": -67.1833913
