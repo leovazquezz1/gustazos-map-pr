@@ -2,6 +2,7 @@ import * as cheerio from 'cheerio'
 import { mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { Deal, DealLocation, DealSourceInfo, DealsPayload } from '../src/types'
+import { hasSaleEnded, hasUnavailableGustazosMarkup } from '../src/deal-availability'
 import { resolveLocations } from './resolve-locations'
 import { validateDeals } from './validate-deals'
 
@@ -264,13 +265,23 @@ async function mapWithConcurrency<T, R>(
 async function fetchGustazosDeals() {
   const seeds = parseGustazosSeeds(await fetchHtml(GUSTAZOS_CATEGORY_URL))
   if (seeds.length === 0) throw new Error('No Gustazos restaurant deals were found')
-  return mapWithConcurrency(seeds, 4, async (seed, index): Promise<Deal> => {
+  const activeSeeds = seeds.filter((seed) => {
+    if (!hasSaleEnded(seed.saleEndsAt)) return true
+    console.log(`[Gustazos] Excluded expired offer: ${seed.restaurant}`)
+    return false
+  })
+  const results = await mapWithConcurrency(activeSeeds, 4, async (seed, index): Promise<Deal | null> => {
     const html = await fetchHtml(seed.url)
+    if (hasUnavailableGustazosMarkup(html)) {
+      console.log(`[Gustazos ${index + 1}/${activeSeeds.length}] Excluded unavailable: ${seed.restaurant}`)
+      return null
+    }
     const locations = parseGustazosLocations(html, seed.id)
     const redemptionHours = parseGustazosRedemptionHours(html)
-    console.log(`[Gustazos ${index + 1}/${seeds.length}] ${seed.restaurant}: ${locations.length} pin(s)`)
+    console.log(`[Gustazos ${index + 1}/${activeSeeds.length}] ${seed.restaurant}: ${locations.length} pin(s)`)
     return { ...seed, redemptionHours, locations }
   })
+  return results.filter((deal): deal is Deal => deal !== null)
 }
 
 async function fetchOfertaDelDiaDeals() {
@@ -302,8 +313,16 @@ async function main() {
     fetchGustazosDeals(),
     fetchOfertaDelDiaDeals(),
   ])
-  const deals = [...gustazosDeals, ...ofertaDelDiaDeals].filter((deal) => deal.locations.length > 0)
-  if (gustazosDeals.length === 0 || ofertaDelDiaDeals.length === 0) {
+  const deals = [...gustazosDeals, ...ofertaDelDiaDeals].filter((deal) => {
+    if (deal.locations.length === 0) return false
+    if (!hasSaleEnded(deal.saleEndsAt)) return true
+    console.log(`[${deal.source}] Excluded expired offer: ${deal.restaurant}`)
+    return false
+  })
+  if (
+    !deals.some((deal) => deal.source === 'gustazos') ||
+    !deals.some((deal) => deal.source === 'oferta-del-dia')
+  ) {
     throw new Error('Every configured restaurant source must return at least one usable deal')
   }
   const validation = validateDeals(deals)
@@ -319,7 +338,8 @@ async function main() {
   }
   console.log(
     `Wrote ${validation.dealCount} deals and ${validation.pinCount} pins ` +
-    `(${gustazosDeals.length} Gustazos, ${ofertaDelDiaDeals.length} Oferta del Día) to ${OUTPUT}`,
+    `(${deals.filter((deal) => deal.source === 'gustazos').length} Gustazos, ` +
+    `${deals.filter((deal) => deal.source === 'oferta-del-dia').length} Oferta del Día) to ${OUTPUT}`,
   )
 }
 

@@ -46,9 +46,14 @@ Actions. Cada ejecución:
 2. Extrae los detalles, horarios y todas las localidades de redención.
 3. Resuelve las coordenadas publicadas por cada fuente.
 4. Excluye las ofertas de Oferta del Día que no sean de restaurantes.
-5. Valida identificadores, fuentes, coordenadas y cobertura de localidades.
-6. Actualiza [`public/data/deals.json`](public/data/deals.json) y vuelve a
+5. Excluye ofertas vencidas y páginas de Gustazos marcadas como expiradas o no disponibles.
+6. Valida identificadores, fuentes, vigencia, coordenadas y cobertura de localidades.
+7. Actualiza [`public/data/deals.json`](public/data/deals.json) y vuelve a
    desplegar GitHub Pages cuando los datos cambian.
+
+La interfaz también vuelve a comprobar la fecha de expiración al cargar los datos,
+para que una oferta vencida no aparezca aunque el navegador tenga una copia anterior
+del archivo JSON en caché.
 
 La validación falla si cualquiera de las dos fuentes deja de producir ofertas de
 restaurantes utilizables. Si una localidad no publica coordenadas resolubles, se

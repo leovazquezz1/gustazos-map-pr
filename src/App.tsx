@@ -16,6 +16,7 @@ import {
   X,
 } from 'lucide-react'
 import type { Deal, DealLocation, DealsPayload } from './types'
+import { isDealAvailable } from './deal-availability'
 import './App.css'
 
 type DealPin = { deal: Deal; location: DealLocation }
@@ -258,6 +259,7 @@ export default function App() {
   const [userLocation, setUserLocation] = useState<[number, number] | null>(null)
   const [locationError, setLocationError] = useState('')
   const [refreshing, setRefreshing] = useState(false)
+  const [availabilityNow, setAvailabilityNow] = useState(() => Date.now())
 
   const refreshDeals = useCallback(async () => {
     setRefreshing(true)
@@ -277,14 +279,24 @@ export default function App() {
       .catch((reason: Error) => setError(reason.message))
   }, [])
 
+  useEffect(() => {
+    const interval = window.setInterval(() => setAvailabilityNow(Date.now()), 60_000)
+    return () => window.clearInterval(interval)
+  }, [])
+
+  const activeDeals = useMemo(
+    () => payload?.deals.filter((deal) => isDealAvailable(deal, availabilityNow)) ?? [],
+    [payload, availabilityNow],
+  )
+
   const pins = useMemo<DealPin[]>(
-    () => payload?.deals.flatMap((deal) => deal.locations.map((location) => ({ deal, location }))) ?? [],
-    [payload],
+    () => activeDeals.flatMap((deal) => deal.locations.map((location) => ({ deal, location }))),
+    [activeDeals],
   )
 
   const visibleDeals = useMemo(() => {
     const normalizedQuery = query.trim().toLocaleLowerCase('es')
-    const deals = (payload?.deals ?? []).filter((deal) => {
+    const deals = activeDeals.filter((deal) => {
       const matchesText =
         !normalizedQuery ||
         `${deal.restaurant} ${deal.offer} ${deal.locations.map((item) => item.address).join(' ')}`
@@ -307,11 +319,11 @@ export default function App() {
       if (sortMode === 'price') return (a.price ?? Number.POSITIVE_INFINITY) - (b.price ?? Number.POSITIVE_INFINITY)
       return (b.discount ?? 0) - (a.discount ?? 0)
     })
-  }, [payload, query, minDiscount, sortMode, userLocation])
+  }, [activeDeals, query, minDiscount, sortMode, userLocation])
 
   const visibleIds = useMemo(() => new Set(visibleDeals.map((deal) => deal.id)), [visibleDeals])
   const visiblePins = useMemo(() => pins.filter(({ deal }) => visibleIds.has(deal.id)), [pins, visibleIds])
-  const selectedDeal = payload?.deals.find((deal) => deal.id === selectedId) ?? null
+  const selectedDeal = activeDeals.find((deal) => deal.id === selectedId) ?? null
 
   const selectDeal = (deal: Deal, location = deal.locations[0]) => {
     setSelectedId(deal.id)

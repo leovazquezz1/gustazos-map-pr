@@ -1,4 +1,5 @@
 import type { Deal, DealsPayload } from '../src/types'
+import { hasSaleEnded } from '../src/deal-availability'
 
 const PUERTO_RICO_BOUNDS = {
   minLatitude: 17.8,
@@ -40,6 +41,10 @@ export function validateDeals(deals: Deal[]): DealValidationSummary {
 
     if (deal.saleEndsAt !== null && !Number.isFinite(Date.parse(deal.saleEndsAt))) {
       throw new Error(`Deal ${deal.id} (${deal.restaurant}) has an invalid expiration date`)
+    }
+
+    if (hasSaleEnded(deal.saleEndsAt)) {
+      throw new Error(`Deal ${deal.id} (${deal.restaurant}) is no longer available`)
     }
 
     if (deal.locations.length > 1) {
