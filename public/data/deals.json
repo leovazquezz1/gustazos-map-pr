@@ -11,8 +11,29 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-10T21:31:18.086Z",
+  "updatedAt": "2026-11-11T06:42:37.029Z",
   "deals": [
+    {
+      "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
+      "source": "gustazos",
+      "restaurant": "Sheraton Puerto Rico Resort & Casino - Convention Center, San Juan",
+      "offer": "$185 por un Menú especial de Acción de Gracias para llevar, para hasta 5 personas, que incluye: Ensalada + Arroz con cilantro y limoncillo + Pavo entero asado de 12 lb + Postre + 1 Botella de vino espumoso Torre Oria (Recoger el jueves, 26 de noviembre de 2026)",
+      "price": 185,
+      "discount": 58,
+      "image": "https://images.gustazos.com/storage/2026-11/6af24f8536621_double-click-smart-object-7-.png",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99725/28da3fdc6bed5c39ec8dff2b79a06c30.png",
+      "url": "https://www.gustazos.com/deals/Hotels_sheratonthanksgivingtakeout1",
+      "saleEndsAt": "2026-11-26T03:59:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Hotels_sheratonthanksgivingtakeout1:1",
+          "address": "200 Convention BoulevardSan Juan 00907PR",
+          "latitude": 18.454244,
+          "longitude": -66.090193
+        }
+      ]
+    },
     {
       "id": "gustazos:Restaurants_AmericoGastrobar1",
       "source": "gustazos",
@@ -31,6 +52,136 @@
           "address": "La Placita de Santurce, 250 Calle DuffautSan Juan 00907PR",
           "latitude": 18.45073,
           "longitude": -66.07114
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_dipeawings13",
+      "source": "gustazos",
+      "restaurant": "Dipea Wings - 9 Localidades",
+      "offer": "$25 por 20 Alitas o $28 por 1 Dipea Bundle para 2 personas que incluye: Alitas + Chicken Strips; Ambas opciones incluyen: Waffle Fries regulares y de batata + 4 Salsas a elegir entre 13 sabores + 2 Mojitos de 12oz original o de la variedad de sabores",
+      "price": 25,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee37d1743a0_6a9f0315799a4-6a39b2ae54e5e-69e7cd59d55cb-69989a4d622f2-692f06609be50-68d4b097ef8a2-6864009b55af1-680817e8bb392-67c8c7b3ac111-dealpic-dipea.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-03/67c8c7ad5561e_logo-template-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_dipeawings13",
+      "saleEndsAt": "2026-11-27T04:00:00.000Z",
+      "redemptionHours": [
+        "Dorado lunes a jueves de 3:00 p.m. a 10:00 p.m. viernes y sábados de 12:00 p.m. a 12:00 a.m. domingos de 12:00 p.m. a 10:00 p.m.",
+        "Hato Rey lunes a miércoles de 11:00 a.m. a 10:00 p.m. jueves y viernes de 11:00 a.m. a 12:00 a.m. sábados de 12:00 p.m. a 12:00 a.m. domingos de 1:00 p.m. a 10:00 p.m.",
+        "Río Piedras lunes a miércoles de 11:00 a.m. a 10:00 p.m. jueves y viernes de 11:00 a.m. a 12:00 a.m. sábados de 12:00 p.m. a 11:00 p.m. domingos de 1:00 p.m. a 10:00 p.m.",
+        "Campo Rico: lunes a jueves de 3:00 p.m. a 10:00 p.m. viernes y sábados de 12:00 p.m. a 12:00 a.m. domingos de 1:00 p.m. a 10:00 p.m.",
+        "Trujillo Alto lunes a sábado de 11:00 a.m. a 10:00 p.m. domingos de 1:00 p.m. a 10:00 p.m.",
+        "Bayamón (Santa Rosa) lunes a jueves de 11:00 a.m. a 10:00 p.m. viernes y sábados de 11:00 a.m. a 12:00 a.m. domingos de 11:00 a.m. a 10:00 p.m.",
+        "Bayamón (Estación Tren Urbano) lunes a jueves de 11:00 a.m. a 10:00 p.m. viernes y sábados de 11:00 a.m. a 10:00 p.m. domingos de 1:00 p.m. a 8:00 p.m.",
+        "Barceloneta domingos a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 12:00 a.m. viernes y sábados de 11:00 a.m. a 2:00 a.m.",
+        "Toa Alta lunes a jueves de 3:00 p.m. a 10:00 p.m. viernes y sábados de 12:00 p.m. a 12:00 a.m. domingos de 12:00 p.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_dipeawings13:1",
+          "address": "San Antonio Barrio Higuilar 403, 4824 C. Méndez VigoDorado 00646PR",
+          "latitude": 18.461493188347305,
+          "longitude": -66.26978870674576
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:2",
+          "address": "157 Calle Oneils Local #1San Juan 00918PR",
+          "latitude": 18.43016142219774,
+          "longitude": -66.0607578202703
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:3",
+          "address": "Av. UniversidadSan Juan 00925PR",
+          "latitude": 18.403085282668094,
+          "longitude": -66.05354310415086
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:4",
+          "address": "796 Av. Roberto Sánchez VilellaSan Juan 00924PR",
+          "latitude": 18.3977,
+          "longitude": -66.0618
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:5",
+          "address": "Plaza Matienzo Shopping Center, Carr 8860 Km 1.5Trujillo Alto 00976PR",
+          "latitude": 18.36478892087249,
+          "longitude": -65.99702516441424
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:6",
+          "address": "Santa Rosa 30-3 Av. MainBayamón 00959PR",
+          "latitude": 18.388126571555496,
+          "longitude": -66.14172396441808
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:7",
+          "address": "Estación Tren Urbano Avenida MainBayamón 00959PR",
+          "latitude": 18.400555891667366,
+          "longitude": -66.15384503558128
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:8",
+          "address": "Carr. 681, Ave. Palmas Altasbarceloneta 00617PR",
+          "latitude": 18.454983946320592,
+          "longitude": -66.54085912238119
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings13:9",
+          "address": "Carr. 829 Km 1.3, Bo. PiñasToa Alta 00953AF",
+          "latitude": 18.361598376309274,
+          "longitude": -66.20816652220186
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_dipeawings14",
+      "source": "gustazos",
+      "restaurant": "Dipea Wings - 5 Localidades",
+      "offer": "$20 por 6 'Mini Smash Burgers' de carne y queso + Papas fritas + 2 Mojitos de 12oz o cervezas Medalla",
+      "price": 20,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aee3a1d360bc_6a9f06820696b-6a39b0bcb06e1-69e7d4fda4008-dipea01-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-03/67c8c7ad5561e_logo-template-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_dipeawings14",
+      "saleEndsAt": "2026-11-27T04:00:00.000Z",
+      "redemptionHours": [
+        "Dorado lunes a jueves de 3:00 p.m. a 10:00 p.m. viernes y sábados de 12:00 p.m. a 12:00 a.m. domingos de 12:00 p.m. a 10:00 p.m. Teléfeno: (939) 421-8428",
+        "Hato Rey lunes a miércoles de 11:00 a.m. a 10:00 p.m. jueves y viernes de 11:00 a.m. a 12:00 a.m. sábados de 12:00 p.m. a 12:00 a.m. domingos de 1:00 p.m. a 10:00 p.m. Teléfono: (787) 615-2322",
+        "Trujillo Alto lunes a sábado de 11:00 a.m. a 10:00 p.m. domingos de 1:00 p.m. a 10:00 p.m. Teléfono: (787) 673-5739",
+        "Barceloneta domingos a miércoles de 11:00 a.m. a 10:00 p.m. jueves de 11:00 a.m. a 12:00 a.m. viernes y sábados de 11:00 a.m. a 2:00 a.m. Teléfono: (939) 421-1089",
+        "Toa Alta lunes a jueves de 3:00 p.m. a 10:00 p.m. viernes y sábados de 12:00 p.m. a 12:00 a.m. domingos de 12:00 p.m. a 10:00 p.m. Teléfono: (939) 588-8744"
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_dipeawings14:1",
+          "address": "San Antonio Barrio Higuilar 403, 4824 C. Méndez VigoDorado 00646PR",
+          "latitude": 18.461493188347305,
+          "longitude": -66.26978870674576
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings14:2",
+          "address": "Carr 681. Av. Palmas Altasbarceloneta 00617PR",
+          "latitude": 18.45498252653582,
+          "longitude": -66.54086332261602
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings14:3",
+          "address": "157 Calle Oneils Local #1San Juan 00918PR",
+          "latitude": 18.423328184317867,
+          "longitude": -66.06041450378372
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings14:4",
+          "address": "Plaza Matienzo Shopping Center, Carr 8860 Km 1.5Trujillo Alto 00976PR",
+          "latitude": 18.36478892087249,
+          "longitude": -65.99702516441424
+        },
+        {
+          "id": "gustazos:Restaurants_dipeawings14:5",
+          "address": "Carr. 829 Km 1.3, Bo. Piñastoa alta 00953PR",
+          "latitude": 18.361598376309274,
+          "longitude": -66.20816652220186
         }
       ]
     },
@@ -407,6 +558,30 @@
           "address": "1228 Calle 54 SESan Juan 00921PR",
           "latitude": 18.394688127183652,
           "longitude": -66.0791833981781
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_laceiba18",
+      "source": "gustazos",
+      "restaurant": "La Ceiba Bar & Restaurant - Coamo",
+      "offer": "$13.95 por Surtido Boricua para hasta 4 personas que incluye: Carne frita, Chicharrones de pollo, Bolitas de mofongo de la casa, Mozzarella Sticks, Bacalaítos y Sorullos de maíz + Servidos con Mayoketchup, salsa Marinara y salsa picante + 1 Bucket de 5 cervezas Medalla, 1 jarra de refresco o 5 botellas de agua",
+      "price": 13.95,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6af38042a0906_6acfa1004bf22-6a73b060a3302-69e0f78ed3c04-ceiba01-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2021-02/601c386ccd4d8_logo-ceibabar1-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_laceiba18",
+      "saleEndsAt": "2026-11-27T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a sábado de 12:00 p.m. a 8:00 p.m.",
+        "No válido en días feriados ni festivos."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_laceiba18:1",
+          "address": "Carretera 153 Km 12.8 Coamo 00769PR",
+          "latitude": 18.0535607,
+          "longitude": -66.3684259
         }
       ]
     },
