@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-11T19:42:41.392Z",
+  "updatedAt": "2026-11-12T07:23:18.880Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -327,56 +327,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_pancakebistro18",
-      "source": "gustazos",
-      "restaurant": "Pancake Bistro Café - Isabela",
-      "offer": "$23 por 2 Platos principales a escoger entre: “Nutella Pancakes” coronados con una barquilla con mantecado; 'Besito de Coco French Toasts'; 'Boricua Benedictinos' montados en bocadillos de bacalaítos y pernil desmenuzado, bañados en salsa holandesa; o 'La Carnívora Omelette' con jamón de pavo, jamón regular, tocineta, vegetales y queso acompañado de un pancake y tostadas + 2 Mimosas o jugos (china, parcha o melón)",
-      "price": 23,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad8e76c18ba9_layer-3-0000-principal-2-.jpg",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99500/25ec94022cebc235b25a8373934625af.jpeg",
-      "url": "https://www.gustazos.com/deals/Restaurants_pancakebistro18",
-      "saleEndsAt": "2026-11-12T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a viernes de 7:00 a.m. a 3:00 p.m. No requiere reservación.",
-        "sábados y domingos de 7:00 a.m. a 3:00 p.m. Requiere reservación previa.",
-        "No es válido en días feriados."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_pancakebistro18:1",
-          "address": "Carr 2 (Km 111.1)Isabela 00662PR",
-          "latitude": 18.47238,
-          "longitude": -67.0177
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_aylupita1",
-      "source": "gustazos",
-      "restaurant": "Ay Lupita Tacos y Margaritas - Isabela",
-      "offer": "$39 por un Banquete Mexicano para compartir, que incluye: 2 Órdenes de tacos de birria + 1 Aperitivo de mini nachos de tinga de pollo + 2 Margaritas de especialidad de la casa (La Catrina, La Paloma, Mechita Corta o La Chingona)",
-      "price": 39,
-      "discount": 53,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad7d49a921c8_double-click-smart-object-9-.png",
-      "logo": "https://images.gustazos.com/storage/2026-10/6ad7d49077d11_aylupita.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_aylupita1",
-      "saleEndsAt": "2026-11-12T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
-        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
-        "No es válido en días feriados."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_aylupita1:1",
-          "address": "Carr 2. (Km 111.1)Isabela 00662PR",
-          "latitude": 18.47222816512173,
-          "longitude": -67.01769323291404
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_NachoLibre10",
       "source": "gustazos",
       "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
@@ -457,31 +407,6 @@
           "address": "152 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.375814459081365,
           "longitude": -65.715040623522
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_CulturaRest1",
-      "source": "gustazos",
-      "restaurant": "Cultura Restaurant - Aguadilla",
-      "offer": "$33 por 2 Platos principales a escoger entre: “El Sabroso”, con risotto de gandules apastelado con longaniza, churrasco y pork belly; Mofongo “Survival Beach”, relleno de mariscos (pulpo, camarones, calamares, pescado, cangrejo, mejillones y almejas) en salsa cremosa de cilantro; o Mofongo Relleno de Brisket + 1 Aperitivo de Mini Empanadillas de Pizza",
-      "price": 33,
-      "discount": 52,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad266a990bfd_layer-3-0000-principal.jpg",
-      "logo": "https://images.gustazos.com/storage/2026-10/6ad266a3ec99b_culturarest.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_CulturaRest1",
-      "saleEndsAt": "2026-11-12T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a viernes de 11:00 a.m. a 10:00 p.m.",
-        "sábados de 11:00 a.m. a 10:00 p.m. (Requiere reservación previa).",
-        "No es válido en días feriados."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_CulturaRest1:1",
-          "address": "Carr. 110 Km. 31.5Aguadilla 00603PR",
-          "latitude": 18.50636,
-          "longitude": -67.109156
         }
       ]
     },
@@ -770,29 +695,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:ac001526-c198-4010-0945-08df336c370c",
-      "source": "oferta-del-dia",
-      "restaurant": "Edelweiss Bar & Grill, Luquillo",
-      "offer": "Edelweiss Bar & Grill, Luquillo: ¡El plan perfecto para compartir! Disfruta de (2) Platos Principales a escoger + Acompañante por plato + (2) Bebidas",
-      "price": 39.95,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/ac001526-c198-4010-0945-08df336c370c/cea8d5f2.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/ac001526-c198-4010-0945-08df336c370c",
-      "saleEndsAt": "2026-11-12T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:ac001526-c198-4010-0945-08df336c370c:1",
-          "address": "Marginal la Monserrate, Carr #3 km 34.5 (Kiosko #38), Luquillo, PR 00773",
-          "latitude": 18.38066,
-          "longitude": -65.73546999999999
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:9d506e58-44c1-4e0c-76bc-08df34f9aea4",
       "source": "oferta-del-dia",
       "restaurant": "Lechoncito's Restaurant",
@@ -879,8 +781,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3839299,
-          "longitude": -65.7702189
+          "latitude": 18.3851173,
+          "longitude": -65.7725889
         }
       ]
     },
