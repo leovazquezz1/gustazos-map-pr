@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-12T07:23:18.880Z",
+  "updatedAt": "2026-11-12T20:05:43.254Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -364,6 +364,38 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_NachoLibre11",
+      "source": "gustazos",
+      "restaurant": "Nacho Libre Mexican Cantina - 2 Localidades",
+      "offer": "$35 por 6 Quesabirrias de carne de res + 2 Margaritas a escoger entre: Tradicional, coco, parcha o melón",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6af5d42924752_dp-0000-photo-26-.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-05/682c9354d3b3d_logo-template-300x300-42-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_NachoLibre11",
+      "saleEndsAt": "2026-11-28T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves de 11:00 a.m. a 10:00 p.m.",
+        "viernes de 11:00 a.m. a 11:00 p.m.",
+        "sábados de 12:00 p.m. a 11:00 p.m.",
+        "domingos de 1:00 p.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_NachoLibre11:1",
+          "address": "155 Calle O’Neill, San Juan 00918PR",
+          "latitude": 18.423108160191738,
+          "longitude": -66.06156574410892
+        },
+        {
+          "id": "gustazos:Restaurants_NachoLibre11:2",
+          "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
+          "latitude": 18.400123547553317,
+          "longitude": -66.15478234153464
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_RanchoOriginal5",
       "source": "gustazos",
       "restaurant": "El Rancho Original - Guavate, Cayey",
@@ -411,6 +443,29 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_lafondagourmet2",
+      "source": "gustazos",
+      "restaurant": "La Fonda Gourmet - Luquillo",
+      "offer": "$45 por 2 Platos a escoger entre: Chuletón Kan Kan de 2 lb; Chillo Frito de 1.5 lb; o Mofongo relleno de pollo + 2 Copas de sangría de la casa",
+      "price": 45,
+      "discount": 55,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad0fb7a8c6f4_68f1bb91339bc-dealpic-lafonda.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-10/68f1bb8db15b5_logo-template-300x300-39-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_lafondagourmet2",
+      "saleEndsAt": "2026-11-20T04:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_lafondagourmet2:1",
+          "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
+          "latitude": 18.37650270762727,
+          "longitude": -65.71644891559421
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_pantojarse4",
       "source": "gustazos",
       "restaurant": "Pantojarse - San Juan",
@@ -446,7 +501,7 @@
       "image": "https://images.gustazos.com/storage/2026-10/6ad9281c3fe02_6a6ba15c45652-6a42990c7ff20-6a18c3f535a5a-dp-0003-photo-4-.jpg",
       "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
       "url": "https://www.gustazos.com/deals/Restaurants_pantojarse5",
-      "saleEndsAt": "2026-11-14T05:00:00.000Z",
+      "saleEndsAt": "2026-11-28T05:00:00.000Z",
       "redemptionHours": [
         "lunes a miércoles de 11:00 a.m. a 8:00 p.m.",
         "jueves de 11:00 a.m. a 9:00 p.m.",
@@ -587,7 +642,7 @@
       "image": "https://images.gustazos.com/storage/2026-11/6aee243de7e5c_69ebe60366132-6978d567afe48-sol05-dealpic.jpg",
       "logo": "https://images.gustazos.com/storage/2025-05/6823b40db0a82_logo-template-300x300-40-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_PuestadelSol16",
-      "saleEndsAt": "2026-11-27T05:00:00.000Z",
+      "saleEndsAt": "2026-11-27T04:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 12:00 p.m. a 12:00 a.m."
       ],
@@ -781,8 +836,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3851173,
-          "longitude": -65.7725889
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     },
