@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-12T20:05:43.254Z",
+  "updatedAt": "2026-11-13T06:55:28.113Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -246,7 +246,7 @@
       "image": "https://images.gustazos.com/storage/2026-10/6ac7f2d8b5408_6a10926bd1617-68fba1b77a65a-68a8c54b3b31d-dealpic-lavacaenfurecida8.jpg",
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_enfurecida37",
-      "saleEndsAt": "2026-11-13T05:00:00.000Z",
+      "saleEndsAt": "2026-11-27T05:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 1:00 p.m. a 7:00 p.m."
       ],
@@ -256,29 +256,6 @@
           "address": "Calle del TrenSan Juan rojo 00901PR",
           "latitude": 18.46533739772697,
           "longitude": -66.10614260737334
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_enfurecida38",
-      "source": "gustazos",
-      "restaurant": "La Vaca Enfurecida - Cabo Rojo",
-      "offer": "$29 por 1 Libra de alitas para 1 persona + 3 Horas ilimitadas de mojitos de sabores a escoger como: Clásico, fresa, fresa y guineo, mango, parcha, coco, mojito colada o la sangría de la casa",
-      "price": 29,
-      "discount": 68,
-      "image": "https://images.gustazos.com/storage/2026-10/6ac7f99d08541_6891307fb22bf-67bcbed31ec87-dealpic-lavacaenfurecida4.jpg",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99805/33932d1487477dff823ca34e12b728a7.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_enfurecida38",
-      "saleEndsAt": "2026-11-13T05:00:00.000Z",
-      "redemptionHours": [
-        "Cabo Rojo: jueves y viernes de 4:00 p.m. a 12:00 a.m. sábados y domingos de 12:00 p.m. a 6:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_enfurecida38:1",
-          "address": "101 PR-101cabo rojo 00622PR",
-          "latitude": 18.024829472339018,
-          "longitude": -67.17312162002865
         }
       ]
     },
@@ -656,6 +633,30 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_dizucchero23",
+      "source": "gustazos",
+      "restaurant": "Di Zucchero - Condado",
+      "offer": "$35 por 2 Pizzas pequeñas hecha en horno de piedra para a escoger entre: Carbonara, Mi Novia Margarita, L'Hawaiana o Spicy Honey Pepperoni + 4 Cervezas Michelob Ultra o Medalla, refrescos o agua",
+      "price": 35,
+      "discount": 33,
+      "image": "https://images.gustazos.com/storage/2026-11/6af3a214ef52f_6ac8125043c13-dp-0002-foto-principal-3-.jpg",
+      "logo": "https://images.gustazos.com/storage/2024-09/66f1e7cd50be5_logo-template-300x300-2024-09-23t175224.109.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_dizucchero23",
+      "saleEndsAt": "2026-11-29T04:00:00.000Z",
+      "redemptionHours": [
+        "martes a jueves de 4:00 p.m. a 10:00 p.m.",
+        "viernes a lunes de 12:00 p.m. a 9:30 p.m"
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_dizucchero23:1",
+          "address": "Avenida Ashford 1210San Juan 00907PR",
+          "latitude": 18.455704,
+          "longitude": -66.070957
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_platos43",
       "source": "gustazos",
       "restaurant": "Platos Restaurant & Bar - Isla Verde",
@@ -884,6 +885,29 @@
           "address": "1700 Avenida Juan Ponce de León, San Juan, 00909, San Juan, PR 00909",
           "latitude": 18.4424992,
           "longitude": -66.0639453
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:d02fba3b-b9c4-4b65-b13e-08df3f484eb2",
+      "source": "oferta-del-dia",
+      "restaurant": "La Garita Waterfront Bar & Rest, Toa Baja",
+      "offer": "¡Una mesa llena de sabor te espera en La Garita Waterfront Bar & Rest! Paga $26 y Disfruta de (2) Platos a escoger + Acompañante + 2 Bebidas",
+      "price": 26,
+      "discount": null,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/d02fba3b-b9c4-4b65-b13e-08df3f484eb2/da80246c.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/d02fba3b-b9c4-4b65-b13e-08df3f484eb2",
+      "saleEndsAt": "2026-11-28T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes, jueves y viernes de 12:00 m.d. a 7:00 p.m. y sabados de 4:00 p.m. a 9:00 p.m. Martes y miércoles cerrados."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:d02fba3b-b9c4-4b65-b13e-08df3f484eb2:1",
+          "address": "Calle Manuel Enrique 130, Palo Seco, PR 00949",
+          "latitude": 18.4604047,
+          "longitude": -66.1480271
         }
       ]
     }
