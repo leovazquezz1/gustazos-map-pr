@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-13T06:55:28.113Z",
+  "updatedAt": "2026-11-13T19:50:53.765Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -31,6 +31,29 @@
           "address": "200 Convention BoulevardSan Juan 00907PR",
           "latitude": 18.454244,
           "longitude": -66.090193
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_xolotaco5",
+      "source": "gustazos",
+      "restaurant": "Xolo Taco Mexican Food - Condado",
+      "offer": "$37 por “La Taquiza” que incluye: 10 Tacos a escoger la proteína entre: Pastor, carnitas, tinga de pollo o carne molida (puedes dividir tu orden entre dos sabores) + Acompañante de guacamole y chips + 2 Margaritas clásicas, refrescos o agua",
+      "price": 37,
+      "discount": null,
+      "image": "https://images.gustazos.com/storage/2026-11/6af60d182ea5c_6a8f12cf45fa2-68b0b9aba8499-dealpic-xolotaco-1-.jpg",
+      "logo": "https://images.gustazos.com/storage/2024-09/66f2ed80f2237_logo-xolotaco-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_xolotaco5",
+      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 12:00 p.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_xolotaco5:1",
+          "address": "1214 Ashford Avenue, CondadoSan Juan 00907PR",
+          "latitude": 18.4555508,
+          "longitude": -66.0734943
         }
       ]
     },
@@ -397,6 +420,27 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_ElBeerGarden5",
+      "source": "gustazos",
+      "restaurant": "El Beer Garden & Pizza Rústica - Distrito de Convenciones, San Juan",
+      "offer": "$23 por 1 Pizza mediana de 8 pedazos hecha en horno de piedra para compartir a escoger entre: Pepperoni, Goat Cheese, Barbecue Chicken, Hawaiana, Margarita o Vegetarian + 2 Bebidas a escoger entre: Medalla, Magna, Michelob Ultra, refrescos o botellas de agua + 10% de Descuento en aperitivos y bebidas adicionales el día de su visita + 10% de Descuento en Actividades privadas en el salón del restaurante con capacidad de 200 personas",
+      "price": 23,
+      "discount": null,
+      "image": "https://images.gustazos.com/storage/2026-11/6af48a1b1c449_6a904013bd03a-68c3446cc5178-beergarden-dp-01.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-04/680a8d09dc992_beer-garden3-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_ElBeerGarden5",
+      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_ElBeerGarden5:1",
+          "address": "Distrito de Convenciones San Juan 00907PR",
+          "latitude": 18.4540287,
+          "longitude": -66.0937053
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_lacatrinaluquillo2",
       "source": "gustazos",
       "restaurant": "La Catrina - Luquillo",
@@ -657,6 +701,29 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_1950Condado11",
+      "source": "gustazos",
+      "restaurant": "1950 Condado",
+      "offer": "$39 por 2 Platos Principales a escoger entre: Churrasco de 10 oz con papas trufadas; Arroz “Estilo Campo”, que incluye arroz amarillo mezclado con habichuelas, plátanos maduros, churrasco, carne de cerdo, salchicha boricua, pollo y chorizo, servido con tostones; Pechuga de pollo a la parrilla, coronada con pico de gallo de tomates cherry, servida con arroz mamposteao y tostones; o Mofongo tradicional relleno de churrasco, servido con salsa criolla o al ajillo + 2 Mojitos clásicos o de sabores",
+      "price": 39,
+      "discount": 57,
+      "image": "https://images.gustazos.com/storage/2026-11/6af48669d2ea2_6ab2d898bafe1-double-click-smart-object-copy.png",
+      "logo": "https://images.gustazos.com/storage/2025-09/68c1ef24db5c3_195002-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_1950Condado11",
+      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a domingo de 5:00 p.m. a 10:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_1950Condado11:1",
+          "address": "1210 Ave. AshfordSan Juan 00907PR",
+          "latitude": 18.4556336,
+          "longitude": -66.0734715
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_platos43",
       "source": "gustazos",
       "restaurant": "Platos Restaurant & Bar - Isla Verde",
@@ -760,7 +827,7 @@
       "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/9d506e58-44c1-4e0c-76bc-08df34f9aea4/a85a5f8a.jpg",
       "logo": null,
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/9d506e58-44c1-4e0c-76bc-08df34f9aea4",
-      "saleEndsAt": "2026-11-17T03:59:00.000Z",
+      "saleEndsAt": "2026-12-01T03:59:00.000Z",
       "redemptionHours": [
         "Lunes a domingo de 8:30 a.m. a 10:00 p.m."
       ],
