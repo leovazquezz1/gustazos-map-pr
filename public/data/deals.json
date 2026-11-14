@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-13T19:50:53.765Z",
+  "updatedAt": "2026-11-14T06:41:28.883Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -44,7 +44,7 @@
       "image": "https://images.gustazos.com/storage/2026-11/6af60d182ea5c_6a8f12cf45fa2-68b0b9aba8499-dealpic-xolotaco-1-.jpg",
       "logo": "https://images.gustazos.com/storage/2024-09/66f2ed80f2237_logo-xolotaco-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_xolotaco5",
-      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "saleEndsAt": "2026-11-29T04:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 12:00 p.m. a 10:00 p.m."
       ],
@@ -420,6 +420,54 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_Bodegar5",
+      "source": "gustazos",
+      "restaurant": "Bodegar - Condado",
+      "offer": "$35 por 2 Pizzas pequeñas hechas en horno de piedra a escoger entre: Carbonara, Mi Novia Margarita, L'Hawaiana, o Spicy Honey Pepperoni + 4 Cervezas Michelob Ultra o Medalla",
+      "price": 35,
+      "discount": 33,
+      "image": "https://images.gustazos.com/storage/2026-11/6af37376277b0_6aad5f2e7ab7a-632cdad1d3d3b-dp-pizza-0001-7r300725-2.jpg",
+      "logo": "https://images.gustazos.com/storage/2022-09/632dbbaccd4aa_300x300-logo.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_Bodegar5",
+      "saleEndsAt": "2026-11-30T04:00:00.000Z",
+      "redemptionHours": [
+        "jueves y viernes de 4:00 p.m. a 9:00 p.m.",
+        "sábados y domingos de 9:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_Bodegar5:1",
+          "address": "1210 Ashford Ave.San Juan 00907PR",
+          "latitude": 18.455704,
+          "longitude": -66.070957
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_Bodegar14",
+      "source": "gustazos",
+      "restaurant": "Bodegar - Condado",
+      "offer": "$35 por una Tapa de Charcutería para 2 personas + 2 Tragos de Moscow Mule o Copas de vino blanco o tinto + 10% de Descuento en actividades privadas de hasta 40 personas, tales como bodas, baby showers, gender reveal, entre otros",
+      "price": 35,
+      "discount": 39,
+      "image": "https://images.gustazos.com/storage/2026-11/6af3745dd044f_6aad648070c9f-dp-0008-foto-principal.jpg",
+      "logo": "https://images.gustazos.com/storage/2022-09/632dbbaccd4aa_300x300-logo.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_Bodegar14",
+      "saleEndsAt": "2026-11-30T04:00:00.000Z",
+      "redemptionHours": [
+        "jueves y viernes de 4:00 p.m. a 9:00 p.m.",
+        "sábados y domingos de 9:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_Bodegar14:1",
+          "address": "1210 Ashford Ave.San Juan 00907PR",
+          "latitude": 18.455704,
+          "longitude": -66.070957
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_ElBeerGarden5",
       "source": "gustazos",
       "restaurant": "El Beer Garden & Pizza Rústica - Distrito de Convenciones, San Juan",
@@ -429,7 +477,7 @@
       "image": "https://images.gustazos.com/storage/2026-11/6af48a1b1c449_6a904013bd03a-68c3446cc5178-beergarden-dp-01.jpg",
       "logo": "https://images.gustazos.com/storage/2025-04/680a8d09dc992_beer-garden3-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_ElBeerGarden5",
-      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "saleEndsAt": "2026-11-29T04:00:00.000Z",
       "redemptionHours": [],
       "locations": [
         {
@@ -483,32 +531,6 @@
           "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.37650270762727,
           "longitude": -65.71644891559421
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_pantojarse4",
-      "source": "gustazos",
-      "restaurant": "Pantojarse - San Juan",
-      "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 2 Bebidas a escoger entre: Cerveza Ocean Lab, o batida de Nutella® o vainilla",
-      "price": 29,
-      "discount": 52,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad7d890636f3_6a6ba15c38456-6a42990c843c6-6a18c3ed58c3b-dp-0000-principal.jpg",
-      "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_pantojarse4",
-      "saleEndsAt": "2026-11-14T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a miércoles de 11:00 a.m. a 8:00 p.m.",
-        "jueves de 11:00 a.m. a 9:00 p.m.",
-        "sábados de 12:00 p.m. a 10:00 p.m.",
-        "domingos de 1:00 p.m. a 8:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_pantojarse4:1",
-          "address": "Cll BoriSan Juan 00927PR",
-          "latitude": 18.382714872035038,
-          "longitude": -66.06867355276111
         }
       ]
     },
@@ -710,7 +732,7 @@
       "image": "https://images.gustazos.com/storage/2026-11/6af48669d2ea2_6ab2d898bafe1-double-click-smart-object-copy.png",
       "logo": "https://images.gustazos.com/storage/2025-09/68c1ef24db5c3_195002-300x300.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_1950Condado11",
-      "saleEndsAt": "2026-11-29T05:00:00.000Z",
+      "saleEndsAt": "2026-11-29T04:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 5:00 p.m. a 10:00 p.m."
       ],
@@ -766,6 +788,29 @@
           "address": "PR-103cabo rojo 00623PR",
           "latitude": 18.080390153809496,
           "longitude": -67.15027627869212
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_agavetequilagastrobar12",
+      "source": "gustazos",
+      "restaurant": "Agave Tequila Gastrobar - Caguas",
+      "offer": "$25 por 1 Orden de Nachos Desmadre que incluye: Carne molida, carnitas, pollo, pico de gallo, guacamole, queso mozzarella, queso cheddar y salsa de la casa + 2 Bebidas a escoger entre: Margaritas de la casa, refresco o agua",
+      "price": 25,
+      "discount": null,
+      "image": "https://images.gustazos.com/storage/2026-10/6ace762eae489_layer-3-0007-osc-0494.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78466/30d6157bf79bc00fad3e998caa754fd3.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_agavetequilagastrobar12",
+      "saleEndsAt": "2026-11-30T05:00:00.000Z",
+      "redemptionHours": [
+        "martes a domingo de 3:00 p.m. a 8:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_agavetequilagastrobar12:1",
+          "address": "Carretera PR 798 cementerio RdCaguas 00725PR",
+          "latitude": 18.2742523,
+          "longitude": -66.0404334
         }
       ]
     },
