@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-14T06:41:28.883Z",
+  "updatedAt": "2026-11-14T18:15:56.918Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -256,6 +256,29 @@
           "address": "Ave. Los Conquistadores, 150 Bahía Marina Plaza, Local 10-ACataño 00962PR",
           "latitude": 18.451268848844865,
           "longitude": -66.14246116106854
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_twincupcakes1",
+      "source": "gustazos",
+      "restaurant": "Twin Cupcakes - Las Piedras",
+      "offer": "$30 por Desayuno ‘Gratitud a la Mesa’ para 2 personas, que incluye: Huevos revueltos + 2 Tostadas con mantequilla + 1 Tostada francesa con topping (escoger entre: Pumpkin o fresas con crema) + Escoge tu proteína entre: Jamón o tocineta + 2 Bebidas a escoger entre: Café o jugo de china + 2 Cupcakes de vainilla",
+      "price": 30,
+      "discount": 49,
+      "image": "https://images.gustazos.com/storage/2026-11/6af7a8e563456_layer-3-0000-twin-cupcakes.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-11/6af7a8cf03469_tcup.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_twincupcakes1",
+      "saleEndsAt": "2026-11-30T04:00:00.000Z",
+      "redemptionHours": [
+        "martes a sábado de 8:00 a.m. a 2:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_twincupcakes1:1",
+          "address": "126 Calle Jose Celso Barbosa, local 1Las Piedras 00771PR",
+          "latitude": 18.17744844329154,
+          "longitude": -65.8621003580681
         }
       ]
     },
