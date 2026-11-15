@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-14T22:36:37.017Z",
+  "updatedAt": "2026-11-15T06:46:12.952Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -233,33 +233,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_bocaoysal8",
-      "source": "gustazos",
-      "restaurant": "Bocao' & Sal - Cataño",
-      "offer": "$35 por 2 Platos Principales a escoger entre: “Pechuga Boricua”, rellena de pionono y bañada en cremosa salsa cuatro quesos; “Pechuga Cordon Bleu”, empanada y rellena de jamón y queso derretido, bañada en cremosa salsa cuatro quesos; o “Pechuga Jíbara”, rellena de yuca al mojo, envuelta en bacon y servida en salsa de cilantro + 1 Acompañante a escoger entre: arroz mamposteao, arroz blanco y habichuelas, tostones de plátano, papas fritas hechas en casa, amarillos o ensalada de la casa + 1 Aperitivo de arancinis de risotto de mamposteao para compartir + 2 Sangrías de la casa o refrescos + 15% de Descuento en postres (crème brûlée, flan de queso o cheesecake)",
-      "price": 35,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad674b6a88dd_6ab2d7571fb07-dealpics-0002-5083fb36-6951-4b0d-a164-1e59423b7ed1.jpg",
-      "logo": "https://images.gustazos.com/storage/2025-07/6877fc5c33e26_bocao01-300x300.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_bocaoysal8",
-      "saleEndsAt": "2026-11-15T05:00:00.000Z",
-      "redemptionHours": [
-        "martes y miércoles de 11:00 a.m. a 4:30 p.m.",
-        "jueves de 11:00 a.m. a 8:30 p.m.",
-        "viernes de 11:00 a.m. a 9:30 p.m.",
-        "sábados de 11:00 a.m. a 9:30 p.m.",
-        "No es válido los domingos ni días feriados/festivos."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_bocaoysal8:1",
-          "address": "Ave. Los Conquistadores, 150 Bahía Marina Plaza, Local 10-ACataño 00962PR",
-          "latitude": 18.451268848844865,
-          "longitude": -66.14246116106854
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_twincupcakes1",
       "source": "gustazos",
       "restaurant": "Twin Cupcakes - Las Piedras",
@@ -346,43 +319,6 @@
           "address": "Carr. 681, Ave. Palmas Altasbarceloneta 00617PR",
           "latitude": 18.454983946320592,
           "longitude": -66.54085912238119
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_NachoLibre10",
-      "source": "gustazos",
-      "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
-      "offer": "$35 por Súper plato para compartir que incluye: 4 Tacos de Carnitas o Tinga de Pollo + Nachos Loaded + 2 Margaritas a escoger entre tradicional, coco, parcha o melón",
-      "price": 35,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-10/6ae3afa989016_6aac2f07114e6-6a6a34678b0bc-6a0e1fbaa1f55-69ca9e4ec1634-6983bdc534833-69457904d6853-68d4cfd398c7b-687fb1336f88e-682c9358927af-dealpic-nacho-libre.jpg",
-      "logo": "https://images.gustazos.com/storage/2025-05/682c9354d3b3d_logo-template-300x300-42-.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_NachoLibre10",
-      "saleEndsAt": "2026-11-15T05:00:00.000Z",
-      "redemptionHours": [
-        "martes a jueves de 11:00 a.m. a 10:00 p.m.",
-        "viernes de 11:00 a.m. a 12:00 a.m.",
-        "sábados de 12:00 p.m. a 11:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_NachoLibre10:1",
-          "address": "155 Calle O’Neill, San Juan 00918PR",
-          "latitude": 18.423108160191738,
-          "longitude": -66.06156574410892
-        },
-        {
-          "id": "gustazos:Restaurants_NachoLibre10:2",
-          "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
-          "latitude": 18.400123547553317,
-          "longitude": -66.15478234153464
-        },
-        {
-          "id": "gustazos:Restaurants_NachoLibre10:3",
-          "address": "Carr. 829, 2 B.O Km 1.3, Localtoa alta 00953PR",
-          "latitude": 18.36148269980663,
-          "longitude": -66.20813183262791
         }
       ]
     },
@@ -676,29 +612,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_PuestadelSol15",
-      "source": "gustazos",
-      "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
-      "offer": "$39 por 2 Platos principales a escoger entre: Chuleta Kan Kan, pechuga a la plancha, mero, salmón o pechuga a la parmesana + 1 Acompañante por plato a escoger entre: Tostones, papas trufadas, majado de viandas, arroz mamposteao, batata frita o yuca frita + 2 Bebidas a escoger entre: Sangría o mojitos de la casa + 1 Postre para compartir a escoger entre flan de vainilla o queso",
-      "price": 39,
-      "discount": 51,
-      "image": "https://images.gustazos.com/storage/2026-10/6ae50f19b973b_6a95d945a1813-double-click-smart-object-1-.png",
-      "logo": "https://images.gustazos.com/storage/2025-05/6823b40db0a82_logo-template-300x300-40-.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_PuestadelSol15",
-      "saleEndsAt": "2026-11-15T05:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingo de 12:00 p.m. a 12:00 a.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_PuestadelSol15:1",
-          "address": "Carr 102 Km 14.0 Joyudacabo rojo 00623PR",
-          "latitude": 18.1169478,
-          "longitude": -67.1833913
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_PuestadelSol16",
       "source": "gustazos",
       "restaurant": "Restaurante Puesta del Sol - Cabo Rojo",
@@ -859,29 +772,6 @@
           "address": "Carretera 153 km 10.7Santa Isabel 00957PR",
           "latitude": 18.034665,
           "longitude": -66.36228
-        }
-      ]
-    },
-    {
-      "id": "oferta-del-dia:4b446936-6c28-4866-9b08-08df30609995",
-      "source": "oferta-del-dia",
-      "restaurant": "Julieta's Bar & Restaurant",
-      "offer": "Julieta’s Bar & Restaurant: ¡El plan perfecto para compartir, disfrutar y brindar! Certificado de $30 para consumo abierto en el menú",
-      "price": 15,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/4b446936-6c28-4866-9b08-08df30609995/f8c251a2.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/4b446936-6c28-4866-9b08-08df30609995",
-      "saleEndsAt": "2026-11-15T03:59:00.000Z",
-      "redemptionHours": [
-        "miércoles de 4:00 p.m. a 10:00 p.m / jueves a sábado de 4:00 p.m. a 12:00 a.m. / Domingos de 12:00 m.d. a 8:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:4b446936-6c28-4866-9b08-08df30609995:1",
-          "address": "Calle Cerra 621, San Juan, PR 00907",
-          "latitude": 18.4518053,
-          "longitude": -66.0797351
         }
       ]
     },
