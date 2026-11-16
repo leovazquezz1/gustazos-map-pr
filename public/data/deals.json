@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-16T06:45:19.329Z",
+  "updatedAt": "2026-11-16T22:17:19.396Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -457,7 +457,7 @@
       "image": "https://images.gustazos.com/storage/2026-10/6ad6730715410_photo-30-.png",
       "logo": "https://images.gustazos.com/storage/2025-10/68efe22cdb65c_logo-template-300x300-33-.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_lacatrinaluquillo2",
-      "saleEndsAt": "2026-11-18T04:00:00.000Z",
+      "saleEndsAt": "2026-11-27T04:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 11:00 a.m. a 10:00 p.m."
       ],
@@ -490,6 +490,32 @@
           "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
           "latitude": 18.37650270762727,
           "longitude": -65.71644891559421
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_pantojarse4",
+      "source": "gustazos",
+      "restaurant": "Pantojarse - San Juan",
+      "offer": "$29 por 2 Platos a escoger entre: Burger (Nanita, Pantojarse o Pollanco); o Chicken Strips + 1 Acompañante a escoger entre: Papas fritas o Batatas fritas + 2 Bebidas a escoger entre: Cerveza Ocean Lab, o batida de Nutella® o vainilla",
+      "price": 29,
+      "discount": 52,
+      "image": "https://images.gustazos.com/storage/2026-10/6ad7d890636f3_6a6ba15c38456-6a42990c843c6-6a18c3ed58c3b-dp-0000-principal.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-05/6a18c3e8b05b2_logo-300x300-pantojarse.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_pantojarse4",
+      "saleEndsAt": "2026-11-28T05:00:00.000Z",
+      "redemptionHours": [
+        "lunes a miércoles de 11:00 a.m. a 8:00 p.m.",
+        "jueves de 11:00 a.m. a 9:00 p.m.",
+        "sábados de 12:00 p.m. a 10:00 p.m.",
+        "domingos de 1:00 p.m. a 8:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_pantojarse4:1",
+          "address": "Cll BoriSan Juan 00927PR",
+          "latitude": 18.382714872035038,
+          "longitude": -66.06867355276111
         }
       ]
     },
@@ -839,8 +865,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3851173,
-          "longitude": -65.7725889
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     },
