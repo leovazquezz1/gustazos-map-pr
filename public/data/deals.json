@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-15T18:57:08.711Z",
+  "updatedAt": "2026-11-16T06:45:19.329Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -799,29 +799,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:52d69a9a-c6c7-452b-ae4f-08df35c35bc3",
-      "source": "oferta-del-dia",
-      "restaurant": "La Fonda Gourmet",
-      "offer": "🔥Deléitate con un Certificado de $40 para disfrutar del menú abierto de comida y bebida en La Fonda Gourmet por solo $20",
-      "price": 20,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/52d69a9a-c6c7-452b-ae4f-08df35c35bc3/449e3120.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/52d69a9a-c6c7-452b-ae4f-08df35c35bc3",
-      "saleEndsAt": "2026-11-16T03:59:00.000Z",
-      "redemptionHours": [
-        "Lunes a domingo de 11:00 a.m. a 9:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:52d69a9a-c6c7-452b-ae4f-08df35c35bc3:1",
-          "address": "Calle Fernández Garcia 111, Frente a la Plaza de Luquillo, Luquillo, PR 00773",
-          "latitude": 18.3763118,
-          "longitude": -65.7157038
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b",
       "source": "oferta-del-dia",
       "restaurant": "La Catrina",
@@ -862,8 +839,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3839299,
-          "longitude": -65.7702189
+          "latitude": 18.3851173,
+          "longitude": -65.7725889
         }
       ]
     },
