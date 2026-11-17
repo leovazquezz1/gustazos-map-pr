@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-17T08:05:23.695Z",
+  "updatedAt": "2026-11-17T21:03:44.896Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -209,6 +209,29 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_ourhouse68",
+      "source": "gustazos",
+      "restaurant": "Our House - San Patricio",
+      "offer": "$130 por 1 Pavo de 18 a 22 libras + 1 Bandeja de 6 libras arroz con gandules + 1/2 Bandeja de ensalada de papa o coditos + 1 Padrino de refresco para hasta 10 personas + Cubiertos, platos y vasos (Debes ordenar en o antes del 24 de noviembre y recoger el 25 de noviembre)",
+      "price": 130,
+      "discount": 24,
+      "image": "https://images.gustazos.com/storage/2026-11/6afb20eae972c_double-click-smart-object-23-.png",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99712/6622f0903ef42ff1335403e5d2ee1788.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_ourhouse68",
+      "saleEndsAt": "2026-11-24T05:00:00.000Z",
+      "redemptionHours": [
+        "miércoles, 25 de noviembre de 2026 de 2:00 p.m. a 5:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_ourhouse68:1",
+          "address": "100 Ave. San Patricio Plaza, Suite 10GUAYNABO 00968PR",
+          "latitude": 18.40817981946157,
+          "longitude": -66.10580639975174
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_pepperonipizzapastabar1",
       "source": "gustazos",
       "restaurant": "Pepperoni Pizza Pasta Bar - San Sebastián",
@@ -319,6 +342,43 @@
           "address": "Carr. 681, Ave. Palmas Altasbarceloneta 00617PR",
           "latitude": 18.454983946320592,
           "longitude": -66.54085912238119
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_NachoLibre10",
+      "source": "gustazos",
+      "restaurant": "Nacho Libre Mexican Cantina - 3 Localidades",
+      "offer": "$35 por Súper plato para compartir que incluye: 4 Tacos de Carnitas o Tinga de Pollo + Nachos Loaded + 2 Margaritas a escoger entre tradicional, coco, parcha o melón",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-10/6ae3afa989016_6aac2f07114e6-6a6a34678b0bc-6a0e1fbaa1f55-69ca9e4ec1634-6983bdc534833-69457904d6853-68d4cfd398c7b-687fb1336f88e-682c9358927af-dealpic-nacho-libre.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-05/682c9354d3b3d_logo-template-300x300-42-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_NachoLibre10",
+      "saleEndsAt": "2026-12-02T05:00:00.000Z",
+      "redemptionHours": [
+        "martes a jueves de 11:00 a.m. a 10:00 p.m.",
+        "viernes de 11:00 a.m. a 12:00 a.m.",
+        "sábados de 12:00 p.m. a 11:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_NachoLibre10:1",
+          "address": "155 Calle O’Neill, San Juan 00918PR",
+          "latitude": 18.423108160191738,
+          "longitude": -66.06156574410892
+        },
+        {
+          "id": "gustazos:Restaurants_NachoLibre10:2",
+          "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
+          "latitude": 18.400123547553317,
+          "longitude": -66.15478234153464
+        },
+        {
+          "id": "gustazos:Restaurants_NachoLibre10:3",
+          "address": "Carr. 829, 2 B.O Km 1.3, Localtoa alta 00953PR",
+          "latitude": 18.36148269980663,
+          "longitude": -66.20813183262791
         }
       ]
     },
@@ -865,8 +925,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3851173,
-          "longitude": -65.7725889
+          "latitude": 18.3839299,
+          "longitude": -65.7702189
         }
       ]
     },
