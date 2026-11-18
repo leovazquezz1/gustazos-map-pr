@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-17T21:03:44.896Z",
+  "updatedAt": "2026-11-18T07:40:47.644Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -225,6 +225,52 @@
       "locations": [
         {
           "id": "gustazos:Restaurants_ourhouse68:1",
+          "address": "100 Ave. San Patricio Plaza, Suite 10GUAYNABO 00968PR",
+          "latitude": 18.40817981946157,
+          "longitude": -66.10580639975174
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_ourhouse69",
+      "source": "gustazos",
+      "restaurant": "Our House - San Patricio",
+      "offer": "$39 por 2 Platos de Brunch a escoger entre: Chicken Club Sandwich; Sunrise Burrito; Lemi Sandwich (hecho con pan de Panadería Lemi); Chicken & Waffle; Steak & Egg (opción de añadir churrasco, New York strip o ribeye); o Morning Beast o Sweet & Salty French Toast + 2 Cócteles de brunch a escoger entre: Power Up Spritz, Raspberry Mint Spritz, Maple White Russian o Mimosa (parcha, china o tamarindo) + 2 Cafés Argenis",
+      "price": 39,
+      "discount": 35,
+      "image": "https://images.gustazos.com/storage/2026-11/6afc9b51c25c0_6ab5840925881-6a90a35ed9844-6a5fba262f489-6a0ccf2a909c1-ourhouse23-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-05/6a0f876bd0306_logo-ourhouse.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_ourhouse69",
+      "saleEndsAt": "2026-12-04T04:00:00.000Z",
+      "redemptionHours": [
+        "domingos de 9:00 a.m. a 12:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_ourhouse69:1",
+          "address": "100 Ave. San Patricio Plaza, Suite 10GUAYNABO 00968PR",
+          "latitude": 18.40817981946157,
+          "longitude": -66.10580639975174
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_ourhouse70",
+      "source": "gustazos",
+      "restaurant": "Our House - San Patricio",
+      "offer": "$55 por 2 Platos principales a escoger entre: Ribeye (16oz), Churrasco (14oz), o New York (12oz) + 1 Acompañante por plato a escoger entre: Arroz blanco con habichuelas, tostones, papas fritas, batatas fritas, papitas de pana, arañitas, Caesar Side Salad o House Salad + 1 Botella de vino a escoger entre: Cabernet, Tempranillo, Albariño o Prosecco",
+      "price": 55,
+      "discount": 53,
+      "image": "https://images.gustazos.com/storage/2026-11/6afc9d01e136a_6ab582dee5d0e-694998b020bb9-691b92a007b76-68adfa11244ce-686d7dc8325bb-dealpic-ourhouse19-1-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99712/6622f0903ef42ff1335403e5d2ee1788.png",
+      "url": "https://www.gustazos.com/deals/Restaurants_ourhouse70",
+      "saleEndsAt": "2026-12-04T04:00:00.000Z",
+      "redemptionHours": [
+        "viernes a domingo de 12:00 p.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_ourhouse70:1",
           "address": "100 Ave. San Patricio Plaza, Suite 10GUAYNABO 00968PR",
           "latitude": 18.40817981946157,
           "longitude": -66.10580639975174
@@ -885,29 +931,6 @@
       ]
     },
     {
-      "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b",
-      "source": "oferta-del-dia",
-      "restaurant": "La Catrina",
-      "offer": "Paga solo $20 y Disfruta un Certificado de $40 en Comida y Bebida a escoger libremente en Restaurante La Catrina, Luquillo",
-      "price": 20,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/f4679529-4e6d-4cf9-7a9d-08df36bda53b/19fbe6ec.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/f4679529-4e6d-4cf9-7a9d-08df36bda53b",
-      "saleEndsAt": "2026-11-18T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a domingos de 11:00 a.m. a 11:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:f4679529-4e6d-4cf9-7a9d-08df36bda53b:1",
-          "address": "152 Fernandez Garcia, Luquillo, PR 00773",
-          "latitude": 18.3757351,
-          "longitude": -65.715152
-        }
-      ]
-    },
-    {
       "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
       "source": "oferta-del-dia",
       "restaurant": "Richie’s Restaurant",
@@ -925,8 +948,8 @@
         {
           "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
           "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3839299,
-          "longitude": -65.7702189
+          "latitude": 18.3851173,
+          "longitude": -65.7725889
         }
       ]
     },
@@ -996,6 +1019,29 @@
           "address": "Calle Manuel Enrique 130, Palo Seco, PR 00949",
           "latitude": 18.4604047,
           "longitude": -66.1480271
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:2e6d3baf-aa89-4234-73cd-08df43f46258",
+      "source": "oferta-del-dia",
+      "restaurant": "Julieta's Bar & Restaurant",
+      "offer": "Julieta’s Bar & Restaurant: ¡El plan perfecto para compartir, disfrutar y brindar! Certificado de $30 para consumo abierto en el menú",
+      "price": 15,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/2e6d3baf-aa89-4234-73cd-08df43f46258/f8c251a2.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/2e6d3baf-aa89-4234-73cd-08df43f46258",
+      "saleEndsAt": "2026-12-03T03:59:00.000Z",
+      "redemptionHours": [
+        "miércoles de 4:00 p.m. a 10:00 p.m / jueves a sábado de 4:00 p.m. a 12:00 a.m. / Domingos de 12:00 m.d. a 8:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:2e6d3baf-aa89-4234-73cd-08df43f46258:1",
+          "address": "Calle Cerra 621, San Juan, PR 00907",
+          "latitude": 18.4518053,
+          "longitude": -66.0797351
         }
       ]
     }
