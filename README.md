@@ -56,9 +56,12 @@ para que una oferta vencida no aparezca aunque el navegador tenga una copia ante
 del archivo JSON en caché.
 
 La validación falla si cualquiera de las dos fuentes deja de producir ofertas de
-restaurantes utilizables. Si una localidad no publica coordenadas resolubles, se
-omite solamente esa localidad (o la oferta si no queda ninguna localidad válida),
-el resto de la actualización continúa y se envía una advertencia por Telegram.
+restaurantes utilizables. Si una fuente publica coordenadas inválidas o no
+resolubles, el recolector puede usar una sustitución revisada y documentada para
+ese comercio y dirección. Si no existe una sustitución verificada, se omite
+solamente esa localidad (o la oferta si no queda ninguna localidad válida), el
+resto de la actualización continúa y se envía una advertencia por Telegram para
+investigación manual.
 Los fallos reales del refresh o del build envían una alerta separada con el enlace
 del run y las últimas líneas del error.
 

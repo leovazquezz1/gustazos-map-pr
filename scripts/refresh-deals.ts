@@ -3,6 +3,7 @@ import { mkdir, rm, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import type { Deal, DealLocation, DealSourceInfo, DealsPayload } from '../src/types'
 import { hasSaleEnded, hasUnavailableGustazosMarkup } from '../src/deal-availability'
+import { findVerifiedLocationOverride } from './location-overrides'
 import { resolveLocations } from './resolve-locations'
 import { validateDeals } from './validate-deals'
 
@@ -225,7 +226,12 @@ async function coordinatesFromGoogleEmbed(embedUrl: string, detailUrl: string) {
   return null
 }
 
-async function parseOfertaLocations(html: string, dealId: string, detailUrl: string) {
+async function parseOfertaLocations(
+  html: string,
+  dealId: string,
+  detailUrl: string,
+  restaurant: string,
+) {
   const $ = cheerio.load(html)
   const locationPairs: Array<{ address: string; embedUrl: string }> = []
   $('#company address').each((index, element) => {
@@ -239,7 +245,15 @@ async function parseOfertaLocations(html: string, dealId: string, detailUrl: str
     locationPairs,
     dealId,
     detailUrl,
-    coordinatesFromGoogleEmbed,
+    async (embedUrl, currentDetailUrl, address) => {
+      const publishedCoordinates = await coordinatesFromGoogleEmbed(embedUrl, currentDetailUrl)
+      if (publishedCoordinates) return publishedCoordinates
+
+      const override = findVerifiedLocationOverride(restaurant, address)
+      if (!override) return null
+      console.log(`[location override] ${restaurant}: ${address} — ${override.evidence}`)
+      return override.coordinates
+    },
     recordWarning,
   )
 }
@@ -295,7 +309,7 @@ async function fetchOfertaDelDiaDeals() {
       return null
     }
     if (!restaurant) throw new Error(`Oferta del Día deal ${seed.id} is missing its restaurant name`)
-    const locations = await parseOfertaLocations(html, seed.id, seed.url)
+    const locations = await parseOfertaLocations(html, seed.id, seed.url, restaurant)
     if (locations.length === 0) {
       recordWarning(`Skipped deal with no resolvable locations: ${restaurant} (${seed.url})`)
       return null

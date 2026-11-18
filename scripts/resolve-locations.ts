@@ -10,7 +10,11 @@ type Coordinates = {
   longitude: number
 }
 
-type ResolveCoordinates = (embedUrl: string, detailUrl: string) => Promise<Coordinates | null>
+type ResolveCoordinates = (
+  embedUrl: string,
+  detailUrl: string,
+  address: string,
+) => Promise<Coordinates | null>
 
 export async function resolveLocations(
   locationPairs: LocationPair[],
@@ -27,7 +31,7 @@ export async function resolveLocations(
         const index = next++
         const { address, embedUrl } = locationPairs[index]
         try {
-          const coordinates = await resolveCoordinates(embedUrl, detailUrl)
+          const coordinates = await resolveCoordinates(embedUrl, detailUrl, address)
           if (!coordinates) {
             onWarning(`Skipped unresolved location for ${dealId}: ${address} (${detailUrl})`)
             results[index] = null

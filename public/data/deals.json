@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-18T07:40:47.644Z",
+  "updatedAt": "2026-11-18T11:51:24.704Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -1019,6 +1019,29 @@
           "address": "Calle Manuel Enrique 130, Palo Seco, PR 00949",
           "latitude": 18.4604047,
           "longitude": -66.1480271
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:db03615e-25e2-4bd8-62ec-08df41c48d6f",
+      "source": "oferta-del-dia",
+      "restaurant": "Restaurante Puesta del Sol Inc.",
+      "offer": "Rest. Puesta del Sol: 🌅🌴¡Una experiencia gastronómica frente al Caribe! Disfruta 2 Platos Principales a escoger + 1 Acompañante + 2 Bebidas",
+      "price": 39,
+      "discount": 54,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/db03615e-25e2-4bd8-62ec-08df41c48d6f/5a8a8a37.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/db03615e-25e2-4bd8-62ec-08df41c48d6f",
+      "saleEndsAt": "2026-12-02T03:59:00.000Z",
+      "redemptionHours": [
+        "Lunes a Domingo de 12:00 p.m. a 12:00 a.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:db03615e-25e2-4bd8-62ec-08df41c48d6f:1",
+          "address": "Carr 102 km 13.8, Bo joyuda, Cabo Rojo, PR 00623",
+          "latitude": 18.1169478,
+          "longitude": -67.1833913
         }
       ]
     },
