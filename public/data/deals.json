@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-18T11:51:24.704Z",
+  "updatedAt": "2026-11-18T20:40:43.794Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -600,6 +600,29 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_maritimorest10",
+      "source": "gustazos",
+      "restaurant": "Marítimo Restaurant - Cabo Rojo",
+      "offer": "$39 por 2 Platos principales a escoger entre: Chillo frito o Pechuga rellena de trifongo en salsa de cilantro o guayaba con 1 complemento (Arroz mamposteao o majado de viandas); o Mofongo de rellenos de camarones + Caldo de pescado de la casa y pan + 2 Bebidas a escoger entre: Vodka Bravada, Margarita a la roca, Mojito tradicional o cerveza local",
+      "price": 39,
+      "discount": 51,
+      "image": "https://images.gustazos.com/storage/2026-11/6af76a8e2c521_6a4e8c61e7185-69ebdffb5ec22-696ab7fba0d22-maritimo03-dealpic.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-11/691604053d51d_logo-template-300x300-5-.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_maritimorest10",
+      "saleEndsAt": "2026-12-04T04:00:00.000Z",
+      "redemptionHours": [
+        "jueves a domingo de 11:30 a.m. a 7:30 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_maritimorest10:1",
+          "address": "PR-103cabo rojo 00623PR",
+          "latitude": 18.080390153809496,
+          "longitude": -67.15027627869212
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_pantojarse4",
       "source": "gustazos",
       "restaurant": "Pantojarse - San Juan",
@@ -823,7 +846,7 @@
       "image": "https://images.gustazos.com/storage/2026-11/6ae8fce1447d3_6a7f081eb4514-68e6b7cd88661-68af4a08070ab-dealpic-platos7-1-.jpg",
       "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/80656/b56106f69087bbb5b2e77948baceca0c.jpg",
       "url": "https://www.gustazos.com/deals/Restaurants_platos43",
-      "saleEndsAt": "2026-11-19T05:00:00.000Z",
+      "saleEndsAt": "2026-11-27T05:00:00.000Z",
       "redemptionHours": [
         "lunes a domingo de 11:00 a.m. a 9:00 p.m."
       ],
@@ -1065,6 +1088,29 @@
           "address": "Calle Cerra 621, San Juan, PR 00907",
           "latitude": 18.4518053,
           "longitude": -66.0797351
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:18eebf1b-e078-40d0-e952-08df44e005a8",
+      "source": "oferta-del-dia",
+      "restaurant": "La Catrina",
+      "offer": "Paga solo $20 y Disfruta un Certificado de $40 en Comida y Bebida a escoger libremente en Restaurante La Catrina, Luquillo",
+      "price": 20,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/18eebf1b-e078-40d0-e952-08df44e005a8/19fbe6ec.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/18eebf1b-e078-40d0-e952-08df44e005a8",
+      "saleEndsAt": "2026-12-01T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a domingos de 11:00 a.m. a 11:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:18eebf1b-e078-40d0-e952-08df44e005a8:1",
+          "address": "152 Fernandez Garcia, Luquillo, PR 00773",
+          "latitude": 18.3757351,
+          "longitude": -65.715152
         }
       ]
     }
