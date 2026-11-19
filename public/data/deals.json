@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-18T20:40:43.794Z",
+  "updatedAt": "2026-11-19T07:37:58.608Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -205,6 +205,27 @@
           "address": "Carr. 829 Km 1.3, Bo. Piñastoa alta 00953PR",
           "latitude": 18.361598376309274,
           "longitude": -66.20816652220186
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_uvvarestaurant57",
+      "source": "gustazos",
+      "restaurant": "UVVA Restaurant - Hostería del Mar, Ocean Park",
+      "offer": "$34 por Almuerzo o cena de Acción de Gracias para 2 personas el JUEVES, 26 DE NOVIEMBRE, que incluye: Pavo asado + Relleno del pavo a parte + Arroz con gandules + Batata asada en cítricos",
+      "price": 34,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6af79731de41b_690b7f994439f-2-portada.webp",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78143/d0c570fdb856a3af4ae7abe7b9ed11be.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_uvvarestaurant57",
+      "saleEndsAt": "2026-11-26T04:00:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_uvvarestaurant57:1",
+          "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
+          "latitude": 18.453832,
+          "longitude": -66.051865
         }
       ]
     },
@@ -675,6 +696,51 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_uvvarestaurant56",
+      "source": "gustazos",
+      "restaurant": "UVVA Restaurant - Hostería del Mar, Ocean Park",
+      "offer": "$34 por 2 Platos principales a escoger entre: Mofongo relleno camarones, pechuga al ajillo, carne frita o vegetales acompañado de ensalada + 2 Copas de sangrías",
+      "price": 34,
+      "discount": 53,
+      "image": "https://images.gustazos.com/storage/2026-11/6af793cb4041a_6a8ca12b6bfbd-6a063dfdb8f21-69c29daa43152-6967aa4a3df87-685f2264eb85d-dealpic-uvva8-1-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78143/d0c570fdb856a3af4ae7abe7b9ed11be.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_uvvarestaurant56",
+      "saleEndsAt": "2026-12-05T04:00:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_uvvarestaurant56:1",
+          "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
+          "latitude": 18.453832,
+          "longitude": -66.051865
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_thecatch10",
+      "source": "gustazos",
+      "restaurant": "The Catch - Toa Baja",
+      "offer": "$29 por 2 Platos principales a escoger entre: Tacos de ceviche, pescado o spicy crab + 1 Aperitivo para compartir a escoger entre: Queso frito o Arepas de coco + 2 Copas de sangría o refrescos + 1 Flan de queso con guayaba",
+      "price": 29,
+      "discount": 59,
+      "image": "https://images.gustazos.com/storage/2026-11/6afdd069b6217_dealpic-thecatch5.jpg",
+      "logo": "https://images.gustazos.com/storage/2022-07/62cc77a626c77_logo-the-catch-300x300.jpeg",
+      "url": "https://www.gustazos.com/deals/Restaurants_thecatch10",
+      "saleEndsAt": "2026-12-05T04:00:00.000Z",
+      "redemptionHours": [
+        "miércoles y jueves de 3:00 p.m. a 9:00 p.m.",
+        "viernes y sábados de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_thecatch10:1",
+          "address": "Boulevard LevittownToa Baja 00949PR",
+          "latitude": 18.44581932811442,
+          "longitude": -66.17301856741807
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_nonnamia13",
       "source": "gustazos",
       "restaurant": "Nonnamía Pizzería - San Juan",
@@ -902,6 +968,30 @@
           "address": "Carretera PR 798 cementerio RdCaguas 00725PR",
           "latitude": 18.2742523,
           "longitude": -66.0404334
+        }
+      ]
+    },
+    {
+      "id": "gustazos:Restaurants_haciendalafe15",
+      "source": "gustazos",
+      "restaurant": "Hacienda La Fe - San Sebastián",
+      "offer": "$39 por 2 Platos a escoger entre: Chuleta Kan Kan; Mofongo relleno de camarones o pollo; o Pechuga rellena de chorizo con 3 quesos + 1 Acompañante a escoger entre: Arroz blanco con habichuelas, papas salteadas o vegetales mixtos + 2 Copas de sangrías o Moscow Mule",
+      "price": 39,
+      "discount": 44,
+      "image": "https://images.gustazos.com/storage/2026-11/6afddbf493825_layer-3-0001-plato-1-recomiendo-foto-principal-.jpg",
+      "logo": "https://images.gustazos.com/storage/2026-07/6a6290f215d94_hacienda01-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_haciendalafe15",
+      "saleEndsAt": "2026-12-05T04:00:00.000Z",
+      "redemptionHours": [
+        "jueves y domingos de 11:00 a.m. a 10:00 p.m.",
+        "viernes y sábados de 11:00 a.m. a 11:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_haciendalafe15:1",
+          "address": "Complejo Deportivo, Carr. PR 111 Km. 18.7 Bo. BahomameySan Sebastián 00685PR",
+          "latitude": 18.3455977,
+          "longitude": -66.9942146
         }
       ]
     },
