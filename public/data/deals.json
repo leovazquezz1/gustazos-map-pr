@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-19T20:46:30.439Z",
+  "updatedAt": "2026-11-20T07:28:46.386Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -598,29 +598,6 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_lafondagourmet2",
-      "source": "gustazos",
-      "restaurant": "La Fonda Gourmet - Luquillo",
-      "offer": "$45 por 2 Platos a escoger entre: Chuletón Kan Kan de 2 lb; Chillo Frito de 1.5 lb; o Mofongo relleno de pollo + 2 Copas de sangría de la casa",
-      "price": 45,
-      "discount": 55,
-      "image": "https://images.gustazos.com/storage/2026-10/6ad0fb7a8c6f4_68f1bb91339bc-dealpic-lafonda.jpg",
-      "logo": "https://images.gustazos.com/storage/2025-10/68f1bb8db15b5_logo-template-300x300-39-.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_lafondagourmet2",
-      "saleEndsAt": "2026-11-20T04:00:00.000Z",
-      "redemptionHours": [
-        "lunes a domingo de 11:00 a.m. a 9:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_lafondagourmet2:1",
-          "address": "66 Calle Fernández GarcíaLuquillo 00773PR",
-          "latitude": 18.37650270762727,
-          "longitude": -65.71644891559421
-        }
-      ]
-    },
-    {
       "id": "gustazos:Restaurants_maritimorest10",
       "source": "gustazos",
       "restaurant": "Marítimo Restaurant - Cabo Rojo",
@@ -1040,29 +1017,6 @@
           "address": "1108 Ave 65 de Infantería, BLDG 1108, San Juan, PR 00924",
           "latitude": 18.3968502,
           "longitude": -66.0050572
-        }
-      ]
-    },
-    {
-      "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
-      "source": "oferta-del-dia",
-      "restaurant": "Richie’s Restaurant",
-      "offer": "Richie’s Restaurant: ¡Sabores que despiertan emociones! Certificado de $40 para Consumo Abierto de Comida y Bebida",
-      "price": 20,
-      "discount": 50,
-      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/cdd6427c-47d7-4e4c-f98d-08df38fcad5c/f825bff8.jpg",
-      "logo": null,
-      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/cdd6427c-47d7-4e4c-f98d-08df38fcad5c",
-      "saleEndsAt": "2026-11-20T03:59:00.000Z",
-      "redemptionHours": [
-        "lunes a viernes de 11:00 a.m. a 9:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "oferta-del-dia:cdd6427c-47d7-4e4c-f98d-08df38fcad5c:1",
-          "address": "968 Carre K.M 2.0, Las Coles, Río Grande, PR 00745",
-          "latitude": 18.3839299,
-          "longitude": -65.7702189
         }
       ]
     },
