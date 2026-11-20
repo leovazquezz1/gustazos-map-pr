@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-20T07:28:46.386Z",
+  "updatedAt": "2026-11-20T20:30:20.487Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -575,6 +575,27 @@
       ]
     },
     {
+      "id": "gustazos:Restaurants_uvvarestaurant56",
+      "source": "gustazos",
+      "restaurant": "UVVA Restaurant - Hostería del Mar, Ocean Park",
+      "offer": "$34 por 2 Platos principales a escoger entre: Mofongo relleno camarones, pechuga al ajillo, carne frita o vegetales acompañado de ensalada + 2 Copas de sangrías",
+      "price": 34,
+      "discount": 53,
+      "image": "https://images.gustazos.com/storage/2026-11/6af793cb4041a_6a8ca12b6bfbd-6a063dfdb8f21-69c29daa43152-6967aa4a3df87-685f2264eb85d-dealpic-uvva8-1-.jpg",
+      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78143/d0c570fdb856a3af4ae7abe7b9ed11be.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_uvvarestaurant56",
+      "saleEndsAt": "2026-12-05T04:00:00.000Z",
+      "redemptionHours": [],
+      "locations": [
+        {
+          "id": "gustazos:Restaurants_uvvarestaurant56:1",
+          "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
+          "latitude": 18.453832,
+          "longitude": -66.051865
+        }
+      ]
+    },
+    {
       "id": "gustazos:Restaurants_lacatrinaluquillo2",
       "source": "gustazos",
       "restaurant": "La Catrina - Luquillo",
@@ -673,23 +694,67 @@
       ]
     },
     {
-      "id": "gustazos:Restaurants_uvvarestaurant56",
+      "id": "gustazos:Restaurants_kannella17",
       "source": "gustazos",
-      "restaurant": "UVVA Restaurant - Hostería del Mar, Ocean Park",
-      "offer": "$34 por 2 Platos principales a escoger entre: Mofongo relleno camarones, pechuga al ajillo, carne frita o vegetales acompañado de ensalada + 2 Copas de sangrías",
-      "price": 34,
-      "discount": 53,
-      "image": "https://images.gustazos.com/storage/2026-11/6af793cb4041a_6a8ca12b6bfbd-6a063dfdb8f21-69c29daa43152-6967aa4a3df87-685f2264eb85d-dealpic-uvva8-1-.jpg",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78143/d0c570fdb856a3af4ae7abe7b9ed11be.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_uvvarestaurant56",
-      "saleEndsAt": "2026-12-05T04:00:00.000Z",
-      "redemptionHours": [],
+      "restaurant": "Repostería Kannella - 7 Localidades",
+      "offer": "$35 por 2 Platos a escoger de la gran variedad de especialidades de Brunch + Mimosas o café ilimitado por 1 hora (Ver más detalles en 'La Experiencia')",
+      "price": 35,
+      "discount": 50,
+      "image": "https://images.gustazos.com/storage/2026-11/6aff0159113cc_6a7b629d665fa-6a4c205d8f7d3-6a0cdee5da22e-69861eb1e15e2-67e57683a0f4a-6793f724398b6-kannellagustazos-27.jpg",
+      "logo": "https://images.gustazos.com/storage/2025-01/6793f6ec6468f_logo-kannella-300x300.jpg",
+      "url": "https://www.gustazos.com/deals/Restaurants_kannella17",
+      "saleEndsAt": "2026-12-06T04:00:00.000Z",
+      "redemptionHours": [
+        "Ave. Main Santa Rosa, Bayamón: lunes a sábado de 7:00 a.m. a 9:00 p.m. domingos de 9:00 a.m. a 9:00 p.m. Teléfono: (787) 373-0794",
+        "Los Trailers, Bayamón: domingo a miércoles de 7:00 a.m. a 9:30 p.m. jueves a sábado de 7:00 a.m. a 10:30 p.m. Teléfono: (787) 614-8102",
+        "Calle #131, Dorado: lunes a sábado de 7:00 a.m. a 9:00 p.m. domingos de 8:00 a.m. a 9:00 p.m. Teléfono: (787) 320-7788",
+        "759 Av. Roberto Sánchez Vilella, Carolina: lunes a sábado de 7:00 a.m. a 7:00 p.m. domingos de 9:00 a.m. a 7:00 p.m. Teléfono: (939) 257-3801",
+        "Ave. Esmeralda, Guaynabo: lunes a sábado de 7:00 a.m. a 9:00 p.m. domingos de 9:00 a.m. a 9:00 p.m. Teléfono: (939) 451-5959",
+        "Calle Gabriel Hernández (Cruce con la PR-2), Vega Alta viernes y sábados de 7:00 a.m. a 11:00 p.m. domingos de 8:00 a.m. a 9:00 p.m. Teléfono: (939) 262-1330",
+        "Plaza Matienzo, Trujillo Alto: lunes a sábado de 7:00 a.m. a 9:00 p.m. domingos de 9:00 a.m. a 9:00 p.m. Teléfono: (939) 450-850"
+      ],
       "locations": [
         {
-          "id": "gustazos:Restaurants_uvvarestaurant56:1",
-          "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
-          "latitude": 18.453832,
-          "longitude": -66.051865
+          "id": "gustazos:Restaurants_kannella17:1",
+          "address": "Plaza Matienzo Shopping CenterTrujillo Alto 00976PR",
+          "latitude": 18.364819946012034,
+          "longitude": -65.99708887055218
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:2",
+          "address": "Av. Main #30-3Bayamón 00959PR",
+          "latitude": 18.387916554209074,
+          "longitude": -66.14180549999996
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:3",
+          "address": "Av. EsmeraldaGUAYNABO 00969PR",
+          "latitude": 18.371945625994655,
+          "longitude": -66.10148205119143
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:4",
+          "address": "Calle BetancesBayamón 00956PR",
+          "latitude": 18.400082640643056,
+          "longitude": -66.15461701382371
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:5",
+          "address": "Calle #131Dorado 00646PR",
+          "latitude": 18.47002208189967,
+          "longitude": -66.27923045307917
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:6",
+          "address": "Calle Gabriel Hernández (cruce con la PR-2)Vega Alta 00692PR",
+          "latitude": 18.414875163827624,
+          "longitude": -66.33180216760047
+        },
+        {
+          "id": "gustazos:Restaurants_kannella17:7",
+          "address": "759 Av. Roberto Sánchez Vilella, Campo RicoCarolina 00924PR",
+          "latitude": 18.41005301175759,
+          "longitude": -65.99985216173047
         }
       ]
     },
