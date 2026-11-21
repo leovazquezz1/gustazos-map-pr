@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-20T20:30:20.487Z",
+  "updatedAt": "2026-11-21T07:23:11.529Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -1118,7 +1118,7 @@
       "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/82f20871-8fc2-4c61-0193-08df3a9d751a/48e84de5.jpg",
       "logo": null,
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/82f20871-8fc2-4c61-0193-08df3a9d751a",
-      "saleEndsAt": "2026-11-29T03:59:00.000Z",
+      "saleEndsAt": "2026-12-01T03:59:00.000Z",
       "redemptionHours": [
         "Lunes a jueves de 4:00 p.m. a 10:00 p.m / Viernes de 4:00 p.m. a 11:00 p.m. / Sábados de 12:00 m.d. a 11:00 p.m. y Domingos 12:00 m.d. a 9:00p.m. (Brunch no Aplica)."
       ],
@@ -1220,6 +1220,29 @@
           "address": "152 Fernandez Garcia, Luquillo, PR 00773",
           "latitude": 18.3757351,
           "longitude": -65.715152
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:51d93c19-d064-4c04-89b6-08df46407cf5",
+      "source": "oferta-del-dia",
+      "restaurant": "Restaurante El Plátano Criollo, Carolina",
+      "offer": "Rest. El Plátano Criollo: El antojo criollo que estabas esperando🔥(2) Mofongos rellenos a escoger + (2) Sopas de plátano por $27",
+      "price": 27,
+      "discount": 55,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/51d93c19-d064-4c04-89b6-08df46407cf5/a58d71e5.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/51d93c19-d064-4c04-89b6-08df46407cf5",
+      "saleEndsAt": "2026-12-06T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves de 11:00am a 10:00pm."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:51d93c19-d064-4c04-89b6-08df46407cf5:1",
+          "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
+          "latitude": 18.39558,
+          "longitude": -65.98312
         }
       ]
     }
