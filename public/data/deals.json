@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-21T19:26:41.976Z",
+  "updatedAt": "2026-11-22T07:03:34.701Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -67,7 +67,7 @@
       "image": "https://images.gustazos.com/storage/2026-10/6ada5550b9259_layer-3-0002-img-0426.jpg",
       "logo": "https://images.gustazos.com/storage/2026-10/6ada554c817b0_americo.png",
       "url": "https://www.gustazos.com/deals/Restaurants_AmericoGastrobar1",
-      "saleEndsAt": "2026-11-22T04:00:00.000Z",
+      "saleEndsAt": "2026-11-30T04:00:00.000Z",
       "redemptionHours": [],
       "locations": [
         {
@@ -478,30 +478,6 @@
           "address": "Calle José Celso Barbosa Esquina BetancesBayamón 00959PR",
           "latitude": 18.400123547553317,
           "longitude": -66.15478234153464
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_RanchoOriginal5",
-      "source": "gustazos",
-      "restaurant": "El Rancho Original - Guavate, Cayey",
-      "offer": "$125 por Banquete familiar de DÍA ACCIÓN DE GRACIAS para 10 personas, que incluye: Arroz con gandules + Pavo + Ensalada de coditos + 1 Padrino",
-      "price": 125,
-      "discount": 44,
-      "image": "https://images.gustazos.com/storage/2026-09/6abbefe99e7d2_690e6a816b0e9-dealpic-rancho02.jpg",
-      "logo": "https://images.gustazos.com/storage/2024-12/6761dfdb2be8a_rancho01-300x300.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_RanchoOriginal5",
-      "saleEndsAt": "2026-11-22T04:59:00.000Z",
-      "redemptionHours": [
-        "jueves, 26 de noviembre de 2026 de 7:00 a.m. a 2:00 p.m.",
-        "No tienes que llamar; estará listo cuando pases a recogerlo."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_RanchoOriginal5:1",
-          "address": "km 27.5, Carr. 184,Cayey 00736PR",
-          "latitude": 18.129975690893534,
-          "longitude": -66.07069260104481
         }
       ]
     },
@@ -1240,6 +1216,29 @@
       "locations": [
         {
           "id": "oferta-del-dia:51d93c19-d064-4c04-89b6-08df46407cf5:1",
+          "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
+          "latitude": 18.39558,
+          "longitude": -65.98312
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:0fa16a22-b228-4204-775f-08df466ab247",
+      "source": "oferta-del-dia",
+      "restaurant": "Restaurante El Plátano Criollo, Carolina",
+      "offer": "Rest. El Plátano Criollo: ¡Cualquier momento es bueno para comer rico! Paga $15 y Consume $30 en Menú abierto de comida y bebidas",
+      "price": 15,
+      "discount": 50,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/0fa16a22-b228-4204-775f-08df466ab247/a58d71e5.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/0fa16a22-b228-4204-775f-08df466ab247",
+      "saleEndsAt": "2026-12-07T03:59:00.000Z",
+      "redemptionHours": [
+        "lunes a jueves de 11:00am a 10:00pm."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:0fa16a22-b228-4204-775f-08df466ab247:1",
           "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
           "latitude": 18.39558,
           "longitude": -65.98312
