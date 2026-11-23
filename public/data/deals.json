@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-22T19:49:54.511Z",
+  "updatedAt": "2026-11-23T07:51:43.113Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -755,30 +755,6 @@
           "address": "Boulevard LevittownToa Baja 00949PR",
           "latitude": 18.44581932811442,
           "longitude": -66.17301856741807
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_nonnamia13",
-      "source": "gustazos",
-      "restaurant": "Nonnamía Pizzería - San Juan",
-      "offer": "$15.99 por 'Buffet All You Can Eat' por persona, que incluye: Pasta, variedad de pizzas y breadsticks",
-      "price": 15.99,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-11/6aee065f62b07_6a6cd3c9ba279-69fe1cfe94fd9-69b05971b336a-6973c006913d1-692dbbba0064d-68f7e42440760-dealpic-nonnamia05.jpg",
-      "logo": "https://images.gustazos.com/storage/2025-07/687a8c872f68b_nonnamia01-300x300.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_nonnamia13",
-      "saleEndsAt": "2026-11-23T04:00:00.000Z",
-      "redemptionHours": [
-        "martes a viernes de 11:00 a.m. a 2:00 p.m.",
-        "sábados de 4:00 p.m. a 6:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_nonnamia13:1",
-          "address": "1228 Calle 54 SESan Juan 00921PR",
-          "latitude": 18.394688127183652,
-          "longitude": -66.0791833981781
         }
       ]
     },
