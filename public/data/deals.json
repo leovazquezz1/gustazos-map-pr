@@ -11,7 +11,7 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-24T00:02:01.783Z",
+  "updatedAt": "2026-11-24T10:04:08.419Z",
   "deals": [
     {
       "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
@@ -226,29 +226,6 @@
           "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
           "latitude": 18.453832,
           "longitude": -66.051865
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_ourhouse68",
-      "source": "gustazos",
-      "restaurant": "Our House - San Patricio",
-      "offer": "$130 por 1 Pavo de 18 a 22 libras + 1 Bandeja de 6 libras arroz con gandules + 1/2 Bandeja de ensalada de papa o coditos + 1 Padrino de refresco para hasta 10 personas + Cubiertos, platos y vasos (Debes ordenar en o antes del 24 de noviembre y recoger el 25 de noviembre)",
-      "price": 130,
-      "discount": 24,
-      "image": "https://images.gustazos.com/storage/2026-11/6afb20eae972c_double-click-smart-object-23-.png",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99712/6622f0903ef42ff1335403e5d2ee1788.png",
-      "url": "https://www.gustazos.com/deals/Restaurants_ourhouse68",
-      "saleEndsAt": "2026-11-24T05:00:00.000Z",
-      "redemptionHours": [
-        "miércoles, 25 de noviembre de 2026 de 2:00 p.m. a 5:00 p.m."
-      ],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_ourhouse68:1",
-          "address": "100 Ave. San Patricio Plaza, Suite 10GUAYNABO 00968PR",
-          "latitude": 18.40817981946157,
-          "longitude": -66.10580639975174
         }
       ]
     },
@@ -1218,6 +1195,29 @@
           "address": "Avenida 65 de Infantería Km 7.2, Barrio San Anton , Carolina, PR 00985",
           "latitude": 18.39558,
           "longitude": -65.98312
+        }
+      ]
+    },
+    {
+      "id": "oferta-del-dia:2e1f6bf3-8829-4d2a-eefb-08df471453fc",
+      "source": "oferta-del-dia",
+      "restaurant": "La Fonda Gourmet",
+      "offer": "La Fonda Gourmet: ¡Esta Navidad, el antojo también está de fiesta! Disfruta de (2) Platos a escoger + (2) Copas de Sangría de la Casa por $45",
+      "price": 45,
+      "discount": 55,
+      "image": "https://odd-prod.gfrcdn.net/ODD/images/offerapi/2e1f6bf3-8829-4d2a-eefb-08df471453fc/5c354236.jpg",
+      "logo": null,
+      "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c/oferta/2e1f6bf3-8829-4d2a-eefb-08df471453fc",
+      "saleEndsAt": "2026-12-09T03:59:00.000Z",
+      "redemptionHours": [
+        "Lunes a domingo de 11:00 a.m. a 9:00 p.m."
+      ],
+      "locations": [
+        {
+          "id": "oferta-del-dia:2e1f6bf3-8829-4d2a-eefb-08df471453fc:1",
+          "address": "Calle Fernández Garcia 111, Frente a la Plaza de Luquillo, Luquillo, PR 00773",
+          "latitude": 18.3763118,
+          "longitude": -65.7157038
         }
       ]
     }
