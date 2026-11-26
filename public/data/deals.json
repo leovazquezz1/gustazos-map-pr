@@ -11,29 +11,8 @@
       "url": "https://www.ofertadeldia.com/puerto-rico-ofertas/categoria/gastronomia/4d382ad7-9d97-461e-8eef-a553ea9ba33c"
     }
   ],
-  "updatedAt": "2026-11-25T21:49:02.333Z",
+  "updatedAt": "2026-11-26T08:34:46.356Z",
   "deals": [
-    {
-      "id": "gustazos:Hotels_sheratonthanksgivingtakeout1",
-      "source": "gustazos",
-      "restaurant": "Sheraton Puerto Rico Resort & Casino - Convention Center, San Juan",
-      "offer": "$185 por un Menú especial de Acción de Gracias para llevar, para hasta 5 personas, que incluye: Ensalada + Arroz con cilantro y limoncillo + Pavo entero asado de 12 lb + Postre + 1 Botella de vino espumoso Torre Oria (Recoger el jueves, 26 de noviembre de 2026)",
-      "price": 185,
-      "discount": 58,
-      "image": "https://images.gustazos.com/storage/2026-11/6af24f8536621_double-click-smart-object-7-.png",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/128000/99725/28da3fdc6bed5c39ec8dff2b79a06c30.png",
-      "url": "https://www.gustazos.com/deals/Hotels_sheratonthanksgivingtakeout1",
-      "saleEndsAt": "2026-11-26T03:59:00.000Z",
-      "redemptionHours": [],
-      "locations": [
-        {
-          "id": "gustazos:Hotels_sheratonthanksgivingtakeout1:1",
-          "address": "200 Convention BoulevardSan Juan 00907PR",
-          "latitude": 18.454244,
-          "longitude": -66.090193
-        }
-      ]
-    },
     {
       "id": "gustazos:Restaurants_xolotaco5",
       "source": "gustazos",
@@ -205,27 +184,6 @@
           "address": "Carr. 829 Km 1.3, Bo. Piñastoa alta 00953PR",
           "latitude": 18.361598376309274,
           "longitude": -66.20816652220186
-        }
-      ]
-    },
-    {
-      "id": "gustazos:Restaurants_uvvarestaurant57",
-      "source": "gustazos",
-      "restaurant": "UVVA Restaurant - Hostería del Mar, Ocean Park",
-      "offer": "$34 por Almuerzo o cena de Acción de Gracias para 2 personas el JUEVES, 26 DE NOVIEMBRE, que incluye: Pavo asado + Relleno del pavo a parte + Arroz con gandules + Batata asada en cítricos",
-      "price": 34,
-      "discount": 50,
-      "image": "https://images.gustazos.com/storage/2026-11/6af79731de41b_690b7f994439f-2-portada.webp",
-      "logo": "https://d18w6sy2vug4bi.cloudfront.net/storage/96000/78143/d0c570fdb856a3af4ae7abe7b9ed11be.jpg",
-      "url": "https://www.gustazos.com/deals/Restaurants_uvvarestaurant57",
-      "saleEndsAt": "2026-11-26T04:00:00.000Z",
-      "redemptionHours": [],
-      "locations": [
-        {
-          "id": "gustazos:Restaurants_uvvarestaurant57:1",
-          "address": "1 Tapia Street, Ocean ParkSan Juan 00911PR",
-          "latitude": 18.453832,
-          "longitude": -66.051865
         }
       ]
     },
